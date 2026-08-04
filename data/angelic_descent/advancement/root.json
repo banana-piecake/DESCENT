@@ -15,5 +15,8 @@
     "tick": {
       "trigger": "minecraft:tick"
     }
+  },
+  "rewards": {
+    "function": "descent_guidebook:give"
   }
 }
