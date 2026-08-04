@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "descent_music_discs:last_fantasy_for_a_meteorque_world",
+                "minecraft:jukebox_playable": "angelic_descent:last_fantasy_for_a_meteorque_world"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

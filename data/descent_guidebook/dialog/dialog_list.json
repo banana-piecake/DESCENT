@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "D E S C E N T",
+  "external_title": "GUIDE TO DESCENT",
+  "inputs": [],
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:rituals",
+    "descent_guidebook:bloodfell_items",
+    "descent_guidebook:minibosses"
+  ]
+}

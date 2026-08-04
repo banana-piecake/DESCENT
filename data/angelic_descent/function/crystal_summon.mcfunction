@@ -1,0 +1,2 @@
+execute at @s run summon block_display ^ ^2.4 ^8 {Glowing:1b,Tags:["angelic_descent_angel_crystal"],Passengers:[{id:"minecraft:interaction",width:1.4f,height:1.4f,Tags:["angelic_descent_angel_being_crystal_interaction"]}],glow_color_override:16740555,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0.2f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:pink_stained_glass"}}
+scoreboard players set @s angelic_descent_angel_being_crystal_timer 0

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:notice",
+  "title": "Withertouched",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Withertouched applys wither to the enemy on the bleed hit. (Those are wither skulls in the ritual btw)"
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Withertouched ritual",
+          "minecraft:item_model": "guidebook:withertouched"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "pause": false
+}

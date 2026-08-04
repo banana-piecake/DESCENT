@@ -1,0 +1,68 @@
+{
+  "description": {
+    "text": "Sonic Dash",
+    "color": "#a9bafe"
+  },
+  "exclusive_set": "#scythe:inherent",
+  "supported_items": "#minecraft:axes",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:scythe_tick"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "scythe_active": 1
+          }
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            0.5,
+            1
+          ],
+          "magnitude": 2.5
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "scythe_active": 1
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:sonic_dash"
+        }
+      }
+    ]
+  }
+}

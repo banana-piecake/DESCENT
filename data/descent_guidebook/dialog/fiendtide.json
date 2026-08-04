@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:notice",
+  "title": "Fiendtide",
+  "external_title": "Fiendtide",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Fiendtide is dropped by Lil Fiend, sneaking with this weapon allows you to shoot out the same attack runs as Lil Fiend, with a 3 second cooldown, they can self damage and cannot damage Lil Fiend."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:diamond_sword",
+        "components": {
+          "minecraft:item_name": "Fiendtide",
+          "minecraft:item_model": "scythe:fiendtide",
+          "minecraft:enchantment_glint_override": true
+        }
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "diamond",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "scythe:maw_of_the_void"
+      }
+    },
+    "title": "Maw of the Void",
+    "description": "Obtained the knowledge to create the Maw of the Void.",
+    "background": "minecraft:block/chiseled_bookshelf_occupied"
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

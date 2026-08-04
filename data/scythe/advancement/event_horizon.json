@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "scythe": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "bloodfell": "event_horizon"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "scythe"
+    ]
+  ],
+  "rewards": {
+    "function": "scythe:animosity_stuff/bloodfell_longsword/impulse_active"
+  }
+}

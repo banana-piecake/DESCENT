@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:notice",
+  "title": "Softener",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Softener applys slowness and weakness to the enemy on the bleed hit."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Softener ritual",
+          "minecraft:item_model": "guidebook:softener"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "pause": false
+}

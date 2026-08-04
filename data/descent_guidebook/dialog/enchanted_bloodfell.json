@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:notice",
+  "title": "Enchanted Bloodfell Ingots",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Enchanted Bloodfell Ingots are used to swap between variants of Bloodfell weapons."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Enchanted bloodfell ingot ritual",
+          "minecraft:item_model": "guidebook:enchanted_ingot"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "pause": false
+}

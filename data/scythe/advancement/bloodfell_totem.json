@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "totem": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "bloodfell": "totem"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "scythe:animosity_stuff/totem/totem_pop"
+  }
+}

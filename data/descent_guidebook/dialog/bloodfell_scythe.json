@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:notice",
+  "title": "Bloodfell Scythe",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Bloodfell Scythe is a powerful scythe with some small stat increases, the ability to block attacks, a double dash, and a chance to disable an enemy's offhand for a few seconds on hit."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Bloodfell Scythe ritual",
+          "minecraft:item_model": "guidebook:scythe"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "pause": false
+}

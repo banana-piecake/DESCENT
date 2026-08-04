@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Bloodfell Items",
+  "external_title": "Bloodfell Items",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Bloodfell items are powerful new weapons created with a new resource, Bloodfell Ingots, these are created using rituals, and some have variants that can be interchanged via rituals."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:bloodfell_ingots",
+    "descent_guidebook:bloodfell_cleaver",
+    "descent_guidebook:bloodfell_longsword",
+    "descent_guidebook:bloodfell_scythe",
+    "descent_guidebook:plan_f"
+  ]
+}

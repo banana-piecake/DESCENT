@@ -1,0 +1,74 @@
+{
+  "description": {
+    "text": "Disarmament",
+    "color": "#a9bafe"
+  },
+  "exclusive_set": "#minecraft:in_enchanting_table",
+  "supported_items": "#minecraft:axes",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": -1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:wind_ring"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:disarmed_apply"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 3
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:block_interaction_range",
+        "id": "scythe:block_range",
+        "amount": 0.33,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "scythe:entity_range",
+        "amount": 0.33,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "scythe:fall_damage",
+        "amount": 24,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

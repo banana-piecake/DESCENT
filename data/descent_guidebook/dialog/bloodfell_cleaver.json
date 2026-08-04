@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Bloodfell Cleaver",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Every 4th hit with the Bloodfell Cleaver will do more damage the the enemy, however if you do not land hits quick enough, the bleed stacks will run out, meaning you will have to land 4 hits again. It has several variants."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Bloodfell Cleaver ritual",
+          "minecraft:item_model": "guidebook:cleaver"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:softener",
+    "descent_guidebook:hellforged",
+    "descent_guidebook:withertouched"
+  ]
+}

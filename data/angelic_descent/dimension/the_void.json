@@ -1,0 +1,17 @@
+{
+  "type": "angelic_descent:the_void",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "angelic_descent:the_void",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 3,
+          "block": "air"
+        }
+      ]
+    }
+  }
+}

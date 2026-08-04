@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Pact From Below",
+  "external_title": "Pact From Below",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Leaving the Pact From Below on the floor (not in a ritual state) for 3 seconds will summon Lil Fiend, who summons runes in various patterns to attack the player."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:echo_shard",
+        "components": {
+          "minecraft:item_name": "Pact From Below Ritual",
+          "minecraft:item_model": "guidebook:pact_from_below"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "dialogs": "descent_guidebook:fiendtide"
+}

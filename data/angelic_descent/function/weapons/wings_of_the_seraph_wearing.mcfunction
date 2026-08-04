@@ -1,0 +1,1 @@
+execute unless score @s angelic_descent_wings_of_the_seraph_charge matches 80.. run scoreboard players add @s angelic_descent_wings_of_the_seraph_charge 1

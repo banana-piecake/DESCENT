@@ -1,0 +1,107 @@
+{
+  "description": {
+    "text": "Winged Ascent",
+    "color": "#a9bafe"
+  },
+  "exclusive_set": "#scythe:inherent",
+  "supported_items": "#minecraft:foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "angelic_descent_wings_of_the_seraph_charge": {
+                  "min": 10
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "sprint": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:gravity",
+          "id": "descent_seraph:no_grav",
+          "amount": -1,
+          "operation": "add_multiplied_base"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "angelic_descent_wings_of_the_seraph_charge": {
+                  "min": 10
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "sprint": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:weapons/wings_of_the_seraph_use"
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:weapons/wings_of_the_seraph_wearing"
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "descent_seraph:fall",
+        "amount": 24,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

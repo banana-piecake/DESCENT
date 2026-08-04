@@ -1,0 +1,20 @@
+{
+	"pack": {
+		"description": {
+			"text": "DESCEND INTO THE VOID. FACE THE CHALLENGE. CLAIM VICTORY.",
+			"color": "#ffd6f0",
+			"bold": true,
+			"click_event": {
+				"action": "open_url",
+				"url": "https://modrinth.com/datapack/d-e-s-c-e-n-t"
+			},
+			"hover_event": {
+				"action": "show_text",
+				"value": "me when i descend"
+			}
+		},
+		"pack_format": 101,
+		"min_format": 107,
+		"max_format": 107
+	}
+}

@@ -1,0 +1,62 @@
+{
+  "description": {
+    "text": "Fiendtide",
+    "color": "#a9bafe"
+  },  "exclusive_set": "#scythe:inherent",
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "sneak": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "descent_fiendtide_timer": {
+                  "min": 60
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "descent_minibosses:lil_fiend/fiendtide_use"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "descent_minibosses:lil_fiend/fiendtide_tick"
+        }
+      }
+    ]
+  }
+}

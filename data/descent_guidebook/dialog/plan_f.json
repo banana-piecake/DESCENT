@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Plan F",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Plan F is a new form of totem that acts as a final resort, upon dying, the totem will be consumed (like a regular totem) and summon a Bloodfell Exclusion Zone, staying within this zone will heal you rapidly, whilst exiting this zone will damage you constantly. This effect lasts 15 seconds and resets if you die."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Plan Fritual",
+          "minecraft:item_model": "guidebook:totem"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}

@@ -1,0 +1,56 @@
+{
+  "description": {
+    "text": "Rune of Giant",
+    "color": "#ff7a7a"
+  },
+  "exclusive_set": "#descent_runes:runes",
+  "supported_items": "#minecraft:enchantable/vanishing",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:friction_modifier",
+        "id": "descent_runes:giant_rune",
+        "amount": 0.4,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:max_health",
+        "id": "descent_runes:giant_rune",
+        "amount": 20,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:scale",
+        "id": "descent_runes:giant_rune",
+        "amount": 1,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "descent_runes:giant_rune",
+        "amount": 2,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:block_interaction_range",
+        "id": "descent_runes:giant_rune",
+        "amount": 2,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

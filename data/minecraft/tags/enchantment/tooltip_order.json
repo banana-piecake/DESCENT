@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "scythe:bleed",
+    "scythe:hellforged",
+    "scythe:softener",
+    "scythe:withertouched"
+  ]
+}

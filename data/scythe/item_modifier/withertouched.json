@@ -1,0 +1,9 @@
+{
+  "function": "minecraft:set_enchantments",
+  "enchantments": {
+    "scythe:hellforged": 0,
+    "scythe:softener": 0,
+    "scythe:withertouched": 1
+  },
+  "conditions": []
+}

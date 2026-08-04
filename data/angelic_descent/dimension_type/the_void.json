@@ -1,0 +1,32 @@
+{
+  "ambient_light": 0.5,
+  "attributes": {
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "never",
+      "can_sleep": "never",
+      "explodes": false,
+      "error_message": "How on earth did you get a bed?"
+    },
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:visual/ambient_light_color": "#fddbff",
+    "minecraft:visual/cloud_height": 300,
+    "minecraft:visual/fog_color": "#644ebc",
+    "minecraft:visual/sky_color": "#472dae"
+  },
+  "coordinate_scale": 300,
+  "has_ceiling": false,
+  "has_ender_dragon_fight": false,
+  "has_skylight": true,
+  "has_fixed_time": true,
+  "skybox": "end",
+  "height": 384,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "logical_height": 384,
+  "min_y": -64,
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 7,
+    "min_inclusive": 0
+  }
+}

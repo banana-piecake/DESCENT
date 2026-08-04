@@ -1,0 +1,17 @@
+scoreboard objectives add scythe_cooldown dummy
+scoreboard objectives add scythe_double_click_input_cooldown dummy
+scoreboard objectives add scythe_active dummy
+scoreboard objectives add animosity_health health
+scoreboard objectives add animosity_bleed_stacks dummy
+scoreboard objectives add animosity_bleed_timer dummy
+
+scoreboard objectives add animosity_bleed_final_hit dummy
+scoreboard objectives add animosity_withertouched_hit dummy
+scoreboard objectives add animosity_weaken_hit dummy
+scoreboard objectives add animosity_hellforged_hit dummy
+scoreboard objectives add animosity_event_horizon_vfx_timer dummy
+
+scoreboard objectives add animosity_bloodfell_totem_timer dummy
+scoreboard objectives add animosity_bloodfell_exclusion_zone_timer dummy
+
+scoreboard objectives add impulse_active dummy

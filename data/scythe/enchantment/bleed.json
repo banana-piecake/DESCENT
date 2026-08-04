@@ -1,0 +1,91 @@
+{
+  "description": {
+    "text": "Bleed",
+    "color": "#a9bafe"
+  },
+  "exclusive_set": "#scythe:inherent",
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "animosity_bleed_stacks": 3
+          }
+        },
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 2
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:animosity_stuff/bloodfell_cleaver/regular_hit"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "animosity_bleed_stacks": {
+              "min": 4
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:animosity_stuff/bloodfell_cleaver/final_hit_user"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "animosity_bleed_stacks": {
+              "min": 4
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:animosity_stuff/bloodfell_cleaver/final_hit_victim"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 1
+        }
+      }
+    ]
+  }
+}

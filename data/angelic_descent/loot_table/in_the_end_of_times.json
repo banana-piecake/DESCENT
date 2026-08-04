@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:jukebox_playable": "angelic_descent:in_the_end_of_times",
+                "minecraft:item_model": "descent_music_discs:in_the_end_of_times"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

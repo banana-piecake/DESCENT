@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "sneak": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "input": {
+              "sneak": true
+            }
+          },
+          "minecraft:stepping_on": {
+            "block": {
+              "blocks": "#minecraft:wool_carpets"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sneak"
+    ]
+  ],
+  "rewards": {
+    "function": "angelic_descent:item_ritual_pickupable"
+  }
+}

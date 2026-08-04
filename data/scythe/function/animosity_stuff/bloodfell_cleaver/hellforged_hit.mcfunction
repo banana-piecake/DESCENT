@@ -1,0 +1,1 @@
+scoreboard players set @s animosity_hellforged_hit 2

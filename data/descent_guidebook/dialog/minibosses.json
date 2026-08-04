@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Minibosses",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Minibosses are weaker enemies with fewer attacks often summoned with a ritual item, they typically have few drops. Do not mistake them for weak however, as they still present a challenge to unprepared players."
+    }
+  ],
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:pact_from_below"
+  ]
+}

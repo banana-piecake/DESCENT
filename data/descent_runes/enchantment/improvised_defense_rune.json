@@ -1,0 +1,48 @@
+{
+  "description": {
+    "text": "Rune of Improvised Defense",
+    "color": "#ff7a7a"
+  },
+  "exclusive_set": "#descent_runes:runes",
+  "supported_items": "#minecraft:enchantable/vanishing",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        },
+        "effect": {
+          "type": "minecraft:explode",
+          "knockback_multiplier": 1.2,
+          "radius": 4,
+          "create_fire": false,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:explosion_emitter"
+          },
+          "large_particle": {
+            "type": "minecraft:explosion_emitter"
+          },
+          "sound": "minecraft:entity.generic.explode"
+        },
+        "enchanted": "victim",
+        "affected": "victim"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Fiendtide",
+                  "color": "#ff8080"
+                },
+                "minecraft:item_model": "scythe:fiendtide",
+                "minecraft:enchantments": {
+                  "angelic_descent:fiendtide": 1
+                },
+                "minecraft:damage_resistant": {
+                  "types": "minecraft:magic"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

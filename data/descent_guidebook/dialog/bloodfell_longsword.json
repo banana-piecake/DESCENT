@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Bloodfell Longsword",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Bloodfell Longsword is a powerful sword with the ability to block and pull in nearby entities."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Bloodfell Longsword ritual",
+          "minecraft:item_model": "guidebook:longsword"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}

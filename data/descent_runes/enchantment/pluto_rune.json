@@ -1,0 +1,50 @@
+{
+  "description": {
+    "text": "Rune of Pluto",
+    "color": "#ff7a7a"
+  },
+  "exclusive_set": "#descent_runes:runes",
+  "supported_items": "#minecraft:enchantable/vanishing",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:scale",
+        "id": "descent_runes:pluto_rune",
+        "amount": -0.4,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "descent_runes:pluto_rune",
+        "amount": 0.2,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "descent_runes:pluto_rune",
+        "amount": -0.2,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:block_interaction_range",
+        "id": "descent_runes:pluto_rune",
+        "amount": -0.2,
+        "operation": "add_multiplied_base"
+      }
+    ]
+  }
+}

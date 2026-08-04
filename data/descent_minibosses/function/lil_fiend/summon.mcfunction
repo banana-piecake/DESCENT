@@ -1,0 +1,4 @@
+execute at @s run summon parched ~ ~ ~ {DeathLootTable:"descent_minibosses:lil_fiend",Health:100f,Tags:["descent_lil_fiend"],CustomName:{"color":"red","text":"Lil Fiend"},equipment:{mainhand:{id:"minecraft:air",count:1}},active_effects:[{id:"minecraft:weakness",amplifier:255,duration:-1,show_particles:0b},{id:"minecraft:invisibility",amplifier:255,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:scale",base:0.8},{id:"minecraft:max_health",base:100}]}
+execute at @s run function aj:lil_fiend/summon {args:{}}
+execute at @s run particle dust_color_transition{from_color:[1.000,0.251,0.251],to_color:[1.000,0.012,0.275],scale:4} ~ ~2 ~ 0.4 2 0.4 0 250 normal
+kill @s

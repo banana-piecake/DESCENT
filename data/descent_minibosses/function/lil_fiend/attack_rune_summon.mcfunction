@@ -1,0 +1,3 @@
+execute rotated 0 0 run summon armor_stand ~ ~5 ~ {Invulnerable:1b,Small:1b,Invisible:1b,Motion:[0.0,-10.0,0.0],Tags:["lil_fiend_rune_holder"],attributes:[{id:"minecraft:scale",base:0.01}]}
+execute rotated 0 0 positioned ~ ~5 ~ run function aj:lil_fiend_rune/summon {args:{}}
+execute rotated 0 0 positioned ~ ~5 ~ run execute as @n[tag=lil_fiend_rune_holder] at @n[tag=lil_fiend_rune_holder] run ride @n[tag=aj.lil_fiend_rune.root] mount @s

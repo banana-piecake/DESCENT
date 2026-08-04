@@ -1,0 +1,52 @@
+{
+  "description": "Cursed Cleaver Explosion Macro",
+  "supported_items": "minecraft:diamond",
+  "weight": 1,
+  "max_level": 20,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "knockback_multiplier": {
+            "type": "minecraft:linear",
+            "base": 0.7,
+            "per_level_above_first": 0.1
+          },
+          "offset": [
+            0,
+            0.1,
+            0
+          ],
+          "radius": 0.2,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:gust_emitter_small"
+          },
+          "large_particle": {
+            "type": "minecraft:gust_emitter_large"
+          },
+          "sound": "minecraft:entity.breeze.jump"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:generic_kill"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+execute at @s run scoreboard players add @a[distance=0..3.5] angelic_descent_dash_cooldown 40
+execute at @s run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,DisabledSlots:4144959,equipment:{chest:{id:"minecraft:diamond",count:1,components:{"minecraft:equippable":{slot:"chest"},"minecraft:enchantments":{"angelic_descent:worm_hit_marker":1}}}}}
+execute at @s run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,DisabledSlots:4144959,equipment:{chest:{id:"minecraft:diamond",count:1,components:{"minecraft:equippable":{slot:"chest"},"minecraft:enchantments":{"angelic_descent:worm_hit_marker":1}}}}}
+execute at @s run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,DisabledSlots:4144959,equipment:{chest:{id:"minecraft:diamond",count:1,components:{"minecraft:equippable":{slot:"chest"},"minecraft:enchantments":{"angelic_descent:worm_hit_marker":1}}}}}
+execute at @s run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,DisabledSlots:4144959,equipment:{chest:{id:"minecraft:diamond",count:1,components:{"minecraft:equippable":{slot:"chest"},"minecraft:enchantments":{"angelic_descent:worm_hit_marker":1}}}}}
+execute at @s run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,DisabledSlots:4144959,equipment:{chest:{id:"minecraft:diamond",count:1,components:{"minecraft:equippable":{slot:"chest"},"minecraft:enchantments":{"angelic_descent:worm_hit_marker":1}}}}}
+execute unless entity @e[tag=descent_void_guardians_marker] run scoreboard players remove #VOID_RIPPER_HEALTH angelic_descent_worm_health 1
+execute if entity @e[tag=descent_void_guardians_marker] run scoreboard players remove #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health 1
+kill @s

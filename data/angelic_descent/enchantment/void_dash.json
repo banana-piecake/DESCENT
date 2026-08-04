@@ -1,0 +1,150 @@
+{
+  "description": {
+    "text": "Void Dash",
+    "color": "#a9bafe"
+  },
+  "exclusive_set": "#scythe:inherent",
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "angelic_descent_maw_of_the_void_dash_timer": 10
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:flags": {
+                  "is_on_ground": true
+                }
+              }
+            }
+          ]
+        },
+        "": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "angelic_descent_maw_of_the_void_dash_timer": 10
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:flags": {
+                  "is_on_ground": true
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            0,
+            1
+          ],
+          "magnitude": 7
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "angelic_descent_maw_of_the_void_dash_timer": 10
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:flags": {
+                  "is_on_ground": false
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1.65
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "angelic_descent_maw_of_the_void_dash_timer": {
+              "min": 1
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:weapons/maw_of_the_void_hit"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:weapons/maw_of_the_void_holding"
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "maw_of_the_void:fall",
+        "amount": 16,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

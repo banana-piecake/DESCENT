@@ -1,0 +1,4 @@
+{
+	"replace": false,
+	"values": ["angelic_descent:tick", "animated_java:global/data_manager/on_tick", "scythe:tick", "animated_java:global/on_tick"]
+}

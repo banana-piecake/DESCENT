@@ -1,0 +1,64 @@
+{
+  "description": {
+    "text": "Warp Strike",
+    "color": "#a9bafe"
+  },
+  "exclusive_set": "#scythe:inherent",
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "worm_tooth:attack_speed",
+        "amount": 0.4,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "worm_tooth:attack_damage",
+        "amount": -1.5,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "worm_tooth:move_speed",
+        "amount": 0.2,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:sneaking_speed",
+        "id": "worm_tooth:sneak_speed",
+        "amount": 0.2,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "worm_tooth:safe_fall",
+        "amount": 10,
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:weapons/worm_tooth/worm_tooth_tick"
+        }
+      }
+    ]
+  }
+}
