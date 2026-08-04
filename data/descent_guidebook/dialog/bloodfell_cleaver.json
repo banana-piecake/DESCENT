@@ -4,7 +4,7 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "Every 4th hit with the Bloodfell Cleaver will do more damage the the enemy, however if you do not land hits quick enough, the bleed stacks will run out, meaning you will have to land 4 hits again. It has several variants."
+      "contents": "Every 4th hit with the Bloodfell Cleaver will do double damage, however if you do not land hits quick enough, the bleed stacks will run out, meaning you will have to land 4 hits again. It has several variants."
     },
     {
       "type": "minecraft:item",
