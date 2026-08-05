@@ -57,3 +57,9 @@ execute as @e[scores={animosity_bloodfell_totem_timer=0..}] run execute at @s un
 
 #longsword
 scoreboard players remove @e[scores={impulse_active=1..}] impulse_active 1
+
+
+
+#voidtouched
+scoreboard players remove @e[scores={descent_voidtouched_scythe_antigravity_dash_timer=1..}] descent_voidtouched_scythe_antigravity_dash_timer 1
+execute at @e[scores={descent_voidtouched_scythe_antigravity_dash_timer=1..}] run particle dust_color_transition{from_color:[0.627,0.071,1.000],to_color:[0.914,0.129,1.000],scale:4} ~ ~ ~ 0.3 0.1 0.3 0 12 normal

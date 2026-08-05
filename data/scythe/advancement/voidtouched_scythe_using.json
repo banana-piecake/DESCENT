@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "scythe": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "voidtouched": "scythe"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "scythe"
+    ]
+  ],
+  "rewards": {
+    "function": "scythe:voidtouched_scythe_use"
+  }
+}

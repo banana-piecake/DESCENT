@@ -14,4 +14,6 @@ scoreboard objectives add animosity_event_horizon_vfx_timer dummy
 scoreboard objectives add animosity_bloodfell_totem_timer dummy
 scoreboard objectives add animosity_bloodfell_exclusion_zone_timer dummy
 
+scoreboard objectives add descent_voidtouched_scythe_antigravity_dash_timer dummy
+
 scoreboard objectives add impulse_active dummy
