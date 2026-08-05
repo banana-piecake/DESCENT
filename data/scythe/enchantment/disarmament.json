@@ -3,7 +3,7 @@
     "text": "Disarmament",
     "color": "#a9bafe"
   },
-  "exclusive_set": "#minecraft:in_enchanting_table",
+  "exclusive_set": "#scythe:inherent",
   "supported_items": "#minecraft:axes",
   "weight": 1,
   "max_level": 1,
