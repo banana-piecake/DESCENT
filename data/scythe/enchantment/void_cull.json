@@ -4,7 +4,7 @@
     "color": "#a9bafe"
   },
   "exclusive_set": "#scythe:inherent",
-  "supported_items": "#minecraft:shovels",
+  "supported_items": "#minecraft:enchantable/vanishing",
   "weight": 1,
   "max_level": 1,
   "min_cost": {
