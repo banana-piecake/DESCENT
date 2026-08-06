@@ -19,3 +19,5 @@ scoreboard objectives add descent_voidtouched_scythe_antigravity_dash_timer dumm
 scoreboard objectives add descent_voidtouched_current_health dummy
 scoreboard objectives add descent_voidtouched_max_health dummy
 scoreboard objectives add descent_voidtouched_health_ratio_check dummy
+
+scoreboard objectives add descent_soulbound_respawn_timer minecraft.custom:minecraft.time_since_death
