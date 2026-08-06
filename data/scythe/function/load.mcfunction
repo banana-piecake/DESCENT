@@ -16,4 +16,6 @@ scoreboard objectives add animosity_bloodfell_exclusion_zone_timer dummy
 
 scoreboard objectives add descent_voidtouched_scythe_antigravity_dash_timer dummy
 
-scoreboard objectives add impulse_active dummy
+scoreboard objectives add descent_voidtouched_current_health dummy
+scoreboard objectives add descent_voidtouched_max_health dummy
+scoreboard objectives add descent_voidtouched_health_ratio_check dummy

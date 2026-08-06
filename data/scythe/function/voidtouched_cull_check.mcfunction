@@ -1,0 +1,4 @@
+execute store result score @s descent_voidtouched_current_health run data get entity @s Health 1000
+execute store result score @s descent_voidtouched_max_health run attribute @s minecraft:max_health get
+execute store result score @s descent_voidtouched_health_ratio_check run scoreboard players operation @s descent_voidtouched_current_health /= @s descent_voidtouched_max_health
+execute if score @s descent_voidtouched_health_ratio_check matches ..250 run execute at @s on attacker run damage @n 999 minecraft:magic
