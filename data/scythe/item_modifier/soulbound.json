@@ -1,0 +1,7 @@
+{
+  "function": "minecraft:set_enchantments",
+  "enchantments": {
+    "scythe:soulbound": 1
+  },
+  "conditions": []
+}
