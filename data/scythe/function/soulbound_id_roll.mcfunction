@@ -1,2 +1,2 @@
-execute store result storage descent:soulbound_random soulbound_random_number int 1 run random roll 1..100000000
+execute store result storage descent:soulbound_random soulbound_random_number int 1 run random value 1..100000000
 execute at @s run function scythe:soulbound_item_tag with storage descent:soulbound_random
