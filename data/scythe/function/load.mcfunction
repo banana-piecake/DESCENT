@@ -22,3 +22,5 @@ scoreboard objectives add descent_voidtouched_health_ratio_check dummy
 
 scoreboard objectives add descent_soulbound_respawn_timer minecraft.custom:minecraft.time_since_death
 scoreboard objectives add descent_soulbound_random_id dummy
+scoreboard objectives add descent_voidtouched_void_stacks dummy
+scoreboard objectives add descent_voidtouched_void_stack_timer dummy
