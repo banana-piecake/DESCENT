@@ -66,5 +66,9 @@ scoreboard players remove @e[scores={impulse_active=1..}] impulse_active 1
 scoreboard players remove @e[scores={descent_voidtouched_scythe_antigravity_dash_timer=1..}] descent_voidtouched_scythe_antigravity_dash_timer 1
 execute at @e[scores={descent_voidtouched_scythe_antigravity_dash_timer=1..}] run particle dust_color_transition{from_color:[0.627,0.071,1.000],to_color:[0.914,0.129,1.000],scale:4} ~ ~ ~ 0.3 0.1 0.3 0 12 normal
 
+scoreboard players remove @e[scores={descent_voidtouched_void_stack_timer=1..}] descent_voidtouched_void_stack_timer 1
+execute as @e[scores={descent_voidtouched_void_stack_timer=0}] run scoreboard players set @s descent_voidtouched_void_stacks 0
+
+
 #soulbound
 execute as @a[scores={descent_soulbound_respawn_timer=250}] run function scythe:soulbound_giveback_start
