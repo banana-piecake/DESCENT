@@ -28,6 +28,14 @@
         },
         "enchanted": "attacker",
         "affected": "victim"
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:voidtouched_stack_apply"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
       }
     ],
     "minecraft:damage": [
