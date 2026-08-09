@@ -72,3 +72,5 @@ execute as @e[scores={descent_voidtouched_void_stack_timer=0}] run scoreboard pl
 
 #soulbound
 execute as @a[scores={descent_soulbound_respawn_timer=250}] run function scythe:soulbound_giveback_start
+scoreboard players add @e[tag=descent_soulbound_marker] descent_chunkloader_kill_timer 1
+kill @e[scores={descent_chunkloader_kill_timer=3000..}]

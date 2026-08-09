@@ -108,3 +108,5 @@ scoreboard objectives add descent_cursed_cleaver_charge_cooldown dummy
 
 scoreboard objectives add descent_void_fracture_timer dummy
 scoreboard objectives add descent_void_fracture_random dummy
+
+scoreboard objectives add descent_chunkloader_kill_timer dummy
