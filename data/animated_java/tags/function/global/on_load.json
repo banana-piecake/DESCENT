@@ -3,6 +3,7 @@
 	"values": [
 		"aj:angel_being/on_load",
 		"aj:circle_rune/on_load",
+		"aj:endstone_meteor/on_load",
 		"aj:lil_fiend_rune/on_load",
 		"aj:lil_fiend/on_load",
 		"aj:slash/on_load",
