@@ -24,7 +24,7 @@
       {
         "attribute": "minecraft:friction_modifier",
         "id": "descent_runes:slip_rune",
-        "amount": -0.6,
+        "amount": -0.95,
         "operation": "add_multiplied_base"
       },
       {
