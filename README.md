@@ -56,4 +56,5 @@ achievements
 Knowledge system
 Starlight (gun, meteor model finished)
 rift system (vfx done)
-
+Creative menu (items are there, just need to finish off the give)
+update inherent enchantments to only be enchantable on a filler item like diamonds, so that they cannot be combined with other weapons to add void cull to a regular axe, although this may already work with two illegal enchants but i'd have to check
