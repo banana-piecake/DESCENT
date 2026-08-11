@@ -1,1 +1,1 @@
-give @s diamond_spear[attack_range={min_reach:3.75,max_reach:4.25,min_creative_reach:2,max_creative_reach:5.0,hitbox_margin:0.3},item_model="scythe:fracture",enchantments={"scythe:true_fracture":1},!kinetic_weapon] 1
+give @s diamond_spear[attack_range={min_reach:3.75,max_reach:4.25,min_creative_reach:2,max_creative_reach:5.0,hitbox_margin:0.3},item_model="scythe:fracture",enchantments={"scythe:true_fracture":1},!kinetic_weapon,item_model:"Fracture"] 1
