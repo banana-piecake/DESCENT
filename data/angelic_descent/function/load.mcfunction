@@ -110,3 +110,6 @@ scoreboard objectives add descent_void_fracture_timer dummy
 scoreboard objectives add descent_void_fracture_random dummy
 
 scoreboard objectives add descent_chunkloader_kill_timer dummy
+
+scoreboard objectives add descent_sculk_dive_active dummy
+scoreboard objectives add descent_sculk_dive_leap_timer dummy
