@@ -1,0 +1,15 @@
+Index: data/angelic_descent/function/test-functions/fracture_give_test.mcfunction
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>give @s diamond_spear[attack_range={min_reach:3.75,max_reach:4.25,min_creative_reach:2,max_creative_reach:5.0,hitbox_margin:0.3},item_model=\"scythe:fracture\",enchantments={\"scythe:true_fracture\":1},!kinetic_weapon,item_model:\"Fracture\"] 1
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data/angelic_descent/function/test-functions/fracture_give_test.mcfunction b/data/angelic_descent/function/test-functions/fracture_give_test.mcfunction
+--- a/data/angelic_descent/function/test-functions/fracture_give_test.mcfunction	(revision 283aa766ea4c8d842e218b29d808cec0f8467952)
++++ b/data/angelic_descent/function/test-functions/fracture_give_test.mcfunction	(date 1786438912635)
+@@ -1,1 +1,1 @@
+-give @s diamond_spear[attack_range={min_reach:3.75,max_reach:4.25,min_creative_reach:2,max_creative_reach:5.0,hitbox_margin:0.3},item_model="scythe:fracture",enchantments={"scythe:true_fracture":1},!kinetic_weapon,item_model:"Fracture"] 1
+\ No newline at end of file
++give @s diamond_spear[attack_range={min_reach:3.75,max_reach:4.25,min_creative_reach:2,max_creative_reach:5.0,hitbox_margin:0.3},item_model="scythe:fracture",enchantments={"scythe:true_fracture":1},!kinetic_weapon,item_m:"Fracture"] 1
+\ No newline at end of file
