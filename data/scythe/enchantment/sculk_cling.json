@@ -72,7 +72,63 @@
               "predicate": {
                 "minecraft:type_specific/player": {
                   "input": {
-                    "jump": true
+                    "jump": false,
+                    "sneak": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:weapons/sculk_weapons/sculk_dive/reduce_movement"
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:location_check",
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "jump": true,
+                    "sneak": false
                   }
                 }
               }
