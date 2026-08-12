@@ -1,0 +1,40 @@
+{
+  "description": "Sculk Grenade Marker",
+  "supported_items": "minecraft:diamond",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:vehicle": {
+                "minecraft:entity_type": "minecraft:snowball"
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:weapons/sculk_weapons/sculk_grenade_land"
+        }
+      }
+    ]
+  }
+}

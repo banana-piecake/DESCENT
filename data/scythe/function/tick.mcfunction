@@ -81,3 +81,12 @@ scoreboard players remove @e[scores={descent_void_fracture_timer=0..}] descent_v
 execute as @e[scores={descent_void_fracture_timer=10}] run function angelic_descent:weapons/void_fracture/void_damage
 execute as @e[scores={descent_void_fracture_timer=5}] run function angelic_descent:weapons/void_fracture/void_damage
 execute as @e[scores={descent_void_fracture_timer=0}] run function angelic_descent:weapons/void_fracture/void_damage
+
+scoreboard players add @e[tag=descent_sculk_grenade_marker_landed] descent_sculk_grenade_marker_landed_timer 1
+
+execute at @e[scores={descent_sculk_grenade_marker_landed_timer=1}] run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 sculk replace #minecraft:sculk_replaceable
+execute at @e[scores={descent_sculk_grenade_marker_landed_timer=2}] run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 sculk replace #minecraft:sculk_replaceable
+execute at @e[scores={descent_sculk_grenade_marker_landed_timer=3}] run fill ~-3 ~-3 ~-3 ~3 ~3 ~3 sculk replace #minecraft:sculk_replaceable
+execute at @e[scores={descent_sculk_grenade_marker_landed_timer=4}] run fill ~-4 ~-4 ~-4 ~4 ~4 ~4 sculk replace #minecraft:sculk_replaceable
+execute at @e[scores={descent_sculk_grenade_marker_landed_timer=5}] run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 sculk replace #minecraft:sculk_replaceable
+kill @e[scores={descent_sculk_grenade_marker_landed_timer=5..}]
