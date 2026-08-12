@@ -83,6 +83,10 @@ Bloodfell ingots / enchanted bloodfell ingots - used for rituals
 
 Subspace boots : used only in the void for the custom combat system
 
+Sculk Cling - allows you to cling to sculk, go faster on it, climb, and lunge
+
+Sculk Grenades - explode into a burst of sculk
+
 Upcoming/wip features :
 
 update fracture to be incompatable with lunge, update all inherent enchantments to be exclusive to diamonds or smthng so they cannot be combined with regular items
@@ -110,7 +114,7 @@ update inherent enchantments to only be enchantable on a filler item like diamon
 
 Finish guidebook dialogs
 
-sculk grenades + sculk dive and jump boots
+sculk grenades, sculk boots and wings of the seraph texture, implement voidtouched blde texture, voidtouched trident texture
 
 
 finish unfinished rituals
