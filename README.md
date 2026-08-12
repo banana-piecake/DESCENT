@@ -111,3 +111,6 @@ update inherent enchantments to only be enchantable on a filler item like diamon
 Finish guidebook dialogs
 
 sculk grenades + sculk dive and jump boots
+
+
+finish unfinished rituals
