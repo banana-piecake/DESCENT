@@ -90,3 +90,6 @@ execute at @e[scores={descent_sculk_grenade_marker_landed_timer=3}] run fill ~-3
 execute at @e[scores={descent_sculk_grenade_marker_landed_timer=4}] run fill ~-4 ~-4 ~-4 ~4 ~4 ~4 sculk replace #minecraft:sculk_replaceable
 execute at @e[scores={descent_sculk_grenade_marker_landed_timer=5}] run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 sculk replace #minecraft:sculk_replaceable
 kill @e[scores={descent_sculk_grenade_marker_landed_timer=5..}]
+
+scoreboard players remove @e[scores={descent_cursed_cleaver_release_timer=0..}] descent_cursed_cleaver_release_timer 1
+execute as @e[scores={descent_cursed_cleaver_release_timer=0}] run function angelic_descent:weapons/cursed_cleaver/release
