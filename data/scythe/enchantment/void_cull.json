@@ -38,12 +38,12 @@
         "affected": "victim"
       }
     ],
-    "minecraft:damage": [
+    "minecraft:attributes": [
       {
-        "effect": {
-          "type": "minecraft:add",
-          "value": 1
-        }
+        "attribute": "minecraft:attack_damage",
+        "id": "void_cull:damage_boost",
+        "amount": 1,
+        "operation": "add_value"
       }
     ]
   }
