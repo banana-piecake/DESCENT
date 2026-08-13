@@ -1,0 +1,1 @@
+execute if score @s descent_cursed_cleaver_charge matches 0 run say charge 0
