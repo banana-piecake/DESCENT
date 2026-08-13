@@ -47,6 +47,14 @@
         "enchanted": "attacker",
         "affected": "victim"
       }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:fall_damage_multiplier",
+        "id": "cursed_might:fall_damage",
+        "amount": -1,
+        "operation": "add_multiplied_total"
+      }
     ]
   }
 }
