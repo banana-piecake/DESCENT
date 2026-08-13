@@ -45,7 +45,9 @@ Void fracture : triple magic hit
 
 Fiendtide : magic spike attack
 
-Fracture (from terramity 1.0) - rather than a regular melee, you can perform a mid ranged slash
+Fracture (from terramity 1.0) : rather than a regular melee, you can perform a mid ranged magical slash
+
+Cursed Cleaver : Slam enemies into the ground on hit + charge up a powerful leap
 
 
 Runes + other enchantments :
@@ -91,7 +93,6 @@ Upcoming/wip features :
 
 update fracture to be incompatable with lunge, update all inherent enchantments to be exclusive to diamonds or smthng so they cannot be combined with regular items
 
-Cursed cleaver (fomr abe forgery)
 
 Ice dagger
 
