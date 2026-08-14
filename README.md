@@ -51,6 +51,8 @@ Cursed Cleaver : Slam enemies into the ground on hit + charge up a powerful leap
 
 Ice Dagger : Slowing beam
 
+Voidtouched Blade : random teleport
+
 
 Runes + other enchantments :
 
@@ -99,8 +101,6 @@ update fracture and ice dagger to be incompatable with lunge, update all inheren
 Voidtouched steel
 
 Voidtouched trident (tps on entity hit, and pulls in entitys onground hit)
-
-Voidtouched blade (random tp)
 
 achievements
 
