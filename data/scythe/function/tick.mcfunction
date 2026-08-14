@@ -12,6 +12,8 @@ execute as @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:diamond_sword",count
 
 execute as @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:paper",count:1}}] at @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:paper",count:1}}] run function scythe:pact_from_below_ritual
 
+execute as @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:iron_ingot",count:1}}] at @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:iron_ingot",count:1}}] run function scythe:voidtouched_steel_ritual
+
 execute as @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:amethyst_shard",count:1}}] at @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:amethyst_shard",count:1}}] run function scythe:echo_shard_ritual
 
 execute as @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:iron_ingot",count:1,components:{"minecraft:custom_data":{animosity:"ingot"}}}}] at @e[type=item,nbt={Item:{id:"minecraft:iron_ingot",count:1,components:{"minecraft:custom_data":{animosity:"ingot"}}}}] run function scythe:animosity_stuff/ingot_enchantment_ritual
