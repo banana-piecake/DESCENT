@@ -113,3 +113,5 @@ scoreboard objectives add descent_chunkloader_kill_timer dummy
 
 scoreboard objectives add descent_sculk_dive_active dummy
 scoreboard objectives add descent_sculk_dive_leap_timer dummy
+
+scoreboard objectives add descent_voidtouched_blade_cooldown dummy

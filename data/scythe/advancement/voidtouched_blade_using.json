@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "scythe": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "voidtouched": "blade"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "scythe"
+    ]
+  ],
+  "rewards": {
+    "function": "angelic_descent:weapons/voidtouched_blade/use"
+  }
+}
