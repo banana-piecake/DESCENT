@@ -1,0 +1,1 @@
+give @s diamond_spear[attack_range={min_reach:3.75,max_reach:4.25,min_creative_reach:2,max_creative_reach:5.0,hitbox_margin:0.3},item_model="angelic_descent:ice_dagger",enchantments={"scythe:frozen_blade":1},!kinetic_weapon,minecraft:item_name="Ice Dagger"] 1
