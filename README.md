@@ -22,6 +22,7 @@ Softener
 
 Plan F
 
+Voidtouched Steel
 
 
 
@@ -93,12 +94,12 @@ Sculk Cling - allows you to cling to sculk, go faster on it, climb, and lunge
 
 Sculk Grenades - explode into a burst of sculk
 
+Voidtouched Steel - used for rituals (upcoming)
+
 Upcoming/wip features :
 
 update fracture and ice dagger to be incompatable with lunge, update all inherent enchantments to be exclusive to diamonds or smthng so they cannot be combined with regular items
 
-
-Voidtouched steel
 
 Voidtouched trident (tps on entity hit, and pulls in entitys onground hit)
 
