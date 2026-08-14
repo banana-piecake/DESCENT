@@ -49,6 +49,8 @@ Fracture (from terramity 1.0) : rather than a regular melee, you can perform a m
 
 Cursed Cleaver : Slam enemies into the ground on hit + charge up a powerful leap
 
+Ice Dagger : Slowing beam
+
 
 Runes + other enchantments :
 
@@ -91,10 +93,8 @@ Sculk Grenades - explode into a burst of sculk
 
 Upcoming/wip features :
 
-update fracture to be incompatable with lunge, update all inherent enchantments to be exclusive to diamonds or smthng so they cannot be combined with regular items
+update fracture and ice dagger to be incompatable with lunge, update all inherent enchantments to be exclusive to diamonds or smthng so they cannot be combined with regular items
 
-
-Ice dagger
 
 Voidtouched steel
 
