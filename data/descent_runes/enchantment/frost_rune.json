@@ -33,8 +33,8 @@
         "effect": {
           "type": "minecraft:apply_mob_effect",
           "to_apply": "minecraft:slowness",
-          "min_duration": 60,
-          "max_duration": 100,
+          "min_duration": 3,
+          "max_duration": 5,
           "min_amplifier": 1,
           "max_amplifier": 1
         },
