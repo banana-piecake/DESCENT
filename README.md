@@ -98,6 +98,8 @@ Sculk Grenades - explode into a burst of sculk
 
 Voidtouched Steel - used for rituals (upcoming)
 
+Rune Stones - have a random chance to drop from undead mobs, will be used to roll runes
+
 Upcoming/wip features :
 
 update fracture and ice dagger to be incompatable with lunge, update all inherent enchantments to be exclusive to diamonds or smthng so they cannot be combined with regular items
