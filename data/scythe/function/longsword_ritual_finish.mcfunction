@@ -2,7 +2,7 @@ execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[dis
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.5
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.6
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.7
-execute at @s run summon ominous_item_spawner ~ ~ ~ {spawn_item_after_ticks:100,item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_model":"scythe:bloodfell_longsword","minecraft:item_name":{"color":"dark_red","text":"Bloodfell Longsword"},"minecraft:enchantments":{"scythe:event_horizon":1},"minecraft:custom_data":{bloodfell:"event_horizon"},"minecraft:blocks_attacks":{block_sound:"entity.zombie.attack_iron_door",disabled_sound:"entity.zombie.attack_iron_door"}}}}
+execute at @s run summon ominous_item_spawner ~ ~ ~ {spawn_item_after_ticks:100,item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_model":"scythe:bloodfell_longsword","minecraft:item_name":{"color":"dark_red","text":"Bloodfell Longsword"},"minecraft:enchantments":{"scythe:event_horizon":1,"scythe:animosity":1},"minecraft:custom_data":{bloodfell:"event_horizon"},"minecraft:blocks_attacks":{block_sound:"entity.zombie.attack_iron_door",disabled_sound:"entity.zombie.attack_iron_door"}}}}
 execute at @s run summon leash_knot ~ ~ ~ {Tags:["ritualise"]}
 execute at @s run tp @n[type=ominous_item_spawner] @n[tag=ritualise]
 kill @e[tag=ritualise]
