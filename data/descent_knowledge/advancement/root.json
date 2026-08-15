@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "diamond",
+      "components": {
+        "minecraft:item_model": "minecraft:knowledge_book"
+      }
+    },
+    "title": "Knowledge",
+    "description": "Learn to create.",
+    "background": "minecraft:block/chiseled_bookshelf_occupied"
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

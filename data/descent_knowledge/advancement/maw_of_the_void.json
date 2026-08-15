@@ -11,6 +11,7 @@
     "description": "Obtained the knowledge to create the Maw of the Void.",
     "background": "minecraft:block/chiseled_bookshelf_occupied"
   },
+  "parent": "descent_knowledge:root",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"
