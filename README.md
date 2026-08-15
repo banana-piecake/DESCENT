@@ -59,7 +59,7 @@ Starlight : Shoots no gravity magic arrows that summon meteors on hit that explo
 
 Runes + other enchantments :
 
-Over 30 runes, some are more complex, some are just stats
+Around 30 runes, some are more complex, some are just stats
 
 Soulbound - gives back after death with a decent delay.
 
