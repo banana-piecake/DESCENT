@@ -101,7 +101,7 @@ Upcoming/wip features :
 update fracture and ice dagger to be incompatable with lunge, update all inherent enchantments to be exclusive to diamonds or smthng so they cannot be combined with regular items
 
 
-Voidtouched trident (tps on entity hit, and pulls in entitys onground hit)
+SCRAPPED - Voidtouched trident (tps on entity hit, and pulls in entitys onground hit)
 
 achievements
 
@@ -117,6 +117,8 @@ update inherent enchantments to only be enchantable on a filler item like diamon
 Finish guidebook dialogs
 
 sculk grenades, sculk boots and wings of the seraph texture, implement voidtouched blde texture, voidtouched trident texture
+
+boss deaths = open rift + advancement + knowledge + chance of music disc (100% first time, 10% any other time)
 
 
 finish unfinished rituals
