@@ -4,7 +4,7 @@
   "external_title": "Bloodfell Items",
   "body": {
     "type": "minecraft:plain_message",
-    "contents": "Bloodfell items are powerful new weapons created with a new resource, Bloodfell Ingots, these are created using rituals, and some have variants that can be interchanged via rituals."
+    "contents": "Bloodfell items are powerful new weapons created with a new resource, Bloodfell Ingots, these are created using rituals, and some have variants that can be interchanged via rituals. All Bloodfell weapons have a passive called Animosity, which has a chance to grant you buffs upon taking damage. "
   },
   "inputs": [],
   "can_close_with_escape": true,
