@@ -28,11 +28,11 @@ Voidtouched Steel
 
 
 Weapons :
-Bloodfell scythe - double dash + disarmament
+Bloodfell scythe - double dash + disarmament + pain = power 
 
-Bloodfell longsword - gravity pull
+Bloodfell longsword - gravity pull + pain = power 
 
-Bloodfell cleaver - bleed stacks (+burn : hellforged | +wither : withertouched | +slowness and weakness : softener)
+Bloodfell cleaver - bleed stacks (+burn : hellforged | +wither : withertouched | +slowness and weakness : softener) + pain = power 
 
 Maw of the void : explosive dash + synergy (teleport + explosion)
 
@@ -52,7 +52,7 @@ Cursed Cleaver : Slam enemies into the ground on hit + charge up a powerful leap
 
 Ice Dagger : Slowing beam
 
-Voidtouched Blade : random teleport
+Voidtouched Blade : random teleport + void cull
 
 Starlight : Shoots no gravity magic arrows that summon meteors on hit that explode dealing large aoe damage and applying 0.5s ticks of mana poison to enemies, which makes them take damage every tick, applying large knockback etc.
 
