@@ -23,7 +23,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "angelic_descent:weapons/starlight_arrow"
+          "function": "angelic_descent:weapons/starlight/starlight_arrow"
         }
       }
     ]

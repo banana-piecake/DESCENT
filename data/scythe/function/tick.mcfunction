@@ -98,3 +98,8 @@ kill @e[scores={descent_sculk_grenade_marker_landed_timer=5..}]
 
 scoreboard players remove @e[scores={descent_cursed_cleaver_release_timer=0..}] descent_cursed_cleaver_release_timer 1
 execute as @e[scores={descent_cursed_cleaver_release_timer=0}] run function angelic_descent:weapons/cursed_cleaver/release
+
+#custom effects
+scoreboard players remove @e[scores={descent_mana_poison=1..}] descent_mana_poison 1
+execute as @e[scores={descent_mana_poison=1..}] run execute at @s run damage @s 0.25 angelic_descent:magic_bypass
+execute at @e[scores={descent_mana_poison=1..}] run particle dust_color_transition{from_color:[0.392,0.094,0.780],to_color:[0.741,0.184,0.702],scale:0.84} ~ ~ ~ 0.4 0.4 0.4 0 8 normal
