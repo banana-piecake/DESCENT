@@ -1,3 +1,5 @@
 tag @s add angelic_descent_starlight_bolt
+data modify entity @s NoGravity set value 1b
+scoreboard players set @s descent_entity_remove_timer 200
 #execute at @s run execute if entity @n[nbt={equipment:{offhand:{id:"minecraft:crossbow",components:{"minecraft:custom_data":{angelic_descent:"starlight"}}}}}] run item modify entity @n[nbt={equipment:{offhand:{id:"minecraft:crossbow",components:{"minecraft:custom_data":{angelic_descent:"starlight"}}}}}] weapon.offhand angelic_descent:starlight_charged
 #execute at @s run execute if entity @n[nbt={SelectedItem:{id:"minecraft:crossbow",count:1,components:{"minecraft:custom_data":{angelic_descent:"starlight"}}}}] run item modify entity @n[nbt={SelectedItem:{id:"minecraft:crossbow",count:1,components:{"minecraft:custom_data":{angelic_descent:"starlight"}}}}] weapon.mainhand angelic_descent:starlight_charged
