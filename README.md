@@ -54,6 +54,8 @@ Ice Dagger : Slowing beam
 
 Voidtouched Blade : random teleport
 
+Starlight : Shoots no gravity magic arrows that summon meteors on hit that explode dealing large aoe damage and applying 0.5s ticks of mana poison to enemies, which makes them take damage every tick, applying large knockback etc.
+
 
 Runes + other enchantments :
 
@@ -106,8 +108,6 @@ SCRAPPED - Voidtouched trident (tps on entity hit, and pulls in entitys onground
 achievements
 
 Knowledge system
-
-Starlight (gun, meteor model finished)
 
 rift system (vfx done)
 
