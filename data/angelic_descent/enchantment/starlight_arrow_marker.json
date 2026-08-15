@@ -18,6 +18,15 @@
   "effects": {
     "minecraft:tick": [
       {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:flags": {
+              "is_on_ground": true
+            }
+          }
+        },
         "effect": {
           "type": "minecraft:explode",
           "damage_type": "minecraft:explosion",
@@ -34,6 +43,15 @@
         }
       },
       {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:flags": {
+              "is_on_ground": true
+            }
+          }
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "angelic_descent:weapons/starlight/kill"
