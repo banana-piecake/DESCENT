@@ -118,6 +118,8 @@ Finish guidebook dialogs
 
 sculk grenades, sculk boots and wings of the seraph texture, implement voidtouched blde texture, voidtouched trident texture
 
+boss deaths = open rift + advancement + knowledge + chance of music disc (100% first time, 10% any other time)
+
 
 finish unfinished rituals
 
