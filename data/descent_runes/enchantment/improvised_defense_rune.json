@@ -24,10 +24,11 @@
       {
         "requirements": {
           "condition": "minecraft:random_chance",
-          "chance": 0.1
+          "chance": 0.3
         },
         "effect": {
           "type": "minecraft:explode",
+          "attribute_to_user": true,
           "knockback_multiplier": 1.2,
           "radius": 4,
           "create_fire": false,
