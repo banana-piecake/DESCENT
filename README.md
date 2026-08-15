@@ -116,7 +116,7 @@ update inherent enchantments to only be enchantable on a filler item like diamon
 
 Finish guidebook dialogs
 
-sculk grenades, sculk boots and wings of the seraph texture, implement voidtouched blde texture, voidtouched trident texture
+sculk grenades, sculk boots and wings of the seraph texture
 
 boss deaths = open rift + advancement + knowledge + chance of music disc (100% first time, 10% any other time)
 
