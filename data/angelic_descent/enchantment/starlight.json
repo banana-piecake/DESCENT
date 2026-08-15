@@ -2,7 +2,8 @@
   "description": {
     "text": "Starlight",
     "color": "#a9bafe"
-  },  "exclusive_set": "#scythe:inherent",
+  },
+  "exclusive_set": "#scythe:inherent",
   "supported_items": "minecraft:crossbow",
   "weight": 1,
   "max_level": 1,
@@ -25,6 +26,34 @@
           "type": "minecraft:run_function",
           "function": "angelic_descent:weapons/starlight/starlight_arrow"
         }
+      }
+    ],
+    "minecraft:crossbow_charge_time": {
+      "type": "minecraft:multiply",
+      "factor": 1.4
+    },
+    "minecraft:crossbow_charging_sounds": [
+      {
+        "start": "minecraft:block.enchantment_table.use",
+        "mid": "minecraft:block.enchantment_table.use",
+        "end": "minecraft:block.enchantment_table.use"
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "minecraft:entity_type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:weapons/starlight/hit"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
       }
     ]
   }
