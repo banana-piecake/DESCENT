@@ -9,5 +9,5 @@ execute if score @s descent_random_rune_roll matches 2 run item modify entity @s
 execute if score @s descent_random_rune_roll matches 3 run item modify entity @s container.0 descent_runes:angelic_descent_rune
 execute if score @s descent_random_rune_roll matches 4 run item modify entity @s container.0 descent_runes:power_rune
 execute if score @s descent_random_rune_roll matches 5 run item modify entity @s container.0 descent_runes:softfall_rune
-execute if score @s descent_random_rune_roll matches 6 run item modify entity @s container.0 descent_runes:speed_rune
-execute if score @s descent_random_rune_roll matches 7 run item modify entity @s container.0 descent_runes:health_rune
+execute if score @s descent_random_rune_roll matches 6 run item modify entity @s container.0 descent_runes:poison_rune
+execute if score @s descent_random_rune_roll matches 7 run item modify entity @s container.0 descent_runes:force_rune
