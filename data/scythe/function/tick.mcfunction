@@ -41,10 +41,7 @@ execute as @e[tag=ritual,type=item] at @e[tag=ritual,type=item] run function scy
 
 
 #cleaver thingies
-scoreboard players remove @e[scores={animosity_bleed_timer=1..}] animosity_bleed_timer 1
-execute as @e[scores={animosity_bleed_timer=..0}] run scoreboard players set @s animosity_bleed_stacks 0
-execute at @e[scores={animosity_bleed_timer=1..}] run particle block{block_state:"minecraft:redstone_block"} ~ ~1 ~ 0.3 0.3 0.3 0.3 1 normal
-
+#bleed is now in custom effects sections
 execute as @e[scores={animosity_hellforged_hit=1..,animosity_bleed_final_hit=1..}] run execute at @s run function scythe:animosity_stuff/bloodfell_cleaver/final_hit_victim_hellforged
 execute as @e[scores={animosity_withertouched_hit=1..,animosity_bleed_final_hit=1..}] run execute at @s run function scythe:animosity_stuff/bloodfell_cleaver/final_hit_victim_withertouched
 execute as @e[scores={animosity_weaken_hit=1..,animosity_bleed_final_hit=1..}] run execute at @s run function scythe:animosity_stuff/bloodfell_cleaver/final_hit_victim_weaken
@@ -100,9 +97,16 @@ scoreboard players remove @e[scores={descent_cursed_cleaver_release_timer=0..}] 
 execute as @e[scores={descent_cursed_cleaver_release_timer=0}] run function angelic_descent:weapons/cursed_cleaver/release
 
 #custom effects
+
+#mana poison (starlight)
 scoreboard players remove @e[scores={descent_mana_poison=1..}] descent_mana_poison 1
 execute as @e[scores={descent_mana_poison=1..}] run execute at @s run damage @s 0.25 angelic_descent:magic_bypass
 execute at @e[scores={descent_mana_poison=1..}] run particle dust_color_transition{from_color:[0.392,0.094,0.780],to_color:[0.741,0.184,0.702],scale:0.84} ~ ~ ~ 0.4 0.4 0.4 0 8 normal
+
+#bleed (cleaver)
+scoreboard players remove @e[scores={animosity_bleed_timer=1..}] animosity_bleed_timer 1
+execute as @e[scores={animosity_bleed_timer=..0}] run scoreboard players set @s animosity_bleed_stacks 0
+execute at @e[scores={animosity_bleed_timer=1..}] run particle block{block_state:"minecraft:redstone_block"} ~ ~1 ~ 0.3 0.3 0.3 0.3 1 normal
 
 #optimisation
 scoreboard players remove @e[scores={descent_entity_remove_timer=1..}] descent_entity_remove_timer 1
