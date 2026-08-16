@@ -26,6 +26,10 @@ Voidtouched Steel
 
 Voidtouched Harvester
 
+Soulbound
+
+Rune Ritual
+
 
 
 Weapons :
@@ -97,9 +101,9 @@ Sculk Cling - allows you to cling to sculk, go faster on it, climb, and lunge
 
 Sculk Grenades - explode into a burst of sculk
 
-Voidtouched Steel - used for rituals (upcoming)
+Voidtouched Steel - used for rituals (mostly upcoming)
 
-Rune Stones - have a random chance to drop from undead mobs, will be used to roll runes
+Rune Stones - used to perform rune rituals, allowing you to roll random modifiers
 
 Upcoming/wip features :
 
@@ -126,7 +130,5 @@ boss deaths = open rift + advancement + knowledge + chance of music disc (100% f
 
 
 finish unfinished rituals
-
-finish rune rituals
 
 add rift closing item
