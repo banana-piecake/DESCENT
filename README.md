@@ -110,8 +110,6 @@ Upcoming/wip features :
 update fracture and ice dagger to be incompatable with lunge, update all inherent enchantments to be exclusive to diamonds or smthng so they cannot be combined with regular items
 
 
-SCRAPPED - Voidtouched trident (tps on entity hit, and pulls in entitys onground hit)
-
 achievements
 
 Knowledge system
