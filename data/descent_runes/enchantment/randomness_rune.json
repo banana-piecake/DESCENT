@@ -22,6 +22,10 @@
   "effects": {
     "minecraft:damage": [
       {
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        },
         "effect": {
           "type": "minecraft:multiply",
           "factor": 3
