@@ -28,6 +28,8 @@ execute as @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:netherite_axe",count
 
 execute as @e[tag=ritual,type=item] at @e[tag=ritual,type=item] run function scythe:soulbound_ritual
 
+execute as @e[tag=ritual,type=item] at @e[tag=ritual,type=item] run function descent_runes:rune_ritual
+
 
 #enchantment rituals
 #execute as @e[type=item,tag=!ritual,nbt={Item:{id:"minecraft:lapis_lazuli",count:1}}] run execute at @s unless entity @n[tag=ritual,distance=0..1,nbt={Item:{id:"minecraft:lapis_lazuli",count:1}}] if block ~ ~-1 ~ minecraft:amethyst_block if block ~ ~ ~ #minecraft:wool_carpets run function scythe:ritualise
