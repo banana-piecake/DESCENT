@@ -30,3 +30,5 @@ scoreboard objectives add descent_sculk_grenade_marker_landed_timer dummy
 scoreboard objectives add descent_entity_remove_timer dummy
 
 scoreboard objectives add descent_random_rune_chance dummy
+
+scoreboard objectives add descent_random_rune_roll dummy
