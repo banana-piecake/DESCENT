@@ -6,7 +6,7 @@ execute at @s run particle dust_color_transition{from_color:[0.122,1.000,0.620],
 execute store result score @s descent_random_rune_roll run random value 1..7
 execute if score @s descent_random_rune_roll matches 1 run item modify entity @s container.0 descent_runes:slime_rune
 execute if score @s descent_random_rune_roll matches 2 run item modify entity @s container.0 descent_runes:vitality_rune
-execute if score @s descent_random_rune_roll matches 3 run item modify entity @s container.0 descent_runes:angelic_descent_rune
+execute if score @s descent_random_rune_roll matches 3 run item modify entity @s container.0 descent_runes:defense_rune
 execute if score @s descent_random_rune_roll matches 4 run item modify entity @s container.0 descent_runes:power_rune
 execute if score @s descent_random_rune_roll matches 5 run item modify entity @s container.0 descent_runes:softfall_rune
 execute if score @s descent_random_rune_roll matches 6 run item modify entity @s container.0 descent_runes:poison_rune
