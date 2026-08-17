@@ -70,8 +70,7 @@ scoreboard players remove @e[scores={impulse_active=1..}] impulse_active 1
 scoreboard players remove @e[scores={descent_voidtouched_scythe_antigravity_dash_timer=1..}] descent_voidtouched_scythe_antigravity_dash_timer 1
 execute at @e[scores={descent_voidtouched_scythe_antigravity_dash_timer=1..}] run particle dust_color_transition{from_color:[0.627,0.071,1.000],to_color:[0.914,0.129,1.000],scale:4} ~ ~ ~ 0.3 0.1 0.3 0 12 normal
 
-scoreboard players remove @e[scores={descent_voidtouched_void_stack_timer=1..}] descent_voidtouched_void_stack_timer 1
-execute as @e[scores={descent_voidtouched_void_stack_timer=0}] run scoreboard players set @s descent_voidtouched_void_stacks 0
+
 
 
 #soulbound
@@ -109,6 +108,10 @@ execute at @e[scores={descent_mana_poison=1..}] run particle dust_color_transiti
 scoreboard players remove @e[scores={animosity_bleed_timer=1..}] animosity_bleed_timer 1
 execute as @e[scores={animosity_bleed_timer=..0}] run scoreboard players set @s animosity_bleed_stacks 0
 execute at @e[scores={animosity_bleed_timer=1..}] run particle block{block_state:"minecraft:redstone_block"} ~ ~1 ~ 0.3 0.3 0.3 0.3 1 normal
+
+#void stacks (voidtouched)
+scoreboard players remove @e[scores={descent_voidtouched_void_stack_timer=1..}] descent_voidtouched_void_stack_timer 1
+execute as @e[scores={descent_voidtouched_void_stack_timer=0}] run scoreboard players set @s descent_voidtouched_void_stacks 0
 
 #optimisation
 scoreboard players remove @e[scores={descent_entity_remove_timer=1..}] descent_entity_remove_timer 1
