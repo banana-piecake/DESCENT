@@ -109,7 +109,6 @@ Upcoming/wip features :
 
 honestly jst trying to get this shipped so certain things will be scrapped (marked with SCRAPPED)
 
-update fracture and ice dagger to be incompatable with lunge, update all inherent enchantments to be exclusive to diamonds or smthng so they cannot be combined with regular items
 
 SCRAPPED - voidtouched trident
 
@@ -125,7 +124,7 @@ update inherent enchantments to only be enchantable on a filler item like diamon
 
 Finish guidebook dialogs
 
-sculk grenades, sculk boots and wings of the seraph texture
+sculk boots and wings of the seraph texture
 
 boss deaths = open rift + advancement + knowledge + chance of music disc (100% first time, 10% any other time)
 
