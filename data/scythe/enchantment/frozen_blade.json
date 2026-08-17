@@ -3,7 +3,7 @@
     "text": "Frozen Blade",
     "color": "#a9bafe"
   },
-  "exclusive_set": "#scythe:inherent",
+  "exclusive_set": "#scythe:pseudo_spear_inherent",
   "supported_items": "#minecraft:spears",
   "weight": 1,
   "max_level": 1,
