@@ -107,8 +107,11 @@ Rune Stones - used to perform rune rituals, allowing you to roll random modifier
 
 Upcoming/wip features :
 
+honestly jst trying to get this shipped so certain things will be scrapped (marked with SCRAPPED)
+
 update fracture and ice dagger to be incompatable with lunge, update all inherent enchantments to be exclusive to diamonds or smthng so they cannot be combined with regular items
 
+SCRAPPED - voidtouched trident
 
 achievements
 
@@ -116,7 +119,7 @@ Knowledge system
 
 rift system (vfx done)
 
-Creative menu (items are there, just need to finish off the give, also add missing items)
+SCRAPPED - Creative menu (items are there, just need to finish off the give, also add missing items) (ruins compatability)
 
 update inherent enchantments to only be enchantable on a filler item like diamonds, so that they cannot be combined with other weapons to add void cull to a regular axe, although this may already work with two illegal enchants but i'd have to check
 
