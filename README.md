@@ -109,7 +109,6 @@ Upcoming/wip features :
 
 honestly jst trying to get this shipped so certain things will be scrapped (marked with SCRAPPED)
 
-update fracture and ice dagger to be incompatable with lunge, update all inherent enchantments to be exclusive to diamonds or smthng so they cannot be combined with regular items
 
 SCRAPPED - voidtouched trident
 
