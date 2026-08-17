@@ -1,0 +1,1 @@
+give @s mace[enchantments={"scythe:cursed_might":1},custom_data={descent:"cursed_cleaver"},item_model="abe_forgery:cleaver",consumable={consume_seconds:1000,animation:"trident"},item_name="Cursed Cleaver"] 1
