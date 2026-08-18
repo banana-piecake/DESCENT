@@ -1,0 +1,1 @@
+execute unless entity @e[tag=descent_void_guardians_marker] unless entity @e[tag=aj.angel_being.root] unless entity @e[tag=aj.worm_head.root] run function angelic_descent:void_guardians_boss_summon
