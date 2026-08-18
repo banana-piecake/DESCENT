@@ -18,4 +18,4 @@ execute at @s run execute positioned ~3 ~ ~ run kill @n[type=item,tag=ritual]
 execute at @s run execute positioned ~-3 ~ ~ run kill @n[type=item,tag=ritual]
 execute at @s run execute positioned ~ ~ ~-3 run kill @n[type=item,tag=ritual]
 execute at @s run execute positioned ~ ~ ~3 run kill @n[type=item,tag=ritual]
-damage @s 19 magic
+damage @s 6 magic
