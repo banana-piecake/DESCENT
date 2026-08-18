@@ -4,6 +4,7 @@ effect clear @s minecraft:wither
 clear @s *[custom_data={descent:"worm_summon"}]
 clear @s *[custom_data={descent:"angel_summon"}]
 clear @s *[custom_data={descent:"void_guardians_summon"}]
+clear @s *[custom_data={descent:"void_blessing"}]
 advancement revoke @s only scythe:die
 scoreboard players set @s descent_mana_poison 0
 execute at @s run function scythe:soulbound_id_roll
