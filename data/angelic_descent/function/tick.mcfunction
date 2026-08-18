@@ -203,13 +203,13 @@ execute store result bossbar angelic_descent:void_ripper value run scoreboard pl
 execute unless entity @e[tag=descent_void_guardians_marker] if score #VOID_RIPPER_HEALTH angelic_descent_worm_health matches ..1 run function angelic_descent:worm_function/remove
 scoreboard players add @e[tag=aj.worm_head.root] angelic_descent_worm_crystal_timer 1
 execute as @e[scores={angelic_descent_worm_crystal_timer=200..}] run function angelic_descent:worm_function/crystal_summon
-#execute if entity @e[tag=aj.worm_head.root] run execute unless entity @a[gamemode=survival,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:worm_function/remove
+#execute if entity @e[tag=aj.worm_head.root] run execute unless entity @a[nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:worm_function/remove
 execute unless entity @e[tag=descent_void_guardians_marker] if entity @e[tag=aj.worm_head.root] run execute as @a[tag=!angelic_descent_worm_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:worm_function/music
 execute unless entity @e[tag=aj.worm_head.root] run tag @a remove angelic_descent_worm_music
 scoreboard players add @a[tag=angelic_descent_worm_music] angelic_descent_worm_music_timer 1
 execute as @e[scores={angelic_descent_worm_music_timer=5000..}] run function angelic_descent:worm_function/music_restart
 execute unless entity @e[tag=descent_void_guardians_marker] if score #VOID_RIPPER_HEALTH angelic_descent_worm_health matches 100 if entity @n[tag=aj.worm_head.root] run function angelic_descent:worm_function/remove
-execute unless entity @a[gamemode=survival,nbt={Dimension:"angelic_descent:the_void"}] run scoreboard players set #VOID_RIPPER_HEALTH angelic_descent_worm_health 100
+execute unless entity @a[nbt={Dimension:"angelic_descent:the_void"}] run scoreboard players set #VOID_RIPPER_HEALTH angelic_descent_worm_health 100
 
 #same but for angel being
 execute as @e[tag=angelic_descent_angel_being_crystal_interaction] run execute at @s run execute on attacker run execute as @n[tag=angelic_descent_angel_crystal] run function angelic_descent:crystal_hit
@@ -221,7 +221,7 @@ scoreboard players add @e[tag=aj.angel_being.root] angelic_descent_angel_being_c
 execute as @e[scores={angelic_descent_angel_being_crystal_timer=100..}] run function angelic_descent:crystal_summon
 execute if score #ANGEL_BEING_HEALTH angelic_descent_angel_being_health matches ..1 run function angelic_descent:remove
 execute if score #ANGEL_BEING_HEALTH angelic_descent_angel_being_health matches 100 if entity @n[tag=aj.angel_being.root] run function angelic_descent:remove
-execute unless entity @a[gamemode=survival,nbt={Dimension:"angelic_descent:the_void"}] run scoreboard players set #ANGEL_BEING_HEALTH angelic_descent_angel_being_health 100
+execute unless entity @a[nbt={Dimension:"angelic_descent:the_void"}] run scoreboard players set #ANGEL_BEING_HEALTH angelic_descent_angel_being_health 100
 execute unless entity @e[tag=descent_void_guardians_marker] if entity @e[tag=aj.angel_being.root] run execute as @a[tag=!angelic_descent_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:music
 execute unless entity @e[tag=aj.angel_being.root] run tag @a remove angelic_descent_music
 scoreboard players add @a[tag=angelic_descent_music] angelic_descent_music_timer 1
@@ -237,7 +237,7 @@ scoreboard players add @e[tag=descent_void_guardians_marker] angelic_descent_ang
 execute store result bossbar angelic_descent:void_guardians value run scoreboard players get #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health
 execute if score #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health matches ..1 run function angelic_descent:void_guardians_remove
 execute if score #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health matches 100 if entity @n[tag=descent_void_guardians_marker] run function angelic_descent:void_guardians_remove
-execute unless entity @a[gamemode=survival,nbt={Dimension:"angelic_descent:the_void"}] run scoreboard players set #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health 100
+execute unless entity @a[nbt={Dimension:"angelic_descent:the_void"}] run scoreboard players set #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health 100
 execute if entity @e[tag=descent_void_guardians_marker] run execute as @a[tag=!angelic_descent_void_guardians_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:void_guardians_music
 execute unless entity @e[tag=descent_void_guardians_marker] run tag @a remove angelic_descent_void_guardians_music
 scoreboard players add @a[tag=angelic_descent_music] angelic_descent_void_guardians_music_timer 1
