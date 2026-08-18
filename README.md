@@ -128,6 +128,7 @@ sculk boots and wings of the seraph texture
 
 boss deaths = open rift + advancement + knowledge + chance of music disc (100% first time, 10% any other time)
 
+make bosses load chunks
 
 finish unfinished rituals
 
