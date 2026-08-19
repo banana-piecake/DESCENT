@@ -30,6 +30,8 @@ Soulbound
 
 Rune Ritual
 
+Rift Ritual
+
 
 
 Weapons :
@@ -105,6 +107,9 @@ Voidtouched Steel - used for rituals (mostly upcoming)
 
 Rune Stones - used to perform rune rituals, allowing you to roll random modifiers
 
+Rifts and other : 
+Rifts - entering a rift sends you to the void as long as you're inventory is empty, throwing an ender eye at them will close them
+
 Upcoming/wip features :
 
 honestly jst trying to get this shipped so certain things will be scrapped (marked with SCRAPPED)
@@ -115,8 +120,6 @@ SCRAPPED - voidtouched trident
 achievements
 
 Knowledge system
-
-rift system (vfx done)
 
 SCRAPPED - Creative menu (items are there, just need to finish off the give, also add missing items) (ruins compatability)
 
@@ -132,4 +135,4 @@ make bosses load chunks
 
 finish unfinished rituals
 
-add rift closing item
+SCRAPPED - add rift closing item (im using ender eyes instead :p )
