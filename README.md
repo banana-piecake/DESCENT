@@ -36,6 +36,7 @@ Voidtouched Blade
 
 Voidtouched Shovel
 
+Ice Dagger
 
 Weapons :
 Bloodfell scythe - double dash + disarmament + pain = power 
