@@ -103,6 +103,12 @@ Bloodfell ingots / enchanted bloodfell ingots - used for rituals
 
 Subspace boots : used only in the void for the custom combat system
 
+Void Essence : summons void ripper
+
+Rusted Halo : summons angel being
+
+Sigil of the Guardians : summons the void guardians
+
 Sculk Cling - allows you to cling to sculk, go faster on it, climb, and lunge
 
 Sculk Grenades - explode into a burst of sculk
