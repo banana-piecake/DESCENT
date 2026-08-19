@@ -36,6 +36,8 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_sword",count:1}}] at @e
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:tnt",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:tnt",count:1}}] run function scythe:sculk_bomb_ritual
 
+execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_boots",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:diamond_boots",count:1}}] run function scythe:echo_boots_ritual
+
 execute as @e[type=item,nbt={Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{descent:"guidebook"}}}}] at @e[type=item,nbt={Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{descent:"guidebook"}}}}] run function angelic_descent:the_void/rift_ritual
 
 execute as @e[tag=ritual,type=item] at @e[tag=ritual,type=item] run function scythe:soulbound_ritual
