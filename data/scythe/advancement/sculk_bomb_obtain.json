@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "check": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "descent": "sculk_bomb_marker"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "scythe:sculk_bomb_give"
+  }
+}
