@@ -43,4 +43,10 @@ execute as @e[tag=!worm_tagged,tag=aj.worm_body_1.root,limit=1,sort=random] run 
 execute as @e[tag=!worm_tagged,tag=aj.worm_body_1.root,limit=1,sort=random] run function angelic_descent:worm_function/tag_19
 execute as @e[tag=!worm_tagged,tag=aj.worm_body_1.root,limit=1,sort=random] run function angelic_descent:worm_function/tag_20
 
+execute at @s run summon ender_pearl ^ ^ ^12 {NoGravity:1b,Tags:["descent_worm_head_chunk_marker"],Item:{id:"minecraft:diamond",count:1,components:{"minecraft:item_model":"air"}}}
+execute at @s run ride @n[tag=descent_worm_head_chunk_marker] mount @n[tag=aj.worm_head.root]
+execute at @s run summon ender_pearl ^ ^ ^12 {NoGravity:1b,Tags:["descent_worm_tail_chunk_marker"],Item:{id:"minecraft:diamond",count:1,components:{"minecraft:item_model":"air"}}}
+execute at @s run ride @n[tag=descent_worm_tail_chunk_marker] mount @n[tag=aj.worm_tail.root]
+
+
 scoreboard players set #VOID_RIPPER_HEALTH angelic_descent_worm_health 60

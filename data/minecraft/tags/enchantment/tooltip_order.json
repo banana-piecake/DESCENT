@@ -1,9 +1,15 @@
 {
   "replace": false,
   "values": [
+    "scythe:animosity",
+    "scythe:void_cull",
+    "scythe:disarmament",
     "scythe:bleed",
     "scythe:hellforged",
     "scythe:softener",
-    "scythe:withertouched"
+    "scythe:withertouched",
+    "#scythe:inherent",
+    "scythe:soulbound",
+    "#descent_runes:runes"
   ]
 }
