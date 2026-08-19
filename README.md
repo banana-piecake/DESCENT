@@ -116,8 +116,6 @@ Knowledge system
 
 Finish guidebook dialogs
 
-sculk boots and wings of the seraph texture
-
 boss deaths = open rift + advancement + knowledge + chance of music disc (100% first time, 10% any other time)
 
 finish unfinished rituals
