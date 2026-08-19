@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "diamond",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "angelic_descent:void_fracture"
+      }
+    },
+    "title": "Void Fracture",
+    "description": "Obtained the knowledge to create the Void Fracture."
+  },
+  "parent": "descent_knowledge:wings_of_the_seraph",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

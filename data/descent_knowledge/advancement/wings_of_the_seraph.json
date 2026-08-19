@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "diamond",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "minecraft:netherite_boots",
+        "minecraft:trim": {
+          "material": "minecraft:gold",
+          "pattern": "minecraft:flow"
+        }
+      }
+    },
+    "title": "Wings of the Seraph",
+    "description": "Obtained the knowledge to create the Wings of the Seraph."
+  },
+  "parent": "descent_knowledge:cursed_cleaver",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

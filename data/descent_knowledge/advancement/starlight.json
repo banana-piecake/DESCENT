@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "diamond",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "starlight:starlight"
+      }
+    },
+    "title": "Starlight",
+    "description": "Obtained the knowledge to create the Starlight."
+  },
+  "parent": "descent_knowledge:void_fracture",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
