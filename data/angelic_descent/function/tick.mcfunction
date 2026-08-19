@@ -245,8 +245,8 @@ execute as @e[scores={angelic_descent_void_guardians_music_timer=2570..}] run fu
 execute if entity @e[tag=descent_void_guardians_marker] run execute as @a[tag=!angelic_descent_void_guardians_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:void_guardians_music
 execute unless entity @e[tag=descent_void_guardians_marker] run tag @a remove angelic_descent_void_guardians_music
 
-
-
+execute as @a[nbt={Dimension:"angelic_descent:the_void"}] run execute as @s unless items entity @s container.* * run function angelic_descent:the_void/give_summons
+clear @a[nbt=!{Dimension:"angelic_descent:the_void"}] *[custom_data={descent:"void_blessing"}]
 
 #rifts
 execute as @e[scores={angelic_descent_rift_vfx_timer=25..}] run function angelic_descent:rift/random_bolt_vfx
