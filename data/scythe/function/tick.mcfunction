@@ -28,6 +28,8 @@ execute as @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:netherite_axe",count
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_sword",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:netherite_sword",count:1}}] run function scythe:voidtouched_blade_ritual
 
+execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_shovel",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:netherite_shovel",count:1}}] run function scythe:voidtouched_shovel_ritual
+
 execute as @e[type=item,nbt={Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{descent:"guidebook"}}}}] at @e[type=item,nbt={Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{descent:"guidebook"}}}}] run function angelic_descent:the_void/rift_ritual
 
 execute as @e[tag=ritual,type=item] at @e[tag=ritual,type=item] run function scythe:soulbound_ritual
