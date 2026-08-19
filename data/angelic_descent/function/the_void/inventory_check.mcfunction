@@ -1,2 +1,2 @@
 execute as @s unless items entity @s container.* *[!custom_data~{smithed:{ignore:{everything:1b}}}] unless items entity @s armor.* *[!custom_data~{smithed:{ignore:{everything:1b}}}] unless items entity @s weapon.offhand *[!custom_data~{smithed:{ignore:{everything:1b}}}] unless items entity @s player.crafting.* *[!custom_data~{smithed:{ignore:{everything:1b}}}] unless items entity @s player.cursor *[!custom_data~{smithed:{ignore:{everything:1b}}}] run return run function angelic_descent:the_void/void_warp
-say checked
+title @s actionbar "Please rid yourself of mortal possesions before entering."
