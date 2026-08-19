@@ -91,7 +91,9 @@ scoreboard players add @e[tag=descent_soulbound_marker] descent_chunkloader_kill
 kill @e[scores={descent_chunkloader_kill_timer=3000..}]
 
 #other stuf
-scoreboard players remove @e[scores={descent_void_fracture_timer=0..}] descent_void_fracture_timer 1
+
+execute as @a run execute if items entity @s container.* *[minecraft:custom_data={descent:"sculk_bomb_marker"}] run function scythe:sculk_bomb_give
+
 
 execute as @e[scores={descent_void_fracture_timer=10}] run function angelic_descent:weapons/void_fracture/void_damage
 execute as @e[scores={descent_void_fracture_timer=5}] run function angelic_descent:weapons/void_fracture/void_damage
@@ -124,6 +126,9 @@ execute at @e[scores={animosity_bleed_timer=1..}] run particle block{block_state
 #void stacks (voidtouched)
 scoreboard players remove @e[scores={descent_voidtouched_void_stack_timer=1..}] descent_voidtouched_void_stack_timer 1
 execute as @e[scores={descent_voidtouched_void_stack_timer=0}] run scoreboard players set @s descent_voidtouched_void_stacks 0
+
+#void fracture
+scoreboard players remove @e[scores={descent_void_fracture_timer=0..}] descent_void_fracture_timer 1
 
 #optimisation
 scoreboard players remove @e[scores={descent_entity_remove_timer=1..}] descent_entity_remove_timer 1
