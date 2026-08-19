@@ -32,6 +32,8 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_shovel",count:1}}] at
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:iron_sword",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:iron_sword",count:1}}] run function scythe:ice_dagger_ritual
 
+execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_sword",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:diamond_sword",count:1}}] run function scythe:fracture_ritual
+
 execute as @e[type=item,nbt={Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{descent:"guidebook"}}}}] at @e[type=item,nbt={Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{descent:"guidebook"}}}}] run function angelic_descent:the_void/rift_ritual
 
 execute as @e[tag=ritual,type=item] at @e[tag=ritual,type=item] run function scythe:soulbound_ritual
