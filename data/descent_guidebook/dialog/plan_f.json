@@ -11,7 +11,7 @@
       "item": {
         "id": "minecraft:iron_ingot",
         "components": {
-          "minecraft:item_name": "Plan Fritual",
+          "minecraft:item_name": "Plan F ritual",
           "minecraft:item_model": "guidebook:totem"
         }
       },
