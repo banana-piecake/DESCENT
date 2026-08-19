@@ -40,6 +40,10 @@ Ice Dagger
 
 Fracture
 
+Sculk Bomb
+
+
+
 
 Weapons :
 Bloodfell scythe - double dash + disarmament + pain = power 
