@@ -111,14 +111,9 @@ Rifts and other :
 Rifts - entering a rift sends you to the void as long as you're inventory is empty, throwing an ender eye at them will close them
 
 Upcoming/wip features :
-
-achievements
-
-Knowledge system
+unfinished rituals
 
 Finish guidebook dialogs
-
-sculk boots and wings of the seraph texture
 
 boss deaths = open rift + advancement + knowledge + chance of music disc (100% first time, 10% any other time)
 
