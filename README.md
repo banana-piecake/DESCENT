@@ -112,8 +112,6 @@ Rifts - entering a rift sends you to the void as long as you're inventory is emp
 
 Upcoming/wip features :
 
-achievements
-
 Knowledge system
 
 Finish guidebook dialogs
