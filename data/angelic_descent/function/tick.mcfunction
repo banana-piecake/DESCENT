@@ -253,6 +253,8 @@ execute as @e[scores={angelic_descent_rift_vfx_timer=25..}] run function angelic
 execute as @e[tag=angelic_descent_rift] run function angelic_descent:rift/rift_vfx
 scoreboard players add @e[tag=angelic_descent_rift] angelic_descent_rift_vfx_timer 1
 execute at @e[tag=angelic_descent_rift] run execute as @a[distance=0..1] run function angelic_descent:the_void/inventory_check
+execute at @e[tag=angelic_descent_rift] run execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:echo_shard",count:1}}] run playsound angelic_descent:celestial_laser hostile @a[distance=0..16] ~ ~ ~ 0.7 1.7
+execute at @e[tag=angelic_descent_rift] run execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:echo_shard",count:1}}] run kill @s
 
 #minibosses
 scoreboard players add @e[tag=lil_fiend_rune_holder] descent_lil_fiend_attack_rune_timer 1
