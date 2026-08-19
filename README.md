@@ -32,6 +32,9 @@ Rune Ritual
 
 Rift Ritual
 
+Voidtouched Blade
+
+Voidtouched Shovel
 
 
 Weapons :
