@@ -252,6 +252,7 @@ clear @a[nbt=!{Dimension:"angelic_descent:the_void"}] *[custom_data={descent:"vo
 execute as @e[scores={angelic_descent_rift_vfx_timer=25..}] run function angelic_descent:rift/random_bolt_vfx
 execute as @e[tag=angelic_descent_rift] run function angelic_descent:rift/rift_vfx
 scoreboard players add @e[tag=angelic_descent_rift] angelic_descent_rift_vfx_timer 1
+execute at @e[tag=angelic_descent_rift] run execute as @a[distance=0..1] run function angelic_descent:the_void/inventory_check
 
 #minibosses
 scoreboard players add @e[tag=lil_fiend_rune_holder] descent_lil_fiend_attack_rune_timer 1
