@@ -112,18 +112,9 @@ Rifts - entering a rift sends you to the void as long as you're inventory is emp
 
 Upcoming/wip features :
 
-honestly jst trying to get this shipped so certain things will be scrapped (marked with SCRAPPED)
-
-
-SCRAPPED - voidtouched trident
-
 achievements
 
 Knowledge system
-
-SCRAPPED - Creative menu (items are there, just need to finish off the give, also add missing items) (ruins compatability)
-
-SCRAPPED - update inherent enchantments to only be enchantable on a filler item like diamonds, so that they cannot be combined with other weapons to add void cull to a regular axe, although this may already work with two illegal enchants but i'd have to check (doesnt work)
 
 Finish guidebook dialogs
 
@@ -131,8 +122,5 @@ sculk boots and wings of the seraph texture
 
 boss deaths = open rift + advancement + knowledge + chance of music disc (100% first time, 10% any other time)
 
-make bosses load chunks
-
 finish unfinished rituals
 
-SCRAPPED - add rift closing item (im using ender eyes instead :p )
