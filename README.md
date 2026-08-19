@@ -111,8 +111,7 @@ Rifts and other :
 Rifts - entering a rift sends you to the void as long as you're inventory is empty, throwing an ender eye at them will close them
 
 Upcoming/wip features :
-
-Knowledge system
+unfinished rituals
 
 Finish guidebook dialogs
 
