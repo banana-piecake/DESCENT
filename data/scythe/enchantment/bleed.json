@@ -22,13 +22,21 @@
   "effects": {
     "minecraft:damage": [
       {
-        "requirements": {
-          "condition": "minecraft:entity_scores",
-          "entity": "this",
-          "scores": {
-            "animosity_bleed_stacks": 3
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "animosity_bleed_stacks": 3
+            }
+          },
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
           }
-        },
+        ],
         "effect": {
           "type": "minecraft:multiply",
           "factor": 2
@@ -37,6 +45,12 @@
     ],
     "minecraft:post_attack": [
       {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "scythe:animosity_stuff/bloodfell_cleaver/regular_hit"
@@ -45,15 +59,23 @@
         "affected": "victim"
       },
       {
-        "requirements": {
-          "condition": "minecraft:entity_scores",
-          "entity": "this",
-          "scores": {
-            "animosity_bleed_stacks": {
-              "min": 4
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "animosity_bleed_stacks": {
+                "min": 4
+              }
+            }
+          },
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
             }
           }
-        },
+        ],
         "effect": {
           "type": "minecraft:run_function",
           "function": "scythe:animosity_stuff/bloodfell_cleaver/final_hit_user"
@@ -62,15 +84,23 @@
         "affected": "attacker"
       },
       {
-        "requirements": {
-          "condition": "minecraft:entity_scores",
-          "entity": "this",
-          "scores": {
-            "animosity_bleed_stacks": {
-              "min": 4
+        "requirements": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "animosity_bleed_stacks": {
+                "min": 4
+              }
+            }
+          },
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
             }
           }
-        },
+        ],
         "effect": {
           "type": "minecraft:run_function",
           "function": "scythe:animosity_stuff/bloodfell_cleaver/final_hit_victim"
@@ -81,6 +111,12 @@
     ],
     "minecraft:knockback": [
       {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        },
         "effect": {
           "type": "minecraft:add",
           "value": 1
