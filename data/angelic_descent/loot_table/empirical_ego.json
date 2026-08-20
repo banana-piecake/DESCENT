@@ -6,6 +6,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_blocks",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -15,6 +16,10 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
         }
       ]
     }
