@@ -52,6 +52,8 @@ Cursed Cleaver
 
 Void Fracture
 
+Starlight
+
 Weapons :
 Bloodfell scythe - double dash + disarmament + pain = power 
 
