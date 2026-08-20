@@ -50,6 +50,7 @@ Maw of the Void
 
 Cursed Cleaver
 
+Void Fracture
 
 Weapons :
 Bloodfell scythe - double dash + disarmament + pain = power 
@@ -138,4 +139,5 @@ Upcoming/wip features :
 Finish guidebook dialogs
 
 finish unfinished rituals
+Bundle resource pack
 
