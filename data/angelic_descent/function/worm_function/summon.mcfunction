@@ -48,5 +48,5 @@ execute at @s run ride @n[tag=descent_worm_head_chunk_marker] mount @n[tag=aj.wo
 execute at @s run summon ender_pearl ^ ^ ^12 {NoGravity:1b,Tags:["descent_worm_tail_chunk_marker"],Item:{id:"minecraft:diamond",count:1,components:{"minecraft:item_model":"air"}}}
 execute at @s run ride @n[tag=descent_worm_tail_chunk_marker] mount @n[tag=aj.worm_tail.root]
 
-
+kill @e[tag=angelic_descent_void_rift]
 scoreboard players set #VOID_RIPPER_HEALTH angelic_descent_worm_health 60
