@@ -46,6 +46,8 @@ Echo Boots
 
 Worm Tooth
 
+Maw of the Void
+
 
 
 Weapons :
