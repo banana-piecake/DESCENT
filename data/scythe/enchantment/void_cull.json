@@ -52,6 +52,12 @@
     ],
     "minecraft:attributes": [
       {
+        "attribute": "minecraft:mining_efficiency",
+        "id": "void_cull:mining_efficiency",
+        "amount": 5,
+        "operation": "add_value"
+      },
+      {
         "attribute": "minecraft:attack_damage",
         "id": "void_cull:damage_boost",
         "amount": 1,
