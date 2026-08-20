@@ -235,7 +235,7 @@ execute if entity @e[tag=descent_void_guardians_marker] run bossbar set angelic_
 execute unless entity @e[tag=descent_void_guardians_marker] run bossbar set angelic_descent:void_guardians visible false
 scoreboard players add @e[tag=descent_void_guardians_marker] angelic_descent_angel_being_crystal_timer 1
 execute store result bossbar angelic_descent:void_guardians value run scoreboard players get #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health
-execute if score #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health matches ..1 run function angelic_descent:void_guardians_remove
+execute if score #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health matches ..1 run function angelic_descent:the_void/void_guardians_die
 execute if score #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health matches 100 if entity @n[tag=descent_void_guardians_marker] run function angelic_descent:void_guardians_remove
 execute unless entity @a[nbt={Dimension:"angelic_descent:the_void"}] run scoreboard players set #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health 100
 execute if entity @e[tag=descent_void_guardians_marker] run execute as @a[tag=!angelic_descent_void_guardians_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:void_guardians_music
