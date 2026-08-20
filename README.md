@@ -54,6 +54,8 @@ Void Fracture
 
 Starlight
 
+Wings of the Seraph
+
 Weapons :
 Bloodfell scythe - double dash + disarmament + pain = power 
 
@@ -140,6 +142,5 @@ Upcoming/wip features :
 
 Finish guidebook dialogs
 
-finish unfinished rituals
 Bundle resource pack
 
