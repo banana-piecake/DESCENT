@@ -48,6 +48,7 @@ Worm Tooth
 
 Maw of the Void
 
+Cursed Cleaver
 
 
 Weapons :
