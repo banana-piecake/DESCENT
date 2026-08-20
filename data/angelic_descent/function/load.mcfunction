@@ -117,3 +117,5 @@ scoreboard objectives add descent_sculk_dive_leap_timer dummy
 scoreboard objectives add descent_voidtouched_blade_cooldown dummy
 
 scoreboard objectives add descent_mana_poison dummy
+
+scoreboard objectives add descent_random_knowledge dummy
