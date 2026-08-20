@@ -262,6 +262,8 @@ execute as @e[tag=angelic_descent_void_rift] run function angelic_descent:rift/r
 scoreboard players add @e[tag=angelic_descent_void_rift] angelic_descent_rift_vfx_timer 1
 execute at @e[tag=angelic_descent_void_rift] run execute as @a[distance=0..1.5] run function angelic_descent:the_void/overworld_warp
 
+execute unless entity @e[tag=angelic_descent_void_rift] unless entity @e[tag=descent_void_guardians_marker] unless entity @e[tag=aj.angel_being.root] unless entity @e[tag=aj.worm_head.root] run execute in angelic_descent:the_void run execute at @s run summon marker 0 120 0 {Tags:["angelic_descent_void_rift"]}
+
 #minibosses
 scoreboard players add @e[tag=lil_fiend_rune_holder] descent_lil_fiend_attack_rune_timer 1
 execute as @e[scores={descent_lil_fiend_attack_rune_timer=15}] run function descent_minibosses:lil_fiend/attack_rune_damage
