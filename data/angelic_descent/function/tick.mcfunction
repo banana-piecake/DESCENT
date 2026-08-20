@@ -200,7 +200,7 @@ bossbar set angelic_descent:void_ripper players @a[nbt={Dimension:"angelic_desce
 execute unless entity @e[tag=descent_void_guardians_marker] if entity @e[tag=aj.worm_head.root] run bossbar set angelic_descent:void_ripper visible true
 execute unless entity @e[tag=aj.worm_head.root] run bossbar set angelic_descent:void_ripper visible false
 execute store result bossbar angelic_descent:void_ripper value run scoreboard players get #VOID_RIPPER_HEALTH angelic_descent_worm_health
-execute unless entity @e[tag=descent_void_guardians_marker] if score #VOID_RIPPER_HEALTH angelic_descent_worm_health matches ..1 run function angelic_descent:worm_function/remove
+execute unless entity @e[tag=descent_void_guardians_marker] if score #VOID_RIPPER_HEALTH angelic_descent_worm_health matches ..1 run function angelic_descent:the_void/worm_die
 scoreboard players add @e[tag=aj.worm_head.root] angelic_descent_worm_crystal_timer 1
 execute as @e[scores={angelic_descent_worm_crystal_timer=200..}] run function angelic_descent:worm_function/crystal_summon
 #execute if entity @e[tag=aj.worm_head.root] run execute unless entity @a[nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:worm_function/remove
