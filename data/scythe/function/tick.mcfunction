@@ -34,6 +34,8 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:iron_sword",count:1}}] at @e[ty
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_sword",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:diamond_sword",count:1}}] run function scythe:fracture_ritual
 
+execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_sword",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:diamond_sword",count:1}}] run function scythe:worm_tooth_ritual
+
 execute as @e[type=item,nbt={Item:{id:"minecraft:tnt",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:tnt",count:1}}] run function scythe:sculk_bomb_ritual
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_boots",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:diamond_boots",count:1}}] run function scythe:echo_boots_ritual
