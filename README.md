@@ -56,9 +56,9 @@ Maw of the void : explosive dash + synergy (teleport + explosion)
 
 Worm tooth : teleport + synergy (teleport + explosion)
 
-Voidtouched scythe : void cull + disarmament + antigravity dash
+Voidtouched scythe : void cull + disarmament + antigravity dash + mining speed boost
 
-Voidtouched shovel : void cull + levitating concussion
+Voidtouched shovel : void cull + levitating concussion + mining speed boost
 
 Void fracture : triple magic hit
 
@@ -70,7 +70,7 @@ Cursed Cleaver : Slam enemies into the ground on hit + charge up a powerful leap
 
 Ice Dagger : Slowing beam
 
-Voidtouched Blade : random teleport + void cull
+Voidtouched Blade : random teleport + void cull + mining speed boost
 
 Starlight : Shoots no gravity magic arrows that summon meteors on hit that explode dealing large aoe damage and applying 0.5s ticks of mana poison to enemies, which makes them take damage every tick, applying large knockback etc.
 
