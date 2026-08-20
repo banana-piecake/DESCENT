@@ -42,6 +42,9 @@ Fracture
 
 Sculk Bomb
 
+Echo Boots
+
+Worm Tooth
 
 
 
