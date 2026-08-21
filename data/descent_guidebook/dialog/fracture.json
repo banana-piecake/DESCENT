@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Fracture",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Fracture is a powerful shortsword from the Terramity crossover, on attack it summons a magical slash infront of you, victims can only be hit at a range and on hit effects will only be applied."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Fracture ritual",
+          "minecraft:item_model": "guidebook:fracture"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}
