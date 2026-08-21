@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Starlight",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Starlight is a powerful gun that shoots no gravity magic bolts, upon landing a hit, a meteor will strike down, exploding for high damage and applying mana poison, which will damage victims 20 times per second for half a second. Requires knowledge to perform ritual."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Starlight ritual",
+          "minecraft:item_model": "guidebook:starlight"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}
