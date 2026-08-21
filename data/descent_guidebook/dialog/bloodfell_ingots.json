@@ -4,7 +4,7 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "Bloodfell ingots are the base material required for any Bloodfell ritual. They are unique, as their ritual requires a player in the middle at full health to finish."
+      "contents": "Bloodfell ingots are the base material required for any Bloodfell ritual. They are unique, as their ritual requires a player in the middle to finish, who will get damaged."
     },
     {
       "type": "minecraft:item",
