@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Void Ripper",
+  "external_title": "Void Ripper",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "The Void Ripper is a powerful worm deity who has the ability to charge, they deal contact damage and don't oneshot, they periodically summon 3 crystals that can be exploded by simply touching them, which deals damage to the boss."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:wings_of_the_seraph",
+    "descent_guidebook:void_fracture"
+  ]
+}
