@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Voidtouched Items",
+  "external_title": "Voidtouched Items",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Voidtouched weapons are an upgrade to netherite designed to make the end worth exploring, they deal 1 more damage, have the same effectiveness as efficiency 2 netherite, and come with a unique passive, Void Cull, every hit applies one stack of Void, after a short period of time these dissipate, however landing a hit restarts the timer, when a victim is struck whilst having 5 void stacks and being under 25% hp, they will take 999 damage. "
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:voidtouched_steel",
+    "descent_guidebook:voidtouched_blade",
+    "descent_guidebook:voidtouched_shovel",
+    "descent_guidebook:voidtouched_scythe"
+  ]
+}

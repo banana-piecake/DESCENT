@@ -4,5 +4,5 @@ execute store result score @s descent_voidtouched_health_ratio_check run scorebo
 execute if score @s descent_voidtouched_void_stacks matches 5.. if score @s descent_voidtouched_health_ratio_check matches ..250 run execute at @s run playsound angelic_descent:celestial_laser hostile @a[distance=0..16] ~ ~1 ~ 2 0.8
 execute if score @s descent_voidtouched_void_stacks matches 5.. if score @s descent_voidtouched_health_ratio_check matches ..250 run execute at @s run particle dust_color_transition{from_color:[0.443,0.071,1.000],to_color:[0.835,0.169,1.000],scale:4} ~ ~ ~ 0.4 1.6 0.4 0 50 normal
 execute if score @s descent_voidtouched_void_stacks matches 5.. if score @s descent_voidtouched_health_ratio_check matches ..250 run tag @s add descent_void_culled
-execute if score @s descent_voidtouched_void_stacks matches 5.. if score @s descent_voidtouched_health_ratio_check matches ..250 run execute at @s on attacker run damage @n[tag=descent_void_culled] 999 minecraft:magic
+execute if score @s descent_voidtouched_void_stacks matches 5.. if score @s descent_voidtouched_health_ratio_check matches ..250 run execute at @s on attacker run damage @n[tag=descent_void_culled] 999 angelic_descent:magic_bypass
 execute if score @s descent_voidtouched_void_stacks matches 5.. if score @s descent_voidtouched_health_ratio_check matches ..250 run tag @s remove descent_void_culled
