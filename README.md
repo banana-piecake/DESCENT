@@ -41,3 +41,5 @@ Theme of the Angel Being - [in the end of times](https://www.youtube.com/watch?v
 Theme of the Void Guardians - [EMPIRICAL EGO](https://www.youtube.com/watch?v=lq7_E9B-T7g) - [Rien](https://www.youtube.com/@Rien_Rei)
 
 Many sound effects originate from the game [Nullscape](https://www.roblox.com/games/129279692364812/Nullscape).
+
+The Fracture is part of a crossover with [Terramity](https://modrinth.com/mod/terramity).
