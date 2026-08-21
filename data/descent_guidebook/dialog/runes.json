@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Runes",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Runes are a new kind of enchantment, there can only be one per weapon and they apply to all items, with the item in the middle getting the rune, and can be rerolled, there are 30 of them and they each have unique effects. They require rune stones, which have a low chance to drop from undead mobs."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Rune ritual (the item in the middle can be anything)",
+          "minecraft:item_model": "guidebook:rune"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}
