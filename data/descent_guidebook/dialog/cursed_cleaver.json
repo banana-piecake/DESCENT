@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Cursed Cleaver",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Cursed Cleaver is a powerful sword that has the stats and abilities of a mace, landing a hit also slams victims to the ground, holding use allows you to charge up a powerful leap that launches all nearby entities into the air, holding for longer causes a bigger launch. Requires knowledge to perform ritual."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Cursed Cleaver ritual",
+          "minecraft:item_model": "guidebook:cursed_cleaver"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}

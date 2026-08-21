@@ -11,6 +11,7 @@
   "pause": false,
   "dialogs": [
     "descent_guidebook:maw_of_the_void",
-    "descent_guidebook:worm_tooth"
+    "descent_guidebook:worm_tooth",
+    "descent_guidebook:cursed_cleaver"
   ]
 }
