@@ -10,8 +10,10 @@
   "can_close_with_escape": true,
   "pause": false,
   "dialogs": [
+    "descent_guidebook:guidebook",
     "descent_guidebook:ice_dagger",
     "descent_guidebook:fracture",
-    "descent_guidebook:guidebook"
+    "descent_guidebook:sculk_bombs",
+    "descent_guidebook:echo_boots"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Echo Boots",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Echo Boots are a powerful mobility tool that allow you to run faster, climb walls with [JUMP], stick to walls with [SNEAK] and launch yourself with [JUMP] + [SNEAK] when on sculk."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Echo Boots ritual",
+          "minecraft:item_model": "guidebook:echo_boots"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}
