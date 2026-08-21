@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Soulbound",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Soulbound is a new kind of enchantment, it applies to all items, with the item in the middle getting the enchantment, after respawning, items on the ground enchanted with soulbound will return to the player after a long period of time."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Soulbound ritual (the item in the middle can be anything, and yes that is enchanted bloodfell)",
+          "minecraft:item_model": "guidebook:soulbound"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}

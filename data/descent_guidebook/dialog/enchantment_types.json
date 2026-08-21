@@ -11,6 +11,7 @@
   "pause": false,
   "dialogs": [
     "descent_guidebook:inherent",
-    "descent_guidebook:runes"
+    "descent_guidebook:runes",
+    "descent_guidebook:soulbound"
   ]
 }
