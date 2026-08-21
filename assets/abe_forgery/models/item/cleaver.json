@@ -1,0 +1,30 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "abe_forgery:item/cleaver"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [42.5, 90, 0],
+			"translation": [0.5, 12.25, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-42.5, 90, 0],
+			"translation": [0.5, 12.25, 2.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [38.25, 83, 0],
+			"translation": [13.75, 3.5, -10.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-38.25, 83, 0],
+			"translation": [13.75, 3.5, -10.25]
+		},
+		"head": {
+			"rotation": [-44, 90, -135],
+			"translation": [0.5, 10, -13]
+		}
+	}
+}

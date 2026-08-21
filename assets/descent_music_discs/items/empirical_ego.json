@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "descent_music_discs:item/empirical_ego"
+  },
+  "oversized_in_gui": true
+}

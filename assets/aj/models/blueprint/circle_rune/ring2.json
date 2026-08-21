@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"1": "aj:blueprint/circle_rune/circle_rune_1_png",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 9],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [0, 0, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [1, 0, 2, 16],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 0, 1, 16],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [0, 0, 16, 1],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [0, 1, 16, 2],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

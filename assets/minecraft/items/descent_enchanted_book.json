@@ -1,0 +1,176 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:stored_enchantments",
+    "cases": [
+      {
+        "when": {
+          "descent_creative_menu:bloodfell_cleaver": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/bloodfell_cleaver"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:bloodfell_cleaver_hellforged": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/bloodfell_cleaver"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:bloodfell_cleaver_softener": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/bloodfell_cleaver"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:bloodfell_cleaver_withertouched": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/bloodfell_cleaver"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:bloodfell_ingot": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/bloodfell_ingot"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:bloodfell_longsword": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/bloodfell_longsword"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:bloodfell_scythe": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/scythe"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:enchanted_bloodfell_ingot": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/bloodfell_ingot"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:maw_of_the_void": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/maw_of_the_void"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:plan_f": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/totem"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:starlight": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "starlight:item/starlight"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:worm_tooth": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/worm_tooth"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:cursed_cleaver": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "abe_forgery:item/cleaver"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:fiendtide": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/fiendtide"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:pact_from_below": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "scythe:item/pact_from_below"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:guidebook": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "angelic_descent:descent_guidebook"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:void_fracture": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "angelic_descent:void_fracture"
+        }
+      },
+      {
+        "when": {
+          "descent_creative_menu:ice_dagger": 1
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "angelic_descent:ice_dagger"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/enchanted_book"
+    }
+  },
+  "oversized_in_gui": true
+}

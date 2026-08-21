@@ -1,0 +1,76 @@
+{
+  "subspace_beep": {
+    "sounds": [
+      {
+        "name": "angelic_descent:subspace_beep",
+        "stream": true
+      }
+    ],
+    "subtitle": "Subspace Dash"
+  },
+  "subspace_explode": {
+    "sounds": [
+      {
+        "name": "angelic_descent:subspace_explode",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "Subspace Explosion"
+  },
+  "laser_shoot": {
+    "sounds": [
+      {
+        "name": "angelic_descent:celestial_fire1",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "Magic Bolt Shot"
+  },
+  "teleport": {
+    "sounds": [
+      {
+        "name": "angelic_descent:teleport",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "Entity Teleported"
+  },
+  "music_disc.in_the_end_of_times": {
+    "sounds": [
+      {
+        "name": "angelic_descent:in_the_end_of_times",
+        "stream": true,
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "Boss theme"
+  },
+  "music_disc.last_fantasy_for_a_meteorque_world": {
+    "sounds": [
+      {
+        "name": "angelic_descent:last_fantasy_for_a_meteorque_world",
+        "stream": true,
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "Last Fantasy for a meteorque World - Xeolt"
+  },
+  "fire_woosh": {
+    "sounds": [
+      "angelic_descent:fire_woosh"
+    ],
+    "subtitle": "Homing Bolt Summon"
+  },
+  "celestial_laser": {
+    "sounds": [
+      "angelic_descent:celestial_laser"
+    ],
+    "subtitle": "Laser Fire"
+  },
+  "music_disc.empirical_ego": {
+    "sounds": [
+      "angelic_descent:empircal_ego"
+    ],
+    "subtitle": "Empirical Ego - Rien"
+  }
+}

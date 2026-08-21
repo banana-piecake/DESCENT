@@ -1,0 +1,86 @@
+{
+	"textures": {
+		"0": "aj:blueprint/angel_being/bricks",
+		"1": "aj:blueprint/angel_being/eye_sigil_1_png",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5.9, 6.2, 7.1],
+			"to": [29.9, 30.2, 7.4],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [5.9, 6.2, 7.1]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [3, 0, 4, 16],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 0, 1, 16],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [0, 0, 16, 1],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [0, 3, 16, 4],
+					"texture": "#1"
+				}
+			}
+		},
+		{
+			"from": [8.3, 8.3, 8.3],
+			"to": [27.5, 27.5, 27.5],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [8.3, 8.3, 8.3]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

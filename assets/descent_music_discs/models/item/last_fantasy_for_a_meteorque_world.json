@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "descent_music_discs:item/last_fantasy_for_a_meteorque_world"
+  }
+}
