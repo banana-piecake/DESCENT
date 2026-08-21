@@ -12,8 +12,9 @@
     "descent_guidebook:rituals",
     "descent_guidebook:general_items",
     "descent_guidebook:enchantment_types",
-    "descent_guidebook:minibosses",
     "descent_guidebook:transmutation_rituals",
+    "descent_guidebook:minibosses",
+    "descent_guidebook:acts",
     "descent_guidebook:bloodfell_items",
     "descent_guidebook:voidtouched_items"
   ]

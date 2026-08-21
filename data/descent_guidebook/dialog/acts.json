@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Acts",
+  "external_title": "Acts",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Majority of the boss content in D E S C E N T will be split up into acts, which will each feature a handful of bosses and a custom combat system."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:guidebook"
+  ]
+}
