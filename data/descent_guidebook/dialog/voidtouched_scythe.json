@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:notice",
+  "title": "Voidtouched Scythe",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Voidtouched Scythe is a powerful scythe with some small stat increases, the ability to block attacks, a powerful antigravity dash, and a chance to disable an enemy's offhand for a few seconds on hit."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Voidtouched Scythe ritual",
+          "minecraft:item_model": "guidebook:voidtouched_scythe"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "pause": false
+}

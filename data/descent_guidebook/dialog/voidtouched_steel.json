@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:notice",
+  "title": "Voidtouched Steel",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Voidtouched Steel ingots are the base material required for any Voidtouched ritual."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Voidtouched Steel ritual",
+          "minecraft:item_model": "guidebook:voidtouched_steel"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "pause": false
+}
