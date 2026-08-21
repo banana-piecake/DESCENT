@@ -4,13 +4,15 @@
   "external_title": "ACT 1 // VOIDSHATTER",
   "body": {
     "type": "minecraft:plain_message",
-    "contents": "Act 1 takes place inside the void, a custom dimension acsessed via rifts.."
+    "contents": "Act 1 takes place inside the void, a custom dimension acsessed via rifts."
   },
   "inputs": [],
   "can_close_with_escape": true,
   "pause": false,
   "dialogs": [
     "descent_guidebook:rifts",
-    "descent_guidebook:the_void"
+    "descent_guidebook:the_void",
+    "descent_guidebook:act_1_music_discs",
+    "descent_guidebook:act_1_bosses"
   ]
 }

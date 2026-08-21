@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Bosses",
+  "external_title": "Bosses",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Act 1 features two powerful and contrasting bosses, as well as one challenge fight, each boss is summoned with the respective items given upon entering the void, and award knowledge and sometimes music discs upon defeat, as well as an advancement."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:angel_being"
+  ]
+}

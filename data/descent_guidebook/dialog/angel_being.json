@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Angel Being",
+  "external_title": "Angel Being",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "The Angel Being is an incredibly powerful bullet hell boss that oneshots with all attacks, they periodically summon crystals that must be hit with [ATTACK] to deal damage."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:void_fracture"
+  ]
+}

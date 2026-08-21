@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:notice",
+  "title": "Music Discs",
+  "external_title": "Music Discs",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Each boss has a low chance to drop their respective music discs, credits are as follows :"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Void Ripper : Last Fantasy for a Meteorque World -  Xeolt"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Angel Being : In the End of Times - Oryps"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Void Guardians : Empirical Ego - Rien"
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false
+}
