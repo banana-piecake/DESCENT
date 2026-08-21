@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Voidtouched Shovel",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Voidtouched Shovel is a decently powerful shovel which has a random chance to levitate victims on hit."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Voidtouched Shovel ritual",
+          "minecraft:item_model": "guidebook:voidtouched_shovel"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}
