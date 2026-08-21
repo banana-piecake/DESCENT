@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:notice",
+  "title": "Inherent",
+  "external_title": "Inherent",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Inherent enchantements are enchantments exclusive to certain weapons, they are exclusive and cannot be grindstoned."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false
+}
