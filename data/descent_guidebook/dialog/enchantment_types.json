@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Enchantment Types",
+  "external_title": "Enchantment Types",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "There are several new types of enchantments in D E S C E N T, they each have a custom colour."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:runes"
+  ]
+}
