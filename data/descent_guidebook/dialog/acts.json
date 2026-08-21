@@ -10,6 +10,6 @@
   "can_close_with_escape": true,
   "pause": false,
   "dialogs": [
-    "descent_guidebook:guidebook"
+    "descent_guidebook:act_1"
   ]
 }

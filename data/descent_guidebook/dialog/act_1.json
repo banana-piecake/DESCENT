@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "ACT 1 // VOIDSHATTER",
+  "external_title": "ACT 1 // VOIDSHATTER",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Act 1 takes place inside the void, a custom dimension acsessed via rifts.."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:act_1"
+  ]
+}
