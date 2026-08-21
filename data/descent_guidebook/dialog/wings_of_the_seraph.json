@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Wings of the Seraph",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Wings of the Seraph are a powerful mobilty item that allow you to temporary remove gravity by holding [SPRINT]. Requires knowledge to perform ritual."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Wings of the Seraph ritual",
+          "minecraft:item_model": "guidebook:wings_of_the_seraph"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}
