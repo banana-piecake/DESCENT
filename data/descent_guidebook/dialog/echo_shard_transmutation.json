@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Echo Shard Transmutation",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Transmutes amethyst shards into echo shards."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Echo Shard ritual",
+          "minecraft:item_model": "guidebook:echo_shard"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}
