@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:notice",
+  "title": "D E S C E N T Guidebook",
+  "external_title": "D E S C E N T Guidebook",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "The guidebook is an essential tool that contains all the information you need. The recipe is in your recipe book."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false
+}

@@ -11,6 +11,7 @@
   "pause": false,
   "dialogs": [
     "descent_guidebook:ice_dagger",
-    "descent_guidebook:fracture"
+    "descent_guidebook:fracture",
+    "descent_guidebook:guidebook"
   ]
 }
