@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:notice",
+  "title": "The Void",
+  "external_title": "The Void",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "The Void is a new dimension accessed via rifts. In this dimension you have no gravity and reduced air drag, pressing [SPRINT] allows you to dash, whilst pressing [BACKWARDS] + [SPRINT] allows you to backdash."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false
+}

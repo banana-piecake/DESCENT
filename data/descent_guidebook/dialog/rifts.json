@@ -4,7 +4,7 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "Rifts are a portal to the void, to enter them you must have no items in your inventory, throwing an ender eye will close them. If there is no active boss in the void, a rift will open that will take you back to (0,0) in the overworld.."
+      "contents": "Rifts are a portal to the void, to enter them you must have no items in your inventory, throwing an ender eye will close them. If there is no active boss in the void, a rift will open that will take you back to (0,0) in the overworld."
     },
     {
       "type": "minecraft:item",
