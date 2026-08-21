@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "General Items",
+  "external_title": "General Items",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Not all items in D E S C E N T are linked to a certain item tier, certain items are more general and can be obtained to aid with your playstyle."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:ice_dagger",
+    "descent_guidebook:fracture"
+  ]
+}

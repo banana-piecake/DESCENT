@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:notice",
+  "title": "Ice Dagger",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Ice Dagger is an early game shortsword that shoots out a beam of ice that explodes on hit, slowing down all entities nearby."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Ice Dagger ritual (it's ice and packed ice)",
+          "minecraft:item_model": "guidebook:ice_dagger"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false
+}
