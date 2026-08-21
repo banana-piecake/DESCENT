@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Void Guardians",
+  "external_title": "Void Guardians",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "The Void Guardians are an incredibly difficult challenge fight where you have to fight both the Void Ripper and Angel Being at the same time, both crystals will damage a shared healthbar."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "dialogs": [
+    "descent_guidebook:starlight"
+  ]
+}

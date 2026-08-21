@@ -11,6 +11,7 @@
   "pause": false,
   "dialogs": [
     "descent_guidebook:void_ripper",
-    "descent_guidebook:angel_being"
+    "descent_guidebook:angel_being",
+    "descent_guidebook:void_guardians"
   ]
 }
