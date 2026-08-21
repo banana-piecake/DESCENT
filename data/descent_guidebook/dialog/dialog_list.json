@@ -2,6 +2,10 @@
   "type": "minecraft:dialog_list",
   "title": "D E S C E N T",
   "external_title": "GUIDE TO DESCENT",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "D E S C E N T can seem a bit complex and overwhelming at times, it's recommended you read through the guide to learn the content."
+  },
   "inputs": [],
   "pause": false,
   "dialogs": [
