@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:notice",
+  "type": "minecraft:dialog_list",
   "title": "Runes",
   "body": [
     {
@@ -20,5 +20,6 @@
     }
   ],
   "inputs": [],
-  "pause": false
+  "pause": false,
+  "dialogs": "descent_guidebook:rune_duplication"
 }
