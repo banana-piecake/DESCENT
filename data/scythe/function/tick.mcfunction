@@ -144,6 +144,10 @@ execute as @e[scores={descent_voidtouched_void_stack_timer=0}] run scoreboard pl
 #void fracture
 scoreboard players remove @e[scores={descent_void_fracture_timer=0..}] descent_void_fracture_timer 1
 
+#rune spew
+execute at @e[scores={descent_rune_spew_timer=1..}] run summon item ~ ~ ~ {Motion:[0.0,1.0,0.0],Item:{id:"minecraft:coal",count:1,components:{"minecraft:item_model":"scythe:rune_stone","minecraft:item_name":"Rune Stone","minecraft:custom_data":{descent:"rune_stone"}}}}
+scoreboard players remove @e[scores={descent_rune_spew_timer=1..}] descent_rune_spew_timer 1
+
 #optimisation
 scoreboard players remove @e[scores={descent_entity_remove_timer=1..}] descent_entity_remove_timer 1
 kill @e[scores={descent_entity_remove_timer=..1}]
