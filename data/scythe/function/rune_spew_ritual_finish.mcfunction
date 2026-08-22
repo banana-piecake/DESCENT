@@ -18,4 +18,3 @@ execute at @s run execute positioned ~3 ~ ~ run kill @n[type=item,tag=ritual]
 execute at @s run execute positioned ~-3 ~ ~ run kill @n[type=item,tag=ritual]
 execute at @s run execute positioned ~ ~ ~-3 run kill @n[type=item,tag=ritual]
 execute at @s run execute positioned ~ ~ ~3 run kill @n[type=item,tag=ritual]
-kill @s
