@@ -1,146 +1,47 @@
-don't really have a readme atm so here's a list of current content
+D E S C E N T is downloadable on modrinth, please download it here : https://modrinth.com/datapack/d-e-s-c-e-n-t
 
-D E S C E N T features - 
-Ritual system, items can be displayed on pedestals and used to perform rituals
+![title card](https://cdn.modrinth.com/data/cached_images/16bb9f274d30e1d3dac51cf5f09859fae5ea0b34.png)
 
-Rituals :
-Echo shard
+## DISCLAIMERS :
+>- For datapack users, please also install the datapack as a resource pack in order for all the textures and sounds to work.
+>- D E S C E N T is a work in progress, certain content may be unfinished or buggy.
+>- D E S C E N T is very difficult, do not be discouraged.
 
-Bloodfell ingot
+## The beginning of the end...
 
-Enchanted bloodfell ingot
+D E S C E N T is a datapack focused on making bosses actually difficult by forcing you to play their way. Bosses in D E S C E N T feature a custom combat system and a lack of the ability to bring your own gear, forcing you to rely on pure skill.
 
-Bloodfell scythe
+---
 
-Bloodfell cleaver
+## Runes and rituals...
 
-Hellforged
+A key feature of D E S C E N T is the custom ritual system, which allows for more complex recipes, this is key as majority of the crafts rely on this system. For example, the rune ritual, which applies a random modifier to the weapon.
 
-Withertouched
+---
 
-Softener
+## A deadly arsenal...
 
-Plan F
+Whilst bosses may be gearless, there certainly isn't a lack of it. D E S C E N T features a wide arsenal of weapons with unique passives and abilities, mix and match to find your perfect playstyle.
 
-Voidtouched Steel
+---
 
-Voidtouched Harvester
+## And of course, there's more...
 
-Soulbound
+Minibosses, music discs and even more mayhem awaits within this datapack!
 
-Rune Ritual
+---
 
-Rift Ritual
+## Credits :
+Coding, models, textures, ideas - Subzeroditto (ofc)
 
-Voidtouched Blade
+Music Credits : 
 
-Voidtouched Shovel
+Theme of the Void Ripper - [ last fantasy for a meteorque world](https://www.youtube.com/watch?v=ivs1Zwq1LAo) - [Xeolt](https://www.youtube.com/@Xeolt0)
 
-Ice Dagger
+Theme of the Angel Being - [in the end of times](https://www.youtube.com/watch?v=97oT-MOQYfU) - [Oryps](https://www.youtube.com/@oryps-music)
 
-Fracture
+Theme of the Void Guardians - [EMPIRICAL EGO](https://www.youtube.com/watch?v=lq7_E9B-T7g) - [Rien](https://www.youtube.com/@Rien_Rei)
 
-Sculk Bomb
+Many sound effects originate from the game [Nullscape](https://www.roblox.com/games/129279692364812/Nullscape).
 
-Echo Boots
-
-Worm Tooth
-
-Maw of the Void
-
-Cursed Cleaver
-
-Void Fracture
-
-Starlight
-
-Wings of the Seraph
-
-Weapons :
-Bloodfell scythe - double dash + disarmament + pain = power 
-
-Bloodfell longsword - gravity pull + pain = power 
-
-Bloodfell cleaver - bleed stacks (+burn : hellforged | +wither : withertouched | +slowness and weakness : softener) + pain = power 
-
-Maw of the void : explosive dash + synergy (teleport + explosion)
-
-Worm tooth : teleport + synergy (teleport + explosion)
-
-Voidtouched scythe : void cull + disarmament + antigravity dash + mining speed boost
-
-Voidtouched shovel : void cull + levitating concussion + mining speed boost
-
-Void fracture : triple magic hit
-
-Fiendtide : magic spike attack
-
-Fracture (from terramity 1.0) : rather than a regular melee, you can perform a mid ranged magical slash
-
-Cursed Cleaver : Slam enemies into the ground on hit + charge up a powerful leap
-
-Ice Dagger : Slowing beam
-
-Voidtouched Blade : random teleport + void cull + mining speed boost
-
-Starlight : Shoots no gravity magic arrows that summon meteors on hit that explode dealing large aoe damage and applying 0.5s ticks of mana poison to enemies, which makes them take damage every tick, applying large knockback etc.
-
-
-Runes + other enchantments :
-
-Around 30 runes, some are more complex, some are just stats
-
-Soulbound - gives back after death with a decent delay.
-
-
-Bosses / Minibosses :
-
-Angel being - shoots many projectiles, oneshots, lasers, homing, teleports
-
-Void ripper - big worm, pretty smooth, charge attack, juke mechanic
-
-Void guardians - both at once
-
-^^^above 3 have custom combat system
-
-Lil fiend = magic spike patterns, around 4-5(?) from memory
-
-Items :
-
-Music discs for all three boss fights
-
-Wings of the Seraph : temporary flight
-
-Pact from Below - summons lil'fiend
-
-Plan f - totem, when in zone gain massive heals, when out take damage
-
-descent guidebok - opens up gui / guide
-
-Bloodfell ingots / enchanted bloodfell ingots - used for rituals
-
-Subspace boots : used only in the void for the custom combat system
-
-Void Essence : summons void ripper
-
-Rusted Halo : summons angel being
-
-Sigil of the Guardians : summons the void guardians
-
-Sculk Cling - allows you to cling to sculk, go faster on it, climb, and lunge
-
-Sculk Grenades - explode into a burst of sculk
-
-Voidtouched Steel - used for rituals (mostly upcoming)
-
-Rune Stones - used to perform rune rituals, allowing you to roll random modifiers
-
-Rifts and other : 
-Rifts - entering a rift sends you to the void as long as you're inventory is empty, throwing an ender eye at them will close them
-
-Upcoming/wip features :
-
-Finish guidebook dialogs
-
-Bundle resource pack
-
+The Fracture is part of a crossover with [Terramity](https://modrinth.com/mod/terramity).
