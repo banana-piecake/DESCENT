@@ -1,3 +1,5 @@
+D E S C E N T is downloadable on modrinth, please download it here : https://modrinth.com/datapack/d-e-s-c-e-n-t
+
 ![title card](https://cdn.modrinth.com/data/cached_images/16bb9f274d30e1d3dac51cf5f09859fae5ea0b34.png)
 
 ## DISCLAIMERS :
