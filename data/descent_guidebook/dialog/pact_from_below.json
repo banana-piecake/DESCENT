@@ -23,5 +23,12 @@
   "inputs": [],
   "can_close_with_escape": true,
   "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:minibosses"
+    }
+  },
   "dialogs": "descent_guidebook:fiendtide"
 }

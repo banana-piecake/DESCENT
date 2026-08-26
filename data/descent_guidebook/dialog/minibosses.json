@@ -8,6 +8,13 @@
     }
   ],
   "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:dialog_list"
+    }
+  },
   "dialogs": [
     "descent_guidebook:pact_from_below"
   ]

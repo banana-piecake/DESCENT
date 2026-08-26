@@ -8,5 +8,12 @@
   },
   "inputs": [],
   "can_close_with_escape": true,
-  "pause": false
+  "pause": false,
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:dialog_list"
+    }
+  }
 }
