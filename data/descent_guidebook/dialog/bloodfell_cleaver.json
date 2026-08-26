@@ -20,6 +20,13 @@
     }
   ],
   "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:bloodfell_items"
+    }
+  },
   "dialogs": [
     "descent_guidebook:softener",
     "descent_guidebook:hellforged",

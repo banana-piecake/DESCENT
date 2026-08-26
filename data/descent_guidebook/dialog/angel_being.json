@@ -9,6 +9,13 @@
   "inputs": [],
   "can_close_with_escape": true,
   "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:act_1_bosses"
+    }
+  },
   "dialogs": [
     "descent_guidebook:wings_of_the_seraph",
     "descent_guidebook:void_fracture"
