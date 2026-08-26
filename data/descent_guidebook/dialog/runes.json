@@ -21,5 +21,12 @@
   ],
   "inputs": [],
   "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:enchantment_types"
+    }
+  },
   "dialogs": "descent_guidebook:rune_duplication"
 }
