@@ -6,6 +6,7 @@ execute at @s run summon ominous_item_spawner ~ ~ ~ {spawn_item_after_ticks:40,i
 execute at @s run summon leash_knot ~ ~ ~ {Tags:["ritualise"]}
 execute at @s run tp @n[type=ominous_item_spawner] @n[tag=ritualise]
 kill @e[tag=ritualise]
+execute at @s run function angelic_descent:weapons/ritual_extra_vfx
 execute at @s run particle glow ~ ~ ~ 1 1 1 0.2 50 normal
 execute at @s run particle enchant ~ ~ ~ 1 1 1 0.2 50 normal
 execute at @s run particle enchanted_hit ~ ~ ~ 1 1 1 0.2 50 normal
