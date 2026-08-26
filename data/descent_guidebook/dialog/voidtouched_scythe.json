@@ -1,17 +1,17 @@
 {
   "type": "minecraft:notice",
-  "title": "Voidtouched Scythe",
+  "title": "Voidtouched Harvester",
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "The Voidtouched Scythe is a powerful scythe with some small stat increases, the ability to block attacks, a powerful antigravity dash, and a chance to disable an enemy's offhand for a few seconds on hit."
+      "contents": "The Voidtouched Harvester is a powerful scythe with some small stat increases, the ability to block attacks, a powerful antigravity dash, and a chance to disable an enemy's offhand for a few seconds on hit."
     },
     {
       "type": "minecraft:item",
       "item": {
         "id": "minecraft:iron_ingot",
         "components": {
-          "minecraft:item_name": "Voidtouched Scythe ritual",
+          "minecraft:item_name": "Voidtouched Harvester ritual",
           "minecraft:item_model": "guidebook:voidtouched_scythe"
         }
       },
@@ -19,5 +19,12 @@
       "height": 112
     }
   ],
-  "pause": false
+  "pause": false,
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:voidtouched_items"
+    }
+  }
 }

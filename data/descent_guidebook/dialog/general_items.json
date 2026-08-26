@@ -8,7 +8,8 @@
   },
   "inputs": [],
   "can_close_with_escape": true,
-  "pause": false,  "exit_action": {
+  "pause": false,
+  "exit_action": {
   "label": "Back",
   "action": {
     "type": "minecraft:show_dialog",
