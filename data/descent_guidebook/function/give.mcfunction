@@ -1,2 +1,2 @@
-give @s minecraft:book[minecraft:item_name="D E S C E N T Guidebook",minecraft:item_model="angelic_descent:descent_guidebook",minecraft:max_stack_size=2,minecraft:consumable={consume_seconds:1,animation:"spyglass"},minecraft:custom_data={descent:"guidebook"}]
+give @s book[item_name="D E S C E N T Guidebook",item_model="angelic_descent:descent_guidebook",max_stack_size=2,consumable={consume_seconds:0.2,animation:"spyglass",has_consume_particles:false},custom_data={descent:"guidebook"}] 1
 recipe give @s descent_guidebook:descent_guidebook
