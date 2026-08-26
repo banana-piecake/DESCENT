@@ -8,7 +8,13 @@
   },
   "inputs": [],
   "can_close_with_escape": true,
-  "pause": false,
+  "pause": false,  "exit_action": {
+  "label": "Back",
+  "action": {
+    "type": "minecraft:show_dialog",
+    "dialog": "descent_guidebook:dialog_list"
+  }
+},
   "dialogs": [
     "descent_guidebook:guidebook",
     "descent_guidebook:ice_dagger",
