@@ -20,5 +20,12 @@
     }
   ],
   "inputs": [],
-  "pause": false
+  "pause": false,
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:act_1"
+    }
+  }
 }
