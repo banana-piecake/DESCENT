@@ -1,0 +1,17 @@
+{
+  "providers": [
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "bitmap",
+      "file": "scythe:font/bloom.png",
+      "height": 32,
+      "ascent": 8,
+      "chars": [
+        "12345"
+      ]
+    }
+  ]
+}
