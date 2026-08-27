@@ -153,3 +153,7 @@ scoreboard players remove @e[scores={descent_rune_spew_timer=1..}] descent_rune_
 #optimisation
 scoreboard players remove @e[scores={descent_entity_remove_timer=1..}] descent_entity_remove_timer 1
 kill @e[scores={descent_entity_remove_timer=..1}]
+
+
+#bloom
+scoreboard players remove @e[scores={descent_bloom_amount=1..}] descent_bloom_amount 1
