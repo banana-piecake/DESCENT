@@ -1,0 +1,2 @@
+execute unless score @s descent_wilted_bloom matches 1 run function scythe:bloom/bloom_non_wilted_display
+execute if score @s descent_wilted_bloom matches 1 run title @s actionbar "Wilted"
