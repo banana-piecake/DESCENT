@@ -157,3 +157,5 @@ kill @e[scores={descent_entity_remove_timer=..1}]
 
 #bloom
 scoreboard players remove @e[scores={descent_bloom_amount=1..}] descent_bloom_amount 1
+scoreboard players set @e[scores={descent_bloom_amount=300..}] descent_wilted_bloom 1
+scoreboard players set @e[scores={descent_bloom_amount=..0}] descent_wilted_bloom 0
