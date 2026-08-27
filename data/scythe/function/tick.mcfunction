@@ -157,5 +157,8 @@ kill @e[scores={descent_entity_remove_timer=..1}]
 
 #bloom
 scoreboard players remove @e[scores={descent_bloom_amount=1..}] descent_bloom_amount 1
+execute at @e[scores={descent_bloom_amount=220..,descent_wilted_bloom=0}] run particle tinted_leaves{color:[0.122,0.471,0.600,1.0]} ~ ~1 ~ 0.3 0.3 0.3 0.03 6 normal
+execute at @e[scores={descent_bloom_amount=220..,descent_wilted_bloom=0}] run particle tinted_leaves{color:[0.114,0.769,0.749,1.0]} ~ ~1 ~ 0.3 0.3 0.3 0.03 6 normal
+execute at @e[scores={descent_bloom_amount=220..,descent_wilted_bloom=0}] run playsound minecraft:block.glass.break hostile @a[distance=0..24] ~ ~1 ~ 1.2 0.6
 scoreboard players set @e[scores={descent_bloom_amount=220..}] descent_wilted_bloom 1
 scoreboard players set @e[scores={descent_bloom_amount=..0}] descent_wilted_bloom 0
