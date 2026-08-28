@@ -1,1 +1,1 @@
-execute at @s run damage @s 4 minecraft:on_fire
+execute at @s run damage @s 5 minecraft:on_fire
