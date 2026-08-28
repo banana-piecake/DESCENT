@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "scythe": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "descent": "kindling"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "scythe"
+    ]
+  ],
+  "rewards": {
+    "function": "scythe:bloom/bloom_weapons/kindling/wilted_check"
+  }
+}
