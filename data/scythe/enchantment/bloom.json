@@ -17,7 +17,8 @@
   },
   "anvil_cost": 0,
   "slots": [
-    "mainhand"
+    "mainhand",
+    "offhand"
   ],
   "effects": {
     "minecraft:tick": [
