@@ -38,3 +38,5 @@ scoreboard objectives add descent_rune_spew_timer dummy
 
 scoreboard objectives add descent_bloom_amount dummy
 scoreboard objectives add descent_wilted_bloom dummy
+
+scoreboard objectives add descent_kindling_active_timer dummy

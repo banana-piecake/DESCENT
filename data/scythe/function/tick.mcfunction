@@ -162,3 +162,7 @@ execute at @e[scores={descent_bloom_amount=220..,descent_wilted_bloom=0}] run pa
 execute at @e[scores={descent_bloom_amount=220..,descent_wilted_bloom=0}] run playsound minecraft:block.glass.break hostile @a[distance=0..24] ~ ~1 ~ 1.2 0.6
 scoreboard players set @e[scores={descent_bloom_amount=220..}] descent_wilted_bloom 1
 scoreboard players set @e[scores={descent_bloom_amount=..0}] descent_wilted_bloom 0
+
+
+#bloom weapons
+scoreboard players remove @e[scores={descent_kindling_active_timer=1..}] descent_kindling_active_timer 1
