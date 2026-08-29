@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "check": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "scythe:bloom/bloom_id_roll"
+  }
+}
