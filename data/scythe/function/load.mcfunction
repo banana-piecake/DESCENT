@@ -43,5 +43,4 @@ scoreboard objectives add descent_kindling_active_timer dummy
 
 scoreboard objectives add descent_magic_card_timer dummy
 
-
 scoreboard objectives add descent_bloom_id dummy
