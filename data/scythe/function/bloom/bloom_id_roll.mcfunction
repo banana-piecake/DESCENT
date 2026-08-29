@@ -1,1 +1,1 @@
-execute store result score @s descent_bloom_id run random value 1..1000000000
+execute store result score @s descent_bloom_id run random value 1..10000000
