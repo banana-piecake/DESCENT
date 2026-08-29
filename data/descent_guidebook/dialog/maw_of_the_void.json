@@ -4,7 +4,7 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "The Maw of the Void is a powerful longsword that performs a horizontal charge on use whilst grounded, or a long dash on use whilst in the air, if you hit an entity during the dash you perform a damageless explosion which recharges your dash cooldown. Requires knowledge to perform ritual."
+      "contents": "The Maw of the Void is a powerful longsword that performs a horizontal charge on use whilst grounded, or a long dash on use whilst in the air, if you hit an entity during the dash you perform a damageless explosion which recharges your dash cooldown. Requires knowledge to perform ritual. Requires full charge to swing."
     },
     {
       "type": "minecraft:item",
