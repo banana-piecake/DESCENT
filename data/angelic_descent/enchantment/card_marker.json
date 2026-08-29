@@ -28,18 +28,8 @@
           }
         },
         "effect": {
-          "type": "minecraft:apply_impulse",
-          "direction": [
-            0,
-            0,
-            1
-          ],
-          "coordinate_scale": [
-            1,
-            1,
-            1
-          ],
-          "magnitude": 0.3
+          "type": "minecraft:run_function",
+          "function": "scythe:bloom/bloom_weapons/magician_deck/card_functions/card_travel"
         }
       },
       {
@@ -49,7 +39,7 @@
           "scores": {
             "descent_magic_card_timer": {
               "min": 13,
-              "max": 33
+              "max": 73
             }
           }
         },
@@ -64,7 +54,7 @@
           "entity": "this",
           "scores": {
             "descent_magic_card_timer": {
-              "min": 34
+              "min": 74
             }
           }
         },
