@@ -1,1 +1,1 @@
-execute at @s run tp @s ^ ^ ^0.3
+execute at @s run tp @s ^ ^ ^0.45
