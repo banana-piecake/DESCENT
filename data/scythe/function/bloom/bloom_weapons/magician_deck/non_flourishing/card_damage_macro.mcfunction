@@ -1,1 +1,1 @@
-$execute at @s run damage @n[nbt={Brain:{}},tag=!bloom_id_$(bloom_id),distance=0..1.25] 6 magic
+$execute at @s run damage @n[nbt={Brain:{}},tag=!bloom_id_$(bloom_id),distance=0..1.25] 6 magic by @p[tag=$bloom_id_(bloom_id)]
