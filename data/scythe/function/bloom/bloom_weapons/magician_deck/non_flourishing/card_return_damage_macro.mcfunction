@@ -1,1 +1,0 @@
-$execute at @s run damage @n[nbt={Brain:{}},tag=!bloom_id_$(bloom_id),distance=0..0.6] 2 magic

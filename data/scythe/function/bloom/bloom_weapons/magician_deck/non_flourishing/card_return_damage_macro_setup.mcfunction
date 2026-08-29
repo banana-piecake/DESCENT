@@ -1,2 +1,0 @@
-execute store result storage descent:card_damage_bloom_id bloom_id float 1 run scoreboard players get @s descent_bloom_id
-execute as @s at @s run function scythe:bloom/bloom_weapons/magician_deck/non_flourishing/card_return_damage_macro with storage descent:card_damage_bloom_id
