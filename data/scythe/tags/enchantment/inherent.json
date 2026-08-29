@@ -25,6 +25,7 @@
     "scythe:end_aspect",
     "scythe:animosity",
     "scythe:bloom",
-    "scythe:bloom_weapons/magical_attunement"
+    "scythe:bloom_weapons/magical_attunement",
+    "scythe:bloom_weapons/ember_infused"
   ]
 }
