@@ -18,6 +18,7 @@
 },
   "dialogs": [
     "descent_guidebook:guidebook",
+    "descent_guidebook:wooden_wand",
     "descent_guidebook:ice_dagger",
     "descent_guidebook:fracture",
     "descent_guidebook:sculk_bombs",

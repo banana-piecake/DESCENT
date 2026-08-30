@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "title": "Wooden Wand",
+  "external_title": "Wooden Wand",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Crafted with two sticks, the wooden wand is the earliest bloom weapon one could obtain, it creates a small magic spark in front of the user, when flourishing it creates 3 sets of sparks that deal higher damage at a longer range."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:general_items"
+    }
+  }
+}
