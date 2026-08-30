@@ -50,6 +50,10 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:tnt",count:1}}] at @e[type=item
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:diamond_boots",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:diamond_boots",count:1}}] run function scythe:echo_boots_ritual
 
+execute as @e[type=item,nbt={Item:{id:"minecraft:blaze_rod",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:blaze_rod",count:1}}] run function scythe:kindling_ritual
+
+execute as @e[type=item,nbt={Item:{id:"minecraft:book",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:book",count:1}}] run function scythe:magician_deck_ritual
+
 execute as @e[type=item,nbt={Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{descent:"guidebook"}}}}] at @e[type=item,nbt={Item:{id:"minecraft:book",count:1,components:{"minecraft:custom_data":{descent:"guidebook"}}}}] run function angelic_descent:the_void/rift_ritual
 
 execute as @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_data":{descent:"rune_stone"}}}}] at @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:coal",count:1,components:{"minecraft:custom_data":{descent:"rune_stone"}}}}] run function scythe:rune_spew_ritual
