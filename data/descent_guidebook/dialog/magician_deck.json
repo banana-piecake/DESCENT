@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:notice",
+  "title": "Magician's Deck",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Magician's Deck is a powerful endgame bloom weapon that shoots out cards that can travel through walls, afterwards they spin for a short period of time, dealing constant damage, and then return to their owner, when flourishing one rather shoots out 4 lower damage cards that ignore immunity frames in a shotgun-styled burst pattern."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Magician's Deck ritual",
+          "minecraft:item_model": "guidebook:magician_deck"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false,
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:general_items"
+    }
+  }
+}
