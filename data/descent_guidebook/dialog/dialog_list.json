@@ -11,6 +11,7 @@
   "dialogs": [
     "descent_guidebook:rituals",
     "descent_guidebook:general_items",
+    "descent_guidebook:bloom",
     "descent_guidebook:enchantment_types",
     "descent_guidebook:transmutation_rituals",
     "descent_guidebook:minibosses",
