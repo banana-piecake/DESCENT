@@ -39,6 +39,7 @@
           "id": "descent:wooden_wand_fire_rate",
           "amount": -1.76,
           "operation": "add_value",
+          "slot": "mainhand",
           "display": {
             "type": "hidden"
           }
