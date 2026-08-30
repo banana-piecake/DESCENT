@@ -47,7 +47,14 @@
       "minecraft:enchantments": {
         "scythe:bloom": 1,
         "scythe:bloom_weapons/magical_attunement": 1
-      }
+      },
+      "minecraft:lore": [
+        {
+          "text": "Flourishing Boon : Trifecta Strike",
+          "color": "#BDFFF8",
+          "italic": false
+        }
+      ]
     }
   }
 }
