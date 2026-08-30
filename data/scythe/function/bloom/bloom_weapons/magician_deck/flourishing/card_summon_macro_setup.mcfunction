@@ -3,5 +3,9 @@ execute at @s run execute positioned ^ ^1 ^1 run summon armor_stand ~ ~ ~ {NoGra
 execute at @s run execute positioned ^ ^1 ^1 run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Invisible:1b,Tags:["descent_magician_deck_flourishing_card"],equipment:{head:{id:"minecraft:paper",count:1,components:{"minecraft:enchantments":{"angelic_descent:card_marker":1},"minecraft:item_model":"scythe:magic_card"}}}}
 execute at @s run execute positioned ^ ^1 ^1 run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Invisible:1b,Tags:["descent_magician_deck_flourishing_card"],equipment:{head:{id:"minecraft:paper",count:1,components:{"minecraft:enchantments":{"angelic_descent:card_marker":1},"minecraft:item_model":"scythe:magic_card"}}}}
 execute at @s run execute positioned ^ ^1 ^1 run execute rotated as @s run execute as @e[limit=4,sort=nearest,tag=descent_magician_deck_flourishing_card] run rotate @s ~ ~
+execute at @s run playsound angelic_descent:fire_woosh hostile @a[distance=0..16] ^ ^1 ^1 0.6 0.9
+execute at @s run playsound angelic_descent:fire_woosh hostile @a[distance=0..16] ^ ^1 ^1 0.6 0.9
+execute at @s run playsound angelic_descent:fire_woosh hostile @a[distance=0..16] ^ ^1 ^1 0.6 0.9
+execute at @s run playsound angelic_descent:fire_woosh hostile @a[distance=0..16] ^ ^1 ^1 0.6 0.9
 execute store result storage descent:card_bloom_id bloom_id float 1 run scoreboard players get @s descent_bloom_id
 execute as @s at @s run function scythe:bloom/bloom_weapons/magician_deck/flourishing/card_summon_macro with storage descent:card_bloom_id

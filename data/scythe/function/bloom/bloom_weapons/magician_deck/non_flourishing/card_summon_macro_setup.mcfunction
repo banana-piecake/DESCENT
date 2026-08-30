@@ -1,4 +1,5 @@
 execute at @s run execute positioned ^ ^1 ^1 run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Small:1b,Invisible:1b,Tags:["descent_magician_deck_non_flourishing_card"],equipment:{head:{id:"minecraft:paper",count:1,components:{"minecraft:enchantments":{"angelic_descent:card_marker":1},"minecraft:item_model":"scythe:magic_card"}}}}
 execute at @s run execute positioned ^ ^1 ^1 run execute rotated as @s run rotate @n[tag=descent_magician_deck_non_flourishing_card] ~ ~
+execute at @s run playsound angelic_descent:fire_woosh hostile @a[distance=0..16] ^ ^1 ^1 0.6 1.2
 execute store result storage descent:card_bloom_id bloom_id float 1 run scoreboard players get @s descent_bloom_id
 execute as @s at @s run function scythe:bloom/bloom_weapons/magician_deck/non_flourishing/card_summon_macro with storage descent:card_bloom_id
