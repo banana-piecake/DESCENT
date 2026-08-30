@@ -167,3 +167,4 @@ scoreboard players set @e[scores={descent_bloom_amount=..0}] descent_wilted_bloo
 #bloom weapons
 scoreboard players remove @e[scores={descent_kindling_active_timer=1..}] descent_kindling_active_timer 1
 scoreboard players add @e[tag=descent_magician_deck_non_flourishing_card] descent_magic_card_timer 1
+execute as @e[tag=descent_magician_deck_non_flourishing_card] run execute at @s run function scythe:bloom/bloom_weapons/magician_deck/non_flourishing/card_damage_macro_setup
