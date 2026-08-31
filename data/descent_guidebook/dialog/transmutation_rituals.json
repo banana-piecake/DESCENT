@@ -12,7 +12,7 @@
     "label": "Back",
     "action": {
       "type": "minecraft:show_dialog",
-      "dialog": "descent_guidebook:dialog_list"
+      "dialog": "descent_guidebook:rituals"
     }
   },
   "dialogs": [
