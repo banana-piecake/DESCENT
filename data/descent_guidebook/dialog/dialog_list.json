@@ -12,11 +12,10 @@
     "descent_guidebook:rituals",
     "descent_guidebook:general_items",
     "descent_guidebook:bloom",
+    "descent_guidebook:item_tiers",
     "descent_guidebook:enchantment_types",
     "descent_guidebook:minibosses",
     "descent_guidebook:knowledge",
-    "descent_guidebook:acts",
-    "descent_guidebook:bloodfell_items",
-    "descent_guidebook:voidtouched_items"
+    "descent_guidebook:acts"
   ]
 }

@@ -4,7 +4,7 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "Rituals are the main crafting system for D E S C E N T. They are made via lodestones with wool carpets on top. Rituals just show the lodestones however the carpets are necessary. Sneak whilst standing on top of an item that is in a ritual state to pick it up. Here is an example:"
+      "contents": "Rituals are the main crafting system for D E S C E N T. They are made via lodestones with wool carpets on top. Rituals just show the lodestones however the carpets are necessary. Sneak whilst standing on top of an item that is in a ritual state to pick it up."
     }
   ],
   "pause": false,
