@@ -78,8 +78,9 @@ bossbar set angelic_descent:angel_being max 45
 bossbar set angelic_descent:angel_being name {"font":"descent_bossbars:angel_being","shadow_color":1348810117,"text":"\uFFF1"}
 
 bossbar add angelic_descent:void_guardians "The Void Guardians"
-bossbar set angelic_descent:void_guardians color red
+bossbar set angelic_descent:void_guardians color yellow
 bossbar set angelic_descent:void_guardians max 80
+bossbar set angelic_descent:void_guardians name {"font":"descent_bossbars:void_guardians","shadow_color":12225842,"text":"\uFFF1"}
 
 scoreboard objectives add angelic_descent_void_guardians_health dummy
 scoreboard objectives add angelic_descent_void_guardians_music_timer dummy
