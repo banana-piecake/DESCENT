@@ -73,6 +73,7 @@ bossbar set angelic_descent:void_ripper max 60
 bossbar add angelic_descent:angel_being "The Angel Being"
 bossbar set angelic_descent:angel_being color pink
 bossbar set angelic_descent:angel_being max 45
+bossbar set angelic_descent:angel_being name {"font":"descent_bossbars:angel_being","shadow_color":1348810117,"text":"\uFFF1"}
 
 bossbar add angelic_descent:void_guardians "The Void Guardians"
 bossbar set angelic_descent:void_guardians color red
