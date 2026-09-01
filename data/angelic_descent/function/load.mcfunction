@@ -69,6 +69,8 @@ scoreboard objectives add angelic_descent_wings_of_the_seraph_active dummy
 bossbar add angelic_descent:void_ripper "Void Ripper"
 bossbar set angelic_descent:void_ripper color white
 bossbar set angelic_descent:void_ripper max 60
+bossbar set angelic_descent:void_ripper name {"font":"descent_bossbars:void_ripper","shadow_color":-12565929,"text":"\uFFF1"}
+
 
 bossbar add angelic_descent:angel_being "The Angel Being"
 bossbar set angelic_descent:angel_being color pink
