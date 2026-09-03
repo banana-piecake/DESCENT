@@ -1,0 +1,56 @@
+{
+  "attributes": {
+    "minecraft:visual/fog_color": "#ababbf",
+    "minecraft:visual/sky_color": "#a4b3c6",
+    "minecraft:visual/water_fog_color": "#9191b6"
+  },
+  "carvers": [],
+  "downfall": 0.8,
+  "effects": {
+    "dry_foliage_color": "#41403a",
+    "foliage_color": "#4a4336",
+    "grass_color": "#322f2a",
+    "water_color": "#121873"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [
+      "descent_abyss:abyssal_shores_disk"
+    ],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "descent_abyss:basalt_pillar",
+      "minecraft:fossil_lower",
+      "minecraft:fossil_upper"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "monster": [
+      {
+        "weight": 1,
+        "type": "minecraft:enderman",
+        "minCount": 0,
+        "maxCount": 3
+      },
+      {
+        "weight": 8,
+        "type": "minecraft:wither_skeleton",
+        "minCount": 0,
+        "maxCount": 7
+      },
+      {
+        "weight": 15,
+        "type": "minecraft:drowned",
+        "minCount": 0,
+        "maxCount": 23
+      }
+    ]
+  },
+  "temperature": 0.7
+}

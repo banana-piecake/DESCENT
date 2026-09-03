@@ -1,0 +1,15 @@
+{
+  "type": "descent_abyss:abyss",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "scale": 8,
+      "biomes": [
+        "descent_abyss:abyssal_shores",
+        "descent_abyss:undergrowth"
+      ]
+    },
+    "settings": "descent_abyss:abyss"
+  }
+}

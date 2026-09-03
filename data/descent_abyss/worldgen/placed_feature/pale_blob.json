@@ -1,0 +1,11 @@
+{
+  "feature": "descent_abyss:pale_blob",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

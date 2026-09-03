@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:noise_provider",
+      "seed": 4123,
+      "noise": {
+        "firstOctave": 1,
+        "amplitudes": [
+          1
+        ]
+      },
+      "scale": 4,
+      "states": [
+        {
+          "Name": "minecraft:mud"
+        },
+        {
+          "Name": "minecraft:blackstone"
+        }
+      ]
+    },
+    "radius": {
+      "type": "minecraft:weighted_list",
+      "distribution": [
+        {
+          "weight": 1,
+          "data": 1
+        },
+        {
+          "weight": 2,
+          "data": 2
+        }
+      ]
+    },
+    "half_height": 1,
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:mud",
+        "minecraft:blackstone"
+      ]
+    }
+  }
+}
