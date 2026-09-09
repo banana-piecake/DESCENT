@@ -1,4 +1,4 @@
-scoreboard players remove @s scythe_cooldown 40
+scoreboard players remove @s scythe_cooldown 80
 scoreboard players set @s scythe_active 0
 execute at @s run particle minecraft:sonic_boom ^ ^1 ^
 execute at @s run particle minecraft:sonic_boom ^ ^1 ^1

@@ -1,5 +1,5 @@
 execute as @e[nbt={active_effects:[{id:"minecraft:unluck",amplifier:45b}]}] run execute if items entity @s weapon.offhand * run function scythe:disarmed
-scoreboard players set @e[scores={scythe_cooldown=80..}] scythe_cooldown 79
+scoreboard players set @e[scores={scythe_cooldown=160..}] scythe_cooldown 159
 scoreboard players remove @e[scores={scythe_double_click_input_cooldown=1..}] scythe_double_click_input_cooldown 1
 execute as @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:custom_data":{bloodfell:"event_horizon"}}}}] at @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:custom_data":{bloodfell:"event_horizon"}}}}] run function scythe:scythe_ritual
 execute as @e[tag=ritual,type=item,nbt={Item:{id:"minecraft:totem_of_undying",count:1}}] at @e[type=item,nbt={Item:{id:"minecraft:totem_of_undying",count:1}}] run function scythe:totem_ritual
