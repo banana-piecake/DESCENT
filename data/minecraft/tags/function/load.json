@@ -1,4 +1,4 @@
 {
 	"replace": false,
-	"values": ["angelic_descent:load", "animated_java:global/on_load", "scythe:load"]
+	"values": ["angelic_descent:load", "animated_java:global/on_load", "scythe:load", "voidshatter_unbound:load"]
 }
