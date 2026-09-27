@@ -8,8 +8,7 @@
       }
     },
     "title": "Maw of the Void",
-    "description": "Obtained the knowledge to create the Maw of the Void.",
-    "background": "minecraft:block/chiseled_bookshelf_occupied"
+    "description": "Obtained the knowledge to create the Maw of the Void."
   },
   "parent": "descent_knowledge:root",
   "criteria": {

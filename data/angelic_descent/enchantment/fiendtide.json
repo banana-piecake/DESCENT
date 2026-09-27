@@ -2,7 +2,8 @@
   "description": {
     "text": "Fiendtide",
     "color": "#a9bafe"
-  },  "exclusive_set": "#scythe:inherent",
+  },
+  "exclusive_set": "#scythe:inherent",
   "supported_items": "#minecraft:swords",
   "weight": 1,
   "max_level": 1,
@@ -22,10 +23,10 @@
     "minecraft:tick": [
       {
         "requirements": {
-          "condition": "minecraft:all_of",
+          "type": "minecraft:all_of",
           "terms": [
             {
-              "condition": "minecraft:entity_properties",
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "minecraft:type_specific/player": {
@@ -36,7 +37,7 @@
               }
             },
             {
-              "condition": "minecraft:entity_scores",
+              "type": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
                 "descent_fiendtide_timer": {

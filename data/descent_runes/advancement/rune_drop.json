@@ -3,9 +3,17 @@
     "kill": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {},
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
         "entity": {
-          "minecraft:entity_type": "#minecraft:undead"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "#minecraft:undead"
+          }
         }
       }
     }

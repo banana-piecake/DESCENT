@@ -23,7 +23,7 @@
     "minecraft:post_attack": [
       {
         "requirements": {
-          "condition": "minecraft:damage_source_properties",
+          "type": "minecraft:damage_source_properties",
           "predicate": {
             "is_direct": true
           }
@@ -36,18 +36,21 @@
         "affected": "attacker"
       },
       {
-        "requirements": [
-          {
-            "condition": "minecraft:random_chance",
-            "chance": 0.2
-          },
-          {
-            "condition": "minecraft:damage_source_properties",
-            "predicate": {
-              "is_direct": true
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:random_chance",
+              "chance": 0.2
+            },
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "is_direct": true
+              }
             }
-          }
-        ],
+          ]
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "scythe:disarmed_apply"
@@ -59,7 +62,7 @@
     "minecraft:knockback": [
       {
         "requirements": {
-          "condition": "minecraft:damage_source_properties",
+          "type": "minecraft:damage_source_properties",
           "predicate": {
             "is_direct": true
           }

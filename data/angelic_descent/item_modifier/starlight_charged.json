@@ -1,5 +1,5 @@
 {
-  "function": "minecraft:set_components",
+  "type": "minecraft:set_components",
   "components": {
     "minecraft:charged_projectiles": [
       {
@@ -7,5 +7,8 @@
       }
     ]
   },
-  "conditions": []
+  "condition": {
+    "type": "minecraft:all_of",
+    "terms": []
+  }
 }

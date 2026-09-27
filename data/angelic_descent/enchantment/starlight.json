@@ -42,7 +42,7 @@
     "minecraft:post_attack": [
       {
         "requirements": {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "direct_attacker",
           "predicate": {
             "minecraft:entity_type": "#minecraft:arrows"

@@ -29,10 +29,6 @@
       "minecraft:minimum_attack_charge": 1,
       "minecraft:item_model": "scythe:wooden_wand",
       "minecraft:item_name": "Wooden Wand",
-      "minecraft:swing_animation": {
-        "type": "stab",
-        "duration": 8
-      },
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:attack_speed",
@@ -55,7 +51,11 @@
           "color": "#BDFFF8",
           "italic": false
         }
-      ]
+      ],
+      "minecraft:attack_animation": {
+        "type": "stab",
+        "duration": 6
+      }
     }
   }
 }

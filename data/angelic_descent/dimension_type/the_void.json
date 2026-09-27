@@ -4,7 +4,6 @@
     "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "never",
       "can_sleep": "never",
-      "explodes": false,
       "error_message": "How on earth did you get a bed?"
     },
     "minecraft:gameplay/respawn_anchor_works": false,

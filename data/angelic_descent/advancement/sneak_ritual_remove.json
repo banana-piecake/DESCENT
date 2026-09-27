@@ -4,14 +4,18 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "input": {
-              "sneak": true
-            }
-          },
-          "minecraft:stepping_on": {
-            "block": {
-              "blocks": "#minecraft:wool_carpets"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "input": {
+                "sneak": true
+              }
+            },
+            "minecraft:stepping_on": {
+              "block": {
+                "blocks": "#minecraft:wool_carpets"
+              }
             }
           }
         }

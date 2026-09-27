@@ -8,8 +8,7 @@
       }
     },
     "title": "Worm Tooth",
-    "description": "Obtained the knowledge to create the Worm Tooth.",
-    "background": "minecraft:block/chiseled_bookshelf_occupied"
+    "description": "Obtained the knowledge to create the Worm Tooth."
   },
   "parent": "descent_knowledge:maw_of_the_void",
   "criteria": {

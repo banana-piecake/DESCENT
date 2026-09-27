@@ -22,18 +22,21 @@
   "effects": {
     "minecraft:post_attack": [
       {
-        "requirements": [
-          {
-            "condition": "minecraft:random_chance",
-            "chance": 0.65
-          },
-          {
-            "condition": "minecraft:damage_source_properties",
-            "predicate": {
-              "is_direct": true
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:random_chance",
+              "chance": 0.65
+            },
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "is_direct": true
+              }
             }
-          }
-        ],
+          ]
+        },
         "effect": {
           "type": "minecraft:apply_mob_effect",
           "to_apply": "minecraft:levitation",
@@ -49,7 +52,7 @@
     "minecraft:knockback": [
       {
         "requirements": {
-          "condition": "minecraft:damage_source_properties",
+          "type": "minecraft:damage_source_properties",
           "predicate": {
             "is_direct": true
           }

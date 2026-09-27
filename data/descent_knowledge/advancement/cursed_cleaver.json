@@ -8,8 +8,7 @@
       }
     },
     "title": "Cursed Cleaver",
-    "description": "Obtained the knowledge to create the Cursed Cleaver.",
-    "background": "minecraft:block/chiseled_bookshelf_occupied"
+    "description": "Obtained the knowledge to create the Cursed Cleaver."
   },
   "parent": "descent_knowledge:worm_tooth",
   "criteria": {

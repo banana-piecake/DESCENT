@@ -7,15 +7,13 @@
           "type": "minecraft:item",
           "name": "minecraft:music_disc_blocks",
           "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_model": "descent_music_discs:empirical_ego",
-                "minecraft:jukebox_playable": "angelic_descent:empirical_ego"
-              }
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_model": "descent_music_discs:empirical_ego",
+              "minecraft:jukebox_playable": "angelic_descent:empirical_ego"
             }
-          ]
+          }
         },
         {
           "type": "minecraft:empty",
