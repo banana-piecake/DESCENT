@@ -1,1 +1,2 @@
 execute as @a run execute if items entity @s descent_items:acsessories *[minecraft:custom_data={descent:"obsidian_charm"}] run effect give @s minecraft:fire_resistance 1 0
+execute as @a run execute if items entity @s descent_items:acsessories *[minecraft:custom_data={descent:"seraph_feather"}] run effect give @s minecraft:slow_falling 1 0
