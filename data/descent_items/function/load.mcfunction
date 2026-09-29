@@ -1,1 +1,2 @@
 scoreboard objectives add descent_parry_effect dummy
+scoreboard objectives add descent_parry_timer dummy
