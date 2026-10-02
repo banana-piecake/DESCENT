@@ -302,8 +302,10 @@ execute as @e[scores={descent_pact_from_below_timer=60..},type=item,nbt={Item:{i
 
 #stargazer miniboss
 execute at @e[tag=aj.stargazer.root] run particle dust_color_transition{from_color:[0.149,0.086,0.302],to_color:[0.392,0.157,0.510],scale:2.4} ~ ~ ~ 0.3 1 0.3 0 5 normal
+execute as @e[scores={aj.slash.frame=35}] run execute at @s run playsound angelic_descent:slash_two hostile @a[distance=0..24] ^ ^1 ^0.4 1.4 1.3
 execute as @e[scores={aj.slash.frame=39}] run execute at @s run function descent_minibosses:stargazer/slash_damage
 execute as @e[scores={aj.stab.frame=47}] run execute at @s run function descent_minibosses:stargazer/slash_damage
+execute as @e[scores={aj.stab.frame=42}] run execute at @s run playsound angelic_descent:slash_one hostile @a[distance=0..24] ^ ^1 ^0.4 1.4 0.65
 
 #weapons and more
 execute at @e[tag=angelic_descent_starlight_bolt] run particle minecraft:witch ~ ~ ~ 0.1 0.1 0.1 0.03 1

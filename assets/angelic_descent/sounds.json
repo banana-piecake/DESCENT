@@ -72,5 +72,16 @@
       "angelic_descent:empircal_ego"
     ],
     "subtitle": "Empirical Ego - Rien"
+  },
+  "slash_one": {
+    "sounds": [
+      "angelic_descent:slash_one"
+    ],
+    "subtitle": "Sword Slash"
+  },
+  "slash_two": {
+    "sounds": [
+      "angelic_descent:slash_two"
+    ]
   }
 }
