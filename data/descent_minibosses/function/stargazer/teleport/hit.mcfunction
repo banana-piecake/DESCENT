@@ -1,1 +1,1 @@
-execute at @s[tag=!descent_stargazer_marker] run damage @s 8 descent_items:obliteration at ~ ~ ~
+execute at @s[tag=!descent_stargazer_marker] run execute at @n[tag=aj.stargazer.root] run damage @s 8 descent_items:obliteration by @n[tag=descent_stargazer_marker]

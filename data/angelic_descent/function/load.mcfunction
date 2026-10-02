@@ -93,6 +93,7 @@ scoreboard objectives add angelic_descent_rift_vfx_random_score dummy
 
 #minibosses
 scoreboard objectives add descent_lil_fiend_attack_timer dummy
+scoreboard objectives add descent_stargazer_attack_timer dummy
 scoreboard objectives add descent_fiendtide_timer dummy
 scoreboard objectives add descent_lil_fiend_attack_rune_timer dummy
 scoreboard objectives add descent_pact_from_below_timer dummy

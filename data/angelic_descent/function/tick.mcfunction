@@ -316,8 +316,38 @@ execute as @e[scores={aj.spin.frame=21..75}] run execute at @s run function desc
 execute as @e[scores={aj.teleport.frame=84}] run execute at @s run function descent_minibosses:stargazer/teleport/start
 execute as @e[scores={aj.teleport.frame=61}] run execute at @s run playsound angelic_descent:teleport hostile @a[distance=0..24] ~ ~1 ~ 1.2 0.8
 execute as @e[tag=aj.stargazer.root] run execute at @s run rotate @s facing entity @p
-execute as @e[tag=aj.stargazer.root] run execute at @s run execute unless score @s aj.slash.frame matches 1.. unless score @s aj.stab.frame matches 1.. unless score @s aj.spin.frame matches 1.. unless score @s aj.teleport.frame matches 1.. unless entity @p[distance=..1.8] run tp @s ^ ^ ^0.1
+execute as @e[tag=aj.stargazer.root] run execute at @s run execute unless score @s aj.slash.frame matches 1.. unless score @s aj.stab.frame matches 1.. unless score @s aj.spin.frame matches 1.. unless score @s aj.teleport.frame matches 1.. unless entity @p[distance=..1.47] run tp @s ^ ^ ^0.28
 execute as @e[tag=aj.stargazer.root] run execute at @s run rotate @s ~ 0
+scoreboard players add @e[tag=aj.stargazer.root] descent_stargazer_attack_timer 1
+
+execute as @e[scores={descent_stargazer_attack_timer=1}] run execute at @s run function aj:stargazer/animations/idle/play
+execute as @e[scores={descent_stargazer_attack_timer=30}] run execute at @s run function aj:stargazer/animations/slash/play
+execute as @e[scores={descent_stargazer_attack_timer=106}] run execute at @s run function aj:stargazer/animations/idle/play
+execute as @e[scores={descent_stargazer_attack_timer=121}] run execute at @s run function aj:stargazer/animations/slash/play
+execute as @e[scores={descent_stargazer_attack_timer=196}] run execute at @s run function aj:stargazer/animations/idle/play
+execute as @e[scores={descent_stargazer_attack_timer=210}] run execute at @s run function aj:stargazer/animations/stab/play
+execute as @e[scores={descent_stargazer_attack_timer=303}] run execute at @s run function aj:stargazer/animations/idle/play
+execute as @e[scores={descent_stargazer_attack_timer=318}] run execute at @s run function aj:stargazer/animations/slash/play
+execute as @e[scores={descent_stargazer_attack_timer=394}] run execute at @s run function aj:stargazer/animations/idle/play
+execute as @e[scores={descent_stargazer_attack_timer=410}] run execute at @s run function aj:stargazer/animations/spin/play
+execute as @e[scores={descent_stargazer_attack_timer=550}] run execute at @s run function aj:stargazer/animations/idle/play
+execute as @e[scores={descent_stargazer_attack_timer=565}] run execute at @s run function aj:stargazer/animations/teleport/play
+execute as @e[scores={descent_stargazer_attack_timer=716}] run execute at @s run function aj:stargazer/animations/slash/play
+execute as @e[scores={descent_stargazer_attack_timer=792}] run execute at @s run function aj:stargazer/animations/stab/play
+execute as @e[scores={descent_stargazer_attack_timer=885}] run execute at @s run function aj:stargazer/animations/idle/play
+execute as @e[scores={descent_stargazer_attack_timer=900}] run execute at @s run function aj:stargazer/animations/slash/play
+execute as @e[scores={descent_stargazer_attack_timer=976}] run execute at @s run function aj:stargazer/animations/idle/play
+execute as @e[scores={descent_stargazer_attack_timer=1000}] run execute at @s run function aj:stargazer/animations/teleport/play
+execute as @e[scores={descent_stargazer_attack_timer=1150}] run execute at @s run function aj:stargazer/animations/spin/play
+execute as @e[scores={descent_stargazer_attack_timer=1290}] run execute at @s run function aj:stargazer/animations/idle/play
+execute as @e[scores={descent_stargazer_attack_timer=1305}] run execute at @s run function aj:stargazer/animations/slash/play
+execute as @e[scores={descent_stargazer_attack_timer=1381}] run execute at @s run function aj:stargazer/animations/idle/play
+execute as @e[scores={descent_stargazer_attack_timer=1396}] run execute at @s run function aj:stargazer/animations/stab/play
+execute as @e[scores={descent_stargazer_attack_timer=1489}] run execute at @s run function aj:stargazer/animations/spin/play
+execute as @e[scores={descent_stargazer_attack_timer=1629}] run execute at @s run function aj:stargazer/animations/idle/play
+execute as @e[scores={descent_stargazer_attack_timer=1645}] run execute at @s run function aj:stargazer/animations/teleport/play
+execute as @e[scores={descent_stargazer_attack_timer=1796..}] run scoreboard players set @s descent_stargazer_attack_timer 0
+execute as @e[tag=descent_stargazer_marker] run execute at @s run tp @s @n[tag=aj.stargazer.root]
 
 #weapons and more
 execute at @e[tag=angelic_descent_starlight_bolt] run particle minecraft:witch ~ ~ ~ 0.1 0.1 0.1 0.03 1
