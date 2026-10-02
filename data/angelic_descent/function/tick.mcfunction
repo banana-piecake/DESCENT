@@ -306,6 +306,18 @@ execute as @e[scores={aj.slash.frame=35}] run execute at @s run playsound angeli
 execute as @e[scores={aj.slash.frame=39}] run execute at @s run function descent_minibosses:stargazer/slash_damage
 execute as @e[scores={aj.stab.frame=47}] run execute at @s run function descent_minibosses:stargazer/slash_damage
 execute as @e[scores={aj.stab.frame=42}] run execute at @s run playsound angelic_descent:slash_one hostile @a[distance=0..24] ^ ^1 ^0.4 1.4 0.65
+execute as @e[scores={aj.spin.frame=21}] run execute at @s run playsound minecraft:entity.breeze.idle_air hostile @a[distance=0..24] ~ ~ ~ 2 0
+execute as @e[scores={aj.spin.frame=31}] run execute at @s run playsound minecraft:entity.breeze.idle_air hostile @a[distance=0..24] ~ ~ ~ 2 0
+execute as @e[scores={aj.spin.frame=41}] run execute at @s run playsound minecraft:entity.breeze.idle_air hostile @a[distance=0..24] ~ ~ ~ 2 0
+execute as @e[scores={aj.spin.frame=51}] run execute at @s run playsound minecraft:entity.breeze.idle_air hostile @a[distance=0..24] ~ ~ ~ 2 0
+execute as @e[scores={aj.spin.frame=61}] run execute at @s run playsound minecraft:entity.breeze.idle_air hostile @a[distance=0..24] ~ ~ ~ 2 0
+execute as @e[scores={aj.spin.frame=71}] run execute at @s run playsound minecraft:entity.breeze.idle_air hostile @a[distance=0..24] ~ ~ ~ 2 0
+execute as @e[scores={aj.spin.frame=21..75}] run execute at @s run function descent_minibosses:stargazer/spin_damage
+execute as @e[scores={aj.teleport.frame=84}] run execute at @s run function descent_minibosses:stargazer/teleport/start
+execute as @e[scores={aj.teleport.frame=61}] run execute at @s run playsound angelic_descent:teleport hostile @a[distance=0..24] ~ ~1 ~ 1.2 0.8
+execute as @e[tag=aj.stargazer.root] run execute at @s run rotate @s facing entity @p
+execute as @e[tag=aj.stargazer.root] run execute at @s run execute unless score @s aj.slash.frame matches 1.. unless score @s aj.stab.frame matches 1.. unless score @s aj.spin.frame matches 1.. unless score @s aj.teleport.frame matches 1.. unless entity @p[distance=..1.8] run tp @s ^ ^ ^0.1
+execute as @e[tag=aj.stargazer.root] run execute at @s run rotate @s ~ 0
 
 #weapons and more
 execute at @e[tag=angelic_descent_starlight_bolt] run particle minecraft:witch ~ ~ ~ 0.1 0.1 0.1 0.03 1

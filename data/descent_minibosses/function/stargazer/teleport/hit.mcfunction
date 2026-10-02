@@ -1,0 +1,1 @@
+execute at @s[tag=!descent_stargazer_marker] run damage @s 8 descent_items:obliteration at ~ ~ ~
