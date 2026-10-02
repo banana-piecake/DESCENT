@@ -7,6 +7,7 @@
 		"aj:lil_fiend_rune/on_load",
 		"aj:lil_fiend/on_load",
 		"aj:slash/on_load",
+		"aj:stargazer/on_load",
 		"aj:worm_body_1/on_load",
 		"aj:worm_head/on_load",
 		"aj:worm_tail/on_load"

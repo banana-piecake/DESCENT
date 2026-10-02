@@ -1,4 +1,11 @@
 {
 	"replace": false,
-	"values": ["angelic_descent:tick", "animated_java:global/data_manager/on_tick", "scythe:tick", "animated_java:global/on_tick", "voidshatter_unbound:tick", "descent_items:tick"]
+	"values": [
+		"angelic_descent:tick",
+		"animated_java:global/data_manager/on_tick",
+		"descent_items:tick",
+		"scythe:tick",
+		"voidshatter_unbound:tick",
+		"animated_java:global/on_tick"
+	]
 }
