@@ -265,6 +265,8 @@ execute at @e[tag=angelic_descent_void_rift] run execute as @a[distance=0..1.5] 
 execute unless entity @e[tag=angelic_descent_void_rift] unless entity @e[tag=descent_void_guardians_marker] unless entity @e[tag=aj.angel_being.root] unless entity @e[tag=aj.worm_head.root] run execute in angelic_descent:the_void run summon marker 0 120 0 {Tags:["angelic_descent_void_rift"]}
 
 #minibosses
+
+#lil fiend miniboss
 scoreboard players add @e[tag=lil_fiend_rune_holder] descent_lil_fiend_attack_rune_timer 1
 execute as @e[scores={descent_lil_fiend_attack_rune_timer=15}] run function descent_minibosses:lil_fiend/attack_rune_damage
 execute as @e[scores={descent_lil_fiend_attack_rune_timer=25..}] run function descent_minibosses:lil_fiend/attack_rune_remove
@@ -298,7 +300,8 @@ execute as @e[tag=aj.lil_fiend.root] run execute at @s run execute unless entity
 scoreboard players add @e[tag=!ritual,type=item,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"pact_from_below"}}}}] descent_pact_from_below_timer 1
 execute as @e[scores={descent_pact_from_below_timer=60..},type=item,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"pact_from_below"}}}}] run execute at @s run function descent_minibosses:lil_fiend/summon
 
-
+#stargazer miniboss
+execute at @e[tag=aj.stargazer.root] run particle dust_color_transition{from_color:[0.149,0.086,0.302],to_color:[0.392,0.157,0.510],scale:2.4} ~ ~ ~ 0.3 1 0.3 0 5 normal
 
 
 #weapons and more
