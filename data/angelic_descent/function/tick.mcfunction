@@ -298,6 +298,10 @@ execute as @e[tag=aj.lil_fiend.root] run execute at @s run execute unless entity
 scoreboard players add @e[tag=!ritual,type=item,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"pact_from_below"}}}}] descent_pact_from_below_timer 1
 execute as @e[scores={descent_pact_from_below_timer=60..},type=item,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"pact_from_below"}}}}] run execute at @s run function descent_minibosses:lil_fiend/summon
 
+
+
+
+#weapons and more
 execute at @e[tag=angelic_descent_starlight_bolt] run particle minecraft:witch ~ ~ ~ 0.1 0.1 0.1 0.03 1
 execute at @e[tag=angelic_descent_starlight_bolt] run particle dust_color_transition{from_color:[0.667,0.000,1.000],to_color:[1.000,0.188,0.973],scale:0.7} ~ ~ ~ 0.1 0.1 0.1 0.03 4 normal
 

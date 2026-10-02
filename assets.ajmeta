@@ -1,0 +1,23 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"aj:stargazer": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/stargazer/body.json",
+				"assets/aj/items/blueprint/stargazer/head.json",
+				"assets/aj/items/blueprint/stargazer/left_arm.json",
+				"assets/aj/items/blueprint/stargazer/left_leg.json",
+				"assets/aj/items/blueprint/stargazer/right_arm.json",
+				"assets/aj/items/blueprint/stargazer/right_leg.json",
+				"assets/aj/models/blueprint/stargazer/body.json",
+				"assets/aj/models/blueprint/stargazer/head.json",
+				"assets/aj/models/blueprint/stargazer/left_arm.json",
+				"assets/aj/models/blueprint/stargazer/left_leg.json",
+				"assets/aj/models/blueprint/stargazer/right_arm.json",
+				"assets/aj/models/blueprint/stargazer/right_leg.json",
+				"assets/aj/textures/blueprint/stargazer/stargazer_skin.png"
+			]
+		}
+	}
+}
