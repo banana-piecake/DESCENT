@@ -4,3 +4,4 @@ execute unless score @s descent_parry_timer matches 11.. run scoreboard players 
 execute unless score @s descent_parry_timer matches 11.. run execute at @s run particle flash{color:[1.000,1.000,1.000,0.08]} ~ ~1 ~ 1 1 1 0 10 normal @s
 execute unless score @s descent_parry_timer matches 11.. run execute at @s run playsound minecraft:entity.zombie.attack_iron_door hostile @a[distance=0..16] ~ ~ ~ 1 1.6
 advancement revoke @s only descent_items:parry
+scoreboard players set @s descent_parry_timer 0
