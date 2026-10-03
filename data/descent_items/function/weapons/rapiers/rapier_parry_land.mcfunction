@@ -1,0 +1,1 @@
+scoreboard players set @s descent_rapier_active 1

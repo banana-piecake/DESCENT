@@ -29,6 +29,7 @@
     "scythe:bloom_weapons/ember_infused",
     "scythe:bloom_weapons/spectral_draw",
     "descent_items:backfire",
-    "descent_items:leeching"
+    "descent_items:leeching",
+    "descent_items:riposte"
   ]
 }
