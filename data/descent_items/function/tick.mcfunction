@@ -3,6 +3,6 @@ execute as @a run execute if items entity @s descent_items:accessories *[minecra
 execute as @a run execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"charm_of_life"}] run effect give @s minecraft:health_boost 1 1
 execute as @a run execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"fencer_resolve"}] if score @s descent_parry_effect matches 1 run effect give @s minecraft:resistance 3 0
 execute as @a run execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"fencer_pride"}] if score @s descent_parry_effect matches 1 run effect give @s minecraft:strength 3 0
-execute as @a run execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"fencer_agility"}] if score @s descent_parry_effect matches 1 run effect give @s minecraft:speed 3 0
-    execute as @a run execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"steel_stance"}] if score @s descent_parry_effect matches 1 run function descent_items:accessories/steel_stance/parry_land
+execute as @a run execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"fencer_agility"}] if score @s descent_parry_effect matches 1 run effect give @s minecraft:speed 3
+execute as @a run execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"steel_stance"}] if score @s descent_parry_effect matches 1 run function descent_items:accessories/steel_stance/parry_land
 scoreboard players remove @e[scores={descent_parry_effect=1..}] descent_parry_effect 1
