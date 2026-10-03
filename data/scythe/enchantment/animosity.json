@@ -33,6 +33,21 @@
         "enchanted": "victim",
         "affected": "victim"
       }
+    ],
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "descent_parry_effect": 1
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:animosity_stuff/animosity_activate"
+        }
+      }
     ]
   }
 }
