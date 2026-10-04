@@ -1,0 +1,4 @@
+execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"dweller_cloak"}] run scoreboard players add @s descent_dweller_cloak_timer 1
+execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"dweller_cloak"}] if score @s descent_dweller_cloak_timer matches 20 run effect give @s minecraft:invisibility 1 0 true
+execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"dweller_cloak"}] if score @s descent_dweller_cloak_timer matches 40.. run scoreboard players set @s descent_dweller_cloak_timer 0
+advancement revoke @s only descent_items:dweller_cloak
