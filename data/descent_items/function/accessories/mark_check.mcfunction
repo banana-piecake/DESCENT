@@ -17,5 +17,13 @@ execute if items entity @s descent_items:accessories *[minecraft:custom_data={de
 
 execute unless items entity @s descent_items:accessories *[minecraft:custom_data={descent:"warrior_mark"}] run attribute @s minecraft:attack_damage modifier remove descent:warrior_mark
 
+#blade mark
+execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"blade_mark"}] run attribute @s minecraft:attack_damage modifier add descent:blade_mark 0.2 add_multiplied_base
+execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"blade_mark"}] run attribute @s minecraft:attack_speed modifier add descent:blade_mark -0.1 add_multiplied_base
+
+execute unless items entity @s descent_items:accessories *[minecraft:custom_data={descent:"blade_mark"}] run attribute @s minecraft:attack_damage modifier remove descent:blade_mark
+execute unless items entity @s descent_items:accessories *[minecraft:custom_data={descent:"blade_mark"}] run attribute @s minecraft:attack_speed modifier remove descent:blade_mark
+
+
 
 advancement revoke @s only descent_items:mark_check
