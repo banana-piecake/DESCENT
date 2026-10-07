@@ -349,6 +349,8 @@ execute as @e[scores={descent_stargazer_attack_timer=1645}] run execute at @s ru
 execute as @e[scores={descent_stargazer_attack_timer=1796..}] run scoreboard players set @s descent_stargazer_attack_timer 0
 execute as @e[tag=descent_stargazer_marker] run execute at @s run tp @s @n[tag=aj.stargazer.root]
 execute as @e[tag=aj.stargazer.root] run execute at @s unless entity @n[tag=descent_stargazer_marker,distance=..3] run function aj:stargazer/remove/this
+execute as @e[tag=aj.stargazer.root] run execute at @s as @e[type=#minecraft:impact_projectiles,distance=0..2.3] run function descent_minibosses:stargazer/atomise
+execute as @e[tag=aj.stargazer.root] run execute at @s as @e[tag=descent_bloom_projectile,distance=0..2.3] run function descent_minibosses:stargazer/atomise
 
 
 
