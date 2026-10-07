@@ -348,6 +348,9 @@ execute as @e[scores={descent_stargazer_attack_timer=1629}] run execute at @s ru
 execute as @e[scores={descent_stargazer_attack_timer=1645}] run execute at @s run function aj:stargazer/animations/teleport/play
 execute as @e[scores={descent_stargazer_attack_timer=1796..}] run scoreboard players set @s descent_stargazer_attack_timer 0
 execute as @e[tag=descent_stargazer_marker] run execute at @s run tp @s @n[tag=aj.stargazer.root]
+execute as @e[tag=aj.stargazer.root] run execute at @s unless entity @n[tag=descent_stargazer_marker,distance=..3] run function aj:stargazer/remove/this
+
+
 
 #weapons and more
 execute at @e[tag=angelic_descent_starlight_bolt] run particle minecraft:witch ~ ~ ~ 0.1 0.1 0.1 0.03 1
