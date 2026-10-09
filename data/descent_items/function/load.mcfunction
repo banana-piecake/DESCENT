@@ -2,3 +2,5 @@ scoreboard objectives add descent_parry_effect dummy
 scoreboard objectives add descent_parry_timer dummy
 scoreboard objectives add descent_rapier_active dummy
 scoreboard objectives add descent_dweller_cloak_timer dummy
+scoreboard objectives add descent_bottled_echo_timer dummy
+scoreboard objectives add descent_bottled_echo_cooldown dummy
