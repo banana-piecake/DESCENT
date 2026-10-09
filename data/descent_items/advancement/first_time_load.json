@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "mark_check": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "descent_items:first_time_load"
+  }
+}

@@ -1,0 +1,1 @@
+scoreboard players set @s descent_bottled_echo_cooldown 0
