@@ -20,6 +20,38 @@
     "mainhand"
   ],
   "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "ice_dagger:attack_speed",
+        "amount": 0.4,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "ice_dagger:attack_damage",
+        "amount": -1.5,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "ice_dagger:move_speed",
+        "amount": 0.2,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:sneaking_speed",
+        "id": "ice_dagger:sneak_speed",
+        "amount": 0.2,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "ice_dagger:safe_fall",
+        "amount": 10,
+        "operation": "add_value"
+      }
+    ],
     "minecraft:post_piercing_attack": [
       {
         "effect": {
