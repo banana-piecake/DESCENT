@@ -14,3 +14,4 @@ scoreboard players remove @e[scores={descent_bottled_echo_cooldown=1..}] descent
 scoreboard players remove @e[scores={descent_bottled_echo_timer=0..}] descent_bottled_echo_timer 1
 scoreboard players remove @e[scores={descent_pact_cooldown=1..}] descent_pact_cooldown 1
 scoreboard players remove @e[scores={descent_parry_effect=1..}] descent_parry_effect 1
+scoreboard players remove @e[scores={descent_voided_scepter_active_timer=1..}] descent_voided_scepter_active_timer 1
