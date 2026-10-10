@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "scythe": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "descent": "voided_scepter"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "scythe"
+    ]
+  ],
+  "rewards": {
+    "function": "descent_items:weapons/voided_scepter/wilted_check"
+  }
+}
