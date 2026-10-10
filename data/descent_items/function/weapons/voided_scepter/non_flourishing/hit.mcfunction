@@ -1,0 +1,1 @@
+execute at @s run damage @s 0.6 angelic_descent:magic_bypass by @p[scores={descent_kindling_active_timer=1..}]
