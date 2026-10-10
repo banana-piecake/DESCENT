@@ -38,6 +38,38 @@
           "max_amplifier": 0
         }
       }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "leeching:attack_speed",
+        "amount": 0.4,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "leeching:attack_damage",
+        "amount": -1.5,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "leeching:move_speed",
+        "amount": 0.2,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:sneaking_speed",
+        "id": "leeching:sneak_speed",
+        "amount": 0.2,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "leeching:safe_fall",
+        "amount": 10,
+        "operation": "add_value"
+      }
     ]
   }
 }
