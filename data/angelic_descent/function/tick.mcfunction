@@ -316,7 +316,8 @@ execute as @e[scores={aj.spin.frame=21..75}] run execute at @s run function desc
 execute as @e[scores={aj.teleport.frame=84}] run execute at @s run function descent_minibosses:stargazer/teleport/start
 execute as @e[scores={aj.teleport.frame=61}] run execute at @s run playsound angelic_descent:teleport hostile @a[distance=0..24] ~ ~1 ~ 1.2 0.8
 execute as @e[tag=aj.stargazer.root] run execute at @s run rotate @s facing entity @p
-execute as @e[tag=aj.stargazer.root] run execute at @s run execute unless score @s aj.slash.frame matches 1.. unless score @s aj.stab.frame matches 1.. unless score @s aj.spin.frame matches 1.. unless score @s aj.teleport.frame matches 1.. unless entity @p[distance=..1.47] run tp @s ^ ^ ^0.28
+#execute as @e[tag=aj.stargazer.root] run execute at @s run execute unless score @s aj.slash.frame matches 1.. unless score @s aj.stab.frame matches 1.. unless score @s aj.spin.frame matches 1.. unless score @s aj.teleport.frame matches 1.. unless entity @p[distance=..1.47] run tp @s ^ ^ ^0.28
+execute as @e[tag=aj.stargazer.root] run execute at @s run execute unless score @s aj.teleport.frame matches 1.. unless entity @p[distance=..1.47] run tp @s ^ ^ ^0.248
 execute as @e[tag=aj.stargazer.root] run execute at @s run rotate @s ~ 0
 scoreboard players add @e[tag=aj.stargazer.root] descent_stargazer_attack_timer 1
 
