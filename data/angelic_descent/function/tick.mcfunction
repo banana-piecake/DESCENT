@@ -301,6 +301,7 @@ scoreboard players add @e[tag=!ritual,type=item,nbt={Item:{id:"minecraft:echo_sh
 execute as @e[scores={descent_pact_from_below_timer=60..},type=item,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"pact_from_below"}}}}] run execute at @s run function descent_minibosses:lil_fiend/summon
 
 #stargazer miniboss
+execute at @e[tag=aj.stargazer.root] run playsound minecraft:block.enchantment_table.use hostile @a ~ ~ ~ 0.7 0.6
 execute at @e[tag=aj.stargazer.root] run particle dust_color_transition{from_color:[0.149,0.086,0.302],to_color:[0.392,0.157,0.510],scale:2.4} ~ ~ ~ 0.3 1 0.3 0 5 normal
 execute as @e[scores={aj.slash.frame=35}] run execute at @s run playsound angelic_descent:slash_two hostile @a[distance=0..24] ^ ^1 ^0.4 1.4 1.3
 execute as @e[scores={aj.slash.frame=39}] run execute at @s run function descent_minibosses:stargazer/slash_damage
