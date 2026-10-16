@@ -100,3 +100,5 @@ execute as @e[tag=descent_astronomer_constellation_star_4] run execute at @s run
 execute as @e[tag=descent_astronomer_star,tag=!descent_astronomer_constellation_star_5] run execute at @s run function descent_minibosses:astronomer/constellation/start
 scoreboard players remove @e[scores={descent_constellation_timer=1..}] descent_constellation_timer 1
 execute as @e[tag=descent_constellation_2_active] run function descent_minibosses:astronomer/constellation/constellation_2
+execute as @e[tag=descent_constellation_1_active] run function descent_minibosses:astronomer/constellation/constellation_1
+execute as @e[tag=descent_constellation_3_active] run function descent_minibosses:astronomer/constellation/constellation_3
