@@ -93,3 +93,8 @@ execute as @e[tag=descent_astronomer_marker] run execute at @s run rotate @s ~2 
 execute as @e[tag=descent_astronomer_marker] run execute at @s run tp @n[tag=descent_astronomer_entity] ^ ^2 ^4
 execute as @e[tag=descent_astronomer_entity] run execute at @s run rotate @s facing entity @n[tag=descent_astronomer_marker]
 execute as @e[tag=descent_astronomer_marker] run execute at @s at @n[tag=descent_astronomer_entity] at @p[nbt=!{Dimension:"angelic_descent:the_void"}] rotated as @s run tp ~ ~ ~
+execute as @e[tag=descent_astronomer_constellation_star_1] run execute at @s run rotate @s facing entity @n[tag=descent_astronomer_constellation_star_2]
+execute as @e[tag=descent_astronomer_constellation_star_2] run execute at @s run rotate @s facing entity @n[tag=descent_astronomer_constellation_star_3]
+execute as @e[tag=descent_astronomer_constellation_star_3] run execute at @s run rotate @s facing entity @n[tag=descent_astronomer_constellation_star_4]
+execute as @e[tag=descent_astronomer_constellation_star_4] run execute at @s run rotate @s facing entity @n[tag=descent_astronomer_constellation_star_5]
+execute as @e[tag=descent_astronomer_constellation_star_1] run execute at @s run function descent_minibosses:astronomer/constellation/start
