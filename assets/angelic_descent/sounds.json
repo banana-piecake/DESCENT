@@ -82,6 +82,19 @@
   "slash_two": {
     "sounds": [
       "angelic_descent:slash_two"
-    ]
+    ],
+    "subtitle": "Sword Slash"
+  },
+  "line_draw": {
+    "sounds": [
+      "angelic_descent:line_draw"
+    ],
+    "subtitle": "Stars Connect"
+  },
+  "star_summon": {
+    "sounds": [
+      "angelic_descent:star_summon"
+    ],
+    "subtitle": "Star Summoned"
   }
 }
