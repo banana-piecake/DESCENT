@@ -1,0 +1,1 @@
+scoreboard objectives add descent_constellation_timer dummy
