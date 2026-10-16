@@ -6,6 +6,7 @@
 		"descent_items:tick",
 		"scythe:tick",
 		"voidshatter_unbound:tick",
-		"animated_java:global/on_tick"
+		"animated_java:global/on_tick",
+		"descent_minibosses:tick"
 	]
 }
