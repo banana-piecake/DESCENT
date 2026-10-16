@@ -88,3 +88,8 @@ execute as @e[tag=aj.stargazer.root] run execute at @s unless entity @n[tag=desc
 execute as @e[tag=aj.stargazer.root] run execute at @s as @e[type=#minecraft:impact_projectiles,distance=0..2.3] run function descent_minibosses:stargazer/atomise
 execute as @e[tag=aj.stargazer.root] run execute at @s as @e[tag=descent_bloom_projectile,distance=0..4.3] run function descent_minibosses:stargazer/atomise
 
+#astronomer
+execute as @e[tag=descent_astronomer_marker] run execute at @s run rotate @s ~2 ~
+execute as @e[tag=descent_astronomer_marker] run execute at @s run tp @n[tag=descent_astronomer_entity] ^ ^2 ^4
+execute as @e[tag=descent_astronomer_entity] run execute at @s run rotate @s facing entity @n[tag=descent_astronomer_marker]
+execute as @e[tag=descent_astronomer_marker] run execute at @s at @n[tag=descent_astronomer_entity] at @p rotated as @s run tp ~ ~ ~
