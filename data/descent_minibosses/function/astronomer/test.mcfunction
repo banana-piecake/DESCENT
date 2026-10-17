@@ -1,0 +1,2 @@
+execute as @n[tag=aj.astronomer.root] run execute at @s run function descent_minibosses:astronomer/constellation/constellation_3_start
+execute as @n[tag=aj.astronomer.root] run execute at @s run function aj:astronomer/animations/astronomer_constellate/play

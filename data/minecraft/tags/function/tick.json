@@ -4,9 +4,9 @@
 		"angelic_descent:tick",
 		"animated_java:global/data_manager/on_tick",
 		"descent_items:tick",
+		"descent_minibosses:tick",
 		"scythe:tick",
 		"voidshatter_unbound:tick",
-		"animated_java:global/on_tick",
-		"descent_minibosses:tick"
+		"animated_java:global/on_tick"
 	]
 }

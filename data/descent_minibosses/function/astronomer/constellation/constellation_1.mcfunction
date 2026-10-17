@@ -13,7 +13,7 @@ execute if score @s descent_constellation_timer matches 25 at @s run playsound a
 execute if score @s descent_constellation_timer matches 20 at @s run tag @n[tag=descent_astronomer_constellation_star_2] add descent_astronomer_star
 execute if score @s descent_constellation_timer matches 20 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 3 1
 execute if score @s descent_constellation_timer matches 15 at @s run tag @n[tag=descent_astronomer_constellation_star_3] add descent_astronomer_star
-execute if score @s descent_constellation_timer matches 15 at @s run playsound angelic_descent:line_draw hostilein @a ~ ~ ~ 3 1
+execute if score @s descent_constellation_timer matches 15 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 3 1
 execute if score @s descent_constellation_timer matches 10 at @s run tag @n[tag=descent_astronomer_constellation_star_4] add descent_astronomer_star
 execute if score @s descent_constellation_timer matches 10 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 3 1
 execute if score @s descent_constellation_timer matches 5 at @s run tag @n[tag=descent_astronomer_constellation_star_5] add descent_astronomer_star

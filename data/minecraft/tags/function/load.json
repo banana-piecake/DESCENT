@@ -1,4 +1,11 @@
 {
 	"replace": false,
-	"values": ["angelic_descent:load", "animated_java:global/on_load", "descent_items:load", "scythe:load", "voidshatter_unbound:load","descent_minibosses:load"]
+	"values": [
+		"angelic_descent:load",
+		"animated_java:global/on_load",
+		"descent_items:load",
+		"descent_minibosses:load",
+		"scythe:load",
+		"voidshatter_unbound:load"
+	]
 }

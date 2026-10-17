@@ -1,6 +1,29 @@
 {
 	"formatVersion": "1.0.0",
 	"rigs": {
+		"aj:astronomer": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/astronomer/body.json",
+				"assets/aj/items/blueprint/astronomer/head.json",
+				"assets/aj/items/blueprint/astronomer/left_arm.json",
+				"assets/aj/items/blueprint/astronomer/left_leg.json",
+				"assets/aj/items/blueprint/astronomer/right_arm.json",
+				"assets/aj/items/blueprint/astronomer/right_leg.json",
+				"assets/aj/items/blueprint/astronomer/wing_l.json",
+				"assets/aj/items/blueprint/astronomer/wing_r.json",
+				"assets/aj/models/blueprint/astronomer/body.json",
+				"assets/aj/models/blueprint/astronomer/head.json",
+				"assets/aj/models/blueprint/astronomer/left_arm.json",
+				"assets/aj/models/blueprint/astronomer/left_leg.json",
+				"assets/aj/models/blueprint/astronomer/right_arm.json",
+				"assets/aj/models/blueprint/astronomer/right_leg.json",
+				"assets/aj/models/blueprint/astronomer/wing_l.json",
+				"assets/aj/models/blueprint/astronomer/wing_r.json",
+				"assets/aj/textures/blueprint/astronomer/astronomer.png",
+				"assets/aj/textures/blueprint/astronomer/wing_1_png.png"
+			]
+		},
 		"aj:stargazer": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [

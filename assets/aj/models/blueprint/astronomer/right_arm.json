@@ -1,0 +1,86 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"textures": {
+		"0": "aj:blueprint/astronomer/astronomer",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5.99991, -3.99408, 5.73361],
+			"to": [9.99991, 8.00592, 9.73361],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [1.99991, -15.99408, 7.73361]
+			},
+			"faces": {
+				"north": {
+					"uv": [11, 5, 12, 8],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [10, 5, 11, 8],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [13, 5, 14, 8],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [12, 5, 13, 8],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [12, 5, 11, 4],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [13, 4, 12, 5],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [5.74991, -4.24408, 5.48361],
+			"to": [10.24991, 8.25592, 9.98361],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [1.99991, -15.99408, 7.73361]
+			},
+			"faces": {
+				"north": {
+					"uv": [11, 9, 12, 12],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [10, 9, 11, 12],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [13, 9, 14, 12],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [12, 9, 13, 12],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [12, 9, 11, 8],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [13, 8, 12, 9],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}
