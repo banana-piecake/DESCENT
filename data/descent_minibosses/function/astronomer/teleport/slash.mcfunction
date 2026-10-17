@@ -1,0 +1,1 @@
+execute at @s run function aj:astronomer_slash/summon {args:{}}
