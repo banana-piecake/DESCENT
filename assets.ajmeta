@@ -24,6 +24,14 @@
 				"assets/aj/textures/blueprint/astronomer/wing_1_png.png"
 			]
 		},
+		"aj:astronomer_slash": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/astronomer_slash/slash.json",
+				"assets/aj/models/blueprint/astronomer_slash/slash.json",
+				"assets/aj/textures/blueprint/astronomer_slash/slash_1_png.png"
+			]
+		},
 		"aj:stargazer": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [

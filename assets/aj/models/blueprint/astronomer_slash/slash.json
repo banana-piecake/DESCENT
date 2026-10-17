@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"textures": {
+		"0": "aj:blueprint/astronomer_slash/slash_1_png",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [2, -2.125, 8],
+			"to": [26, 21.875, 8],
+			"rotation": {
+				"x": -90,
+				"y": -45,
+				"z": -180,
+				"origin": [8, 3.875, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [1, 6.5, 0.8125, 8],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [16, 0, 0, 16],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 0, 8],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [0, 0, 8, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 1, 8, 1],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}
