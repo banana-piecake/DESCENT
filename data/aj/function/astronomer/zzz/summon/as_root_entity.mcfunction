@@ -12,7 +12,7 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:astronomer"
-data modify storage animated_java:temp entry.data.rig_hash set value "cf3c9c4b48c3254ee823b94b5e25b3d75a23a804aed39fe90e6e56f4b7821c9e"
+data modify storage animated_java:temp entry.data.rig_hash set value "07ed67bf5de807068d7271f8df7e1eeffa490c226ae50fc21a30db04284b83a5"
 tp @s ~ ~ ~ ~ ~
 execute on passengers if entity @s[tag=aj.astronomer.node.left_leg] run function aj:astronomer/zzz/summon/as_node/left_leg
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
