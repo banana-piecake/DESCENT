@@ -9,12 +9,12 @@ execute if score @s descent_constellation_timer matches 50 at @s run playsound a
 execute if score @s descent_constellation_timer matches 30 at @s run summon item_display ^ ^ ^1 {billboard:"center",Tags:["descent_astronomer_star_tag","descent_astronomer_constellation_star_1"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:nether_star",count:1}}
 execute if score @s descent_constellation_timer matches 40 at @s run playsound angelic_descent:star_summon hostile @a ~ ~ ~ 1 1
 execute if score @s descent_constellation_timer matches 25 at @s run tag @n[tag=descent_astronomer_constellation_star_1] add descent_astronomer_star
-execute if score @s descent_constellation_timer matches 25 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 1 1
+execute if score @s descent_constellation_timer matches 25 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 3 1
 execute if score @s descent_constellation_timer matches 20 at @s run tag @n[tag=descent_astronomer_constellation_star_2] add descent_astronomer_star
-execute if score @s descent_constellation_timer matches 20 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 1 1
+execute if score @s descent_constellation_timer matches 20 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 3 1
 execute if score @s descent_constellation_timer matches 15 at @s run tag @n[tag=descent_astronomer_constellation_star_3] add descent_astronomer_star
-execute if score @s descent_constellation_timer matches 15 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 1 1
+execute if score @s descent_constellation_timer matches 15 at @s run playsound angelic_descent:line_draw hostilein @a ~ ~ ~ 3 1
 execute if score @s descent_constellation_timer matches 10 at @s run tag @n[tag=descent_astronomer_constellation_star_4] add descent_astronomer_star
-execute if score @s descent_constellation_timer matches 10 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 1 1
+execute if score @s descent_constellation_timer matches 10 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 3 1
 execute if score @s descent_constellation_timer matches 5 at @s run tag @n[tag=descent_astronomer_constellation_star_5] add descent_astronomer_star
 execute if score @s descent_constellation_timer matches 4 run tag @s remove descent_constellation_1_active
