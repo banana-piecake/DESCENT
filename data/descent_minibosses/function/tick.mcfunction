@@ -102,3 +102,8 @@ scoreboard players remove @e[scores={descent_constellation_timer=1..}] descent_c
 execute as @e[tag=descent_constellation_2_active] run function descent_minibosses:astronomer/constellation/constellation_2
 execute as @e[tag=descent_constellation_1_active] run function descent_minibosses:astronomer/constellation/constellation_1
 execute as @e[tag=descent_constellation_3_active] run function descent_minibosses:astronomer/constellation/constellation_3
+scoreboard players remove @e[scores={descent_astronomer_slash_timer=0..}] descent_astronomer_slash_timer 1
+execute as @e[scores={descent_astronomer_slash_timer=0}] run execute at @s as @n[tag=aj.astronomer_slash.root] run function aj:astronomer_slash/remove/this
+execute as @e[scores={descent_astronomer_slash_timer=0}] run execute at @s run particle dust_color_transition{from_color:[0.310,1.000,0.608],to_color:[0.361,1.000,0.788],scale:3.2} ^ ^1 ^1.5 0.3 0.3 0.3 0 15 normal
+execute as @e[scores={descent_astronomer_slash_timer=0}] run execute at @s run particle dust_color_transition{from_color:[0.310,1.000,0.608],to_color:[0.361,1.000,0.788],scale:3.2} ^1 ^1 ^0.5 0.3 0.3 0.3 0 15 normal
+execute as @e[scores={descent_astronomer_slash_timer=0}] run execute at @s run particle dust_color_transition{from_color:[0.310,1.000,0.608],to_color:[0.361,1.000,0.788],scale:3.2} ^-1 ^1 ^0.5 0.3 0.3 0.3 0 15 normal
