@@ -6,3 +6,4 @@ scoreboard objectives add descent_bottled_echo_timer dummy
 scoreboard objectives add descent_bottled_echo_cooldown dummy
 scoreboard objectives add descent_pact_cooldown dummy
 scoreboard objectives add descent_voided_scepter_active_timer dummy
+scoreboard objectives add descent_sunder_cooldown dummy
