@@ -1,0 +1,1 @@
+scoreboard players add @s descent_sunder_cooldown 1
