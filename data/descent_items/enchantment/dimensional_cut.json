@@ -36,7 +36,7 @@
               "entity": "this",
               "scores": {
                 "descent_sunder_cooldown": {
-                  "min": 200
+                  "min": 120
                 }
               }
             },
