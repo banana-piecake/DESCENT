@@ -31,6 +31,7 @@
     "descent_items:backfire",
     "descent_items:leeching",
     "descent_items:riposte",
-    "descent_items:bloom_weapons/void_powered"
+    "descent_items:bloom_weapons/void_powered",
+    "descent_items:dimensional_cut"
   ]
 }
