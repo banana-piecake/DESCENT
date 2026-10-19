@@ -32,6 +32,10 @@
 				"assets/aj/textures/blueprint/astronomer_slash/slash_1_png.png"
 			]
 		},
+		"aj:astronomer_spear": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": ["assets/aj/items/blueprint/astronomer_spear/astronomer_spear.json", "assets/aj/models/blueprint/astronomer_spear/astronomer_spear.json"]
+		},
 		"aj:stargazer": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [

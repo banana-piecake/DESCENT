@@ -3,6 +3,7 @@
 	"values": [
 		"aj:angel_being/on_load",
 		"aj:astronomer_slash/on_load",
+		"aj:astronomer_spear/on_load",
 		"aj:astronomer/on_load",
 		"aj:circle_rune/on_load",
 		"aj:endstone_meteor/on_load",
