@@ -111,3 +111,6 @@ execute at @e[tag=descent_astronomer_spear_holder] run particle minecraft:end_ro
 execute as @e[tag=aj.astronomer_spear.root] run execute at @s if block ~ ~-1 ~ #minecraft:air if entity @p[distance=..2.3] run function descent_minibosses:astronomer/spear_explode
 scoreboard players add @e[tag=aj.astronomer_spear.root] descent_astronomer_spear_timer 1
 execute as @e[scores={descent_astronomer_spear_timer=200..}] run execute at @s run function descent_minibosses:astronomer/spear_explode
+execute as @e[scores={aj.astronomer.astronomer_slash.frame=16}] run execute at @s run function descent_minibosses:astronomer/teleport/start
+execute as @e[scores={aj.astronomer.astronomer_laser.frame=15..37}] run execute at @s run function descent_minibosses:astronomer/laser/start
+execute as @e[scores={aj.astronomer.astronomer_spear.frame=12}] run execute at @s run function descent_minibosses:astronomer/spear_shoot
