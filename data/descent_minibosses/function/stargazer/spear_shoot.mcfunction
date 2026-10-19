@@ -1,6 +1,7 @@
 execute at @s run playsound angelic_descent:fire_woosh hostile @a ^ ^1 ^1.2 0.7 1.2
-
+execute at @s positioned ^ ^1.95 ^1.2 run function aj:astronomer_spear/summon {args:{}}
 execute as @s at @s run summon snowball ^ ^1.95 ^1.2 {Tags:["descent_astronomer_spear_holder"],Item:{id:"minecraft:purple_stained_glass",count:1,components:{"minecraft:item_model":"air"}}}
+execute at @s positioned ^ ^1.95 ^1.2 run ride @n[tag=aj.astronomer_spear.root] mount @n[tag=descent_astronomer_spear_holder]
 execute at @s run execute as @n[tag=descent_astronomer_spear_holder,type=snowball] at @n[tag=descent_astronomer_spear_holder,type=snowball] run execute store result score @s p0 run data get entity @s Pos[0] 1000
 execute at @s run execute as @n[tag=descent_astronomer_spear_holder,type=snowball] at @n[tag=descent_astronomer_spear_holder,type=snowball] run execute store result score @s p1 run data get entity @s Pos[1] 1000
 execute at @s run execute as @n[tag=descent_astronomer_spear_holder,type=snowball] at @n[tag=descent_astronomer_spear_holder,type=snowball] run execute store result score @s p2 run data get entity @s Pos[2] 1000

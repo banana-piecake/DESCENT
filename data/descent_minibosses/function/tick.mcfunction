@@ -107,3 +107,4 @@ execute as @e[scores={descent_astronomer_slash_timer=0}] run execute at @s as @n
 execute as @e[scores={descent_astronomer_slash_timer=0}] run execute at @s run particle dust_color_transition{from_color:[0.310,1.000,0.608],to_color:[0.361,1.000,0.788],scale:3.2} ^ ^1 ^1.5 0.3 0.3 0.3 0 15 normal
 execute as @e[scores={descent_astronomer_slash_timer=0}] run execute at @s run particle dust_color_transition{from_color:[0.310,1.000,0.608],to_color:[0.361,1.000,0.788],scale:3.2} ^1 ^1 ^0.5 0.3 0.3 0.3 0 15 normal
 execute as @e[scores={descent_astronomer_slash_timer=0}] run execute at @s run particle dust_color_transition{from_color:[0.310,1.000,0.608],to_color:[0.361,1.000,0.788],scale:3.2} ^-1 ^1 ^0.5 0.3 0.3 0.3 0 15 normal
+execute at @e[tag=descent_astronomer_spear_holder] run particle minecraft:end_rod
