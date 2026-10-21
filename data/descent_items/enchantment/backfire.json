@@ -43,6 +43,19 @@
           ],
           "magnitude": 1.34
         }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "descent_parry_effect": 1
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "descent_items:weapons/afterburner_parry"
+        }
       }
     ]
   }

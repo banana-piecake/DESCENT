@@ -37,6 +37,19 @@
           "min_amplifier": 0,
           "max_amplifier": 0
         }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "descent_parry_effect": 1
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "descent_items:weapons/vampiric_dagger_parry"
+        }
       }
     ],
     "minecraft:attributes": [
