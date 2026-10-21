@@ -7,3 +7,6 @@ scoreboard objectives add descent_bottled_echo_cooldown dummy
 scoreboard objectives add descent_pact_cooldown dummy
 scoreboard objectives add descent_voided_scepter_active_timer dummy
 scoreboard objectives add descent_sunder_cooldown dummy
+scoreboard objectives add descent_pyroclastic_crossbow_charge dummy
+scoreboard objectives add descent_ignition_charge dummy
+scoreboard objectives add descent_generic_charge_timer dummy
