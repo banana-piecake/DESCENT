@@ -10,3 +10,4 @@ scoreboard objectives add descent_sunder_cooldown dummy
 scoreboard objectives add descent_pyroclastic_crossbow_charge dummy
 scoreboard objectives add descent_ignition_charge dummy
 scoreboard objectives add descent_generic_charge_timer dummy
+scoreboard objectives add descent_overheat_immunity dummy
