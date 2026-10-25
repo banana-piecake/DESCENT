@@ -10,12 +10,12 @@ execute at @s run particle glow ~ ~ ~ 1 1 1 0.2 50 normal
 execute at @s run particle enchant ~ ~ ~ 1 1 1 0.2 50 normal
 execute at @s run particle enchanted_hit ~ ~ ~ 1 1 1 0.2 50 normal
 execute at @s run particle flash{color:[0.741,0.000,0.000,0.60]} ~ ~ ~ 1 1 1 0.2 5 normal
-execute at @s run execute positioned ~-2 ~ ~2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~-2 ~ ~-2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~2 ~ ~2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~2 ~ ~-2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~3 ~ ~ run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~-3 ~ ~ run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~ ~ ~-3 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~ ~ ~3 run kill @n[type=item,tag=ritual]
+execute at @s run execute positioned ~-2 ~ ~2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~-2 ~ ~-2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~2 ~ ~2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~2 ~ ~-2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~3 ~ ~ run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~-3 ~ ~ run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~ ~ ~-3 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~ ~ ~3 run kill @n[type=item,tag=ritual,distance=..1]
 kill @s

@@ -7,11 +7,11 @@ execute if score @s descent_random_rune_roll matches 96..100 run function descen
 execute at @s run particle glow ~ ~ ~ 1 1 1 0.2 50 normal
 execute at @s run particle enchant ~ ~ ~ 1 1 1 0.2 50 normal
 execute at @s run particle enchanted_hit ~ ~ ~ 1 1 1 0.2 50 normal
-execute at @s run execute positioned ~-2 ~ ~2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~-2 ~ ~-2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~2 ~ ~2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~2 ~ ~-2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~3 ~ ~ run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~-3 ~ ~ run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~ ~ ~-3 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~ ~ ~3 run kill @n[type=item,tag=ritual]
+execute at @s run execute positioned ~-2 ~ ~2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~-2 ~ ~-2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~2 ~ ~2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~2 ~ ~-2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~3 ~ ~ run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~-3 ~ ~ run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~ ~ ~-3 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~ ~ ~3 run kill @n[type=item,tag=ritual,distance=..1]

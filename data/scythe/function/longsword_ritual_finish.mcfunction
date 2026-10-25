@@ -2,7 +2,7 @@ execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[dis
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.5
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.6
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.7
-execute at @s run summon ominous_item_spawner ~ ~ ~ {spawn_item_after_ticks:100,item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_model":"scythe:bloodfell_longsword","minecraft:item_name":{"color":"dark_red","text":"Bloodfell Longsword"},"minecraft:enchantments":{"scythe:event_horizon":1,"scythe:animosity":1},"minecraft:custom_data":{bloodfell:"event_horizon"},"minimum_attack_charge":0.848,"minecraft:blocks_attacks":{block_sound:"entity.zombie.attack_iron_door",disabled_sound:"entity.zombie.attack_iron_door"}}}}
+execute at @s run summon ominous_item_spawner ~ ~ ~ {spawn_item_after_ticks:100,item:{id:"minecraft:netherite_sword",count:1,components:{"minecraft:item_model":"scythe:bloodfell_longsword","minecraft:use_cooldown":{seconds:5,cooldown_group:"minecraft:shield"},"minecraft:item_name":{"color":"dark_red","text":"Bloodfell Longsword"},"minecraft:enchantments":{"scythe:event_horizon":1,"scythe:animosity":1},"minecraft:custom_data":{bloodfell:"event_horizon"},"minimum_attack_charge":0.848,"minecraft:blocks_attacks":{block_sound:"entity.zombie.attack_iron_door",disabled_sound:"entity.zombie.attack_iron_door"}}}}
 execute at @s run summon leash_knot ~ ~ ~ {Tags:["ritualise"]}
 execute at @s run tp @n[type=ominous_item_spawner] @n[tag=ritualise]
 kill @e[tag=ritualise]
@@ -10,13 +10,13 @@ execute at @s run particle glow ~ ~ ~ 1 1 1 0.2 50 normal
 execute at @s run particle enchant ~ ~ ~ 1 1 1 0.2 50 normal
 execute at @s run particle enchanted_hit ~ ~ ~ 1 1 1 0.2 50 normal
 execute at @s run particle flash{color:[0.741,0.000,0.000,0.60]} ~ ~ ~ 1 1 1 0.2 5 normal
-execute at @s run execute positioned ~-2 ~ ~2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~-2 ~ ~-2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~2 ~ ~2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~2 ~ ~-2 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~3 ~ ~ run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~-3 ~ ~ run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~ ~ ~-3 run kill @n[type=item,tag=ritual]
-execute at @s run execute positioned ~ ~ ~3 run kill @n[type=item,tag=ritual]
+execute at @s run execute positioned ~-2 ~ ~2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~-2 ~ ~-2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~2 ~ ~2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~2 ~ ~-2 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~3 ~ ~ run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~-3 ~ ~ run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~ ~ ~-3 run kill @n[type=item,tag=ritual,distance=..1]
+execute at @s run execute positioned ~ ~ ~3 run kill @n[type=item,tag=ritual,distance=..1]
 kill @s
 kill @s
