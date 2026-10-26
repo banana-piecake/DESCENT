@@ -118,3 +118,5 @@ execute as @e[scores={aj.astronomer.astronomer_spear.frame=12}] run execute at @
 execute as @e[scores={descent_astronomer_spear_timer=170}] run execute at @s run playsound angelic_descent:subspace_beep hostile @a ~ ~ ~ 2 1.06
 
 scoreboard players remove @e[scores={descent_astronomer_stagger_timer=1..}] descent_astronomer_stagger_timer 1
+
+execute as @e[tag=aj.astronomer.root] run execute at @s unless entity @n[tag=descent_astronomer_entity,distance=0..1] run function descent_minibosses:astronomer/remove
