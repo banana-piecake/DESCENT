@@ -120,4 +120,5 @@ execute as @e[scores={descent_astronomer_spear_timer=170}] run execute at @s run
 scoreboard players remove @e[scores={descent_astronomer_stagger_timer=1..}] descent_astronomer_stagger_timer 1
 
 execute as @e[tag=aj.astronomer.root] run execute at @s unless entity @n[tag=descent_astronomer_entity,distance=0..1] run function descent_minibosses:astronomer/remove
-/execute as @e[tag=aj.astronomer.root] run execute unless score @s descent_astronomer_stagger_timer matches 1.. run scoreboard players add @s descent_astronomer_attack_timer 1
+execute as @e[tag=aj.astronomer.root] run execute unless score @s descent_astronomer_stagger_timer matches 1.. run scoreboard players add @s descent_astronomer_attack_timer 1
+execute as @e[tag=aj.astronomer.root] run execute if score @s descent_astronomer_attack_timer matches 80.. run function descent_minibosses:astronomer/random_constellation

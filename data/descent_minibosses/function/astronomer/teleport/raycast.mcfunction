@@ -1,9 +1,10 @@
 scoreboard players remove .raycastLimit raycast 1
 
 execute if score .raycastLimit raycast matches 1 run function descent_minibosses:astronomer/teleport/slash
-execute if entity @e[distance=0.001..0.99,tag=!raycaster,nbt={Brain:{}}] run return run function descent_minibosses:astronomer/teleport/slash
+execute if entity @e[distance=0.001..0.99,tag=!raycaster,nbt={Brain:{}},tag=!descent_astronomer_entity] run return run function descent_minibosses:astronomer/teleport/slash
 execute unless block ~ ~ ~ #minecraft:replaceable positioned ^ ^ ^0.1 run function descent_minibosses:astronomer/teleport/slash
 tp @s ~ ~ ~
+tp @n[tag=descent_astronomer_entity] ~ ~ ~
 particle minecraft:end_rod ~ ~1 ~ 0.01 0.01 0.01 0.05 1
 #execute unless block ~ ~ ~ #minecraft:replaceable positioned ^ ^ ^0.1 run function descent_minibosses:astronomer/teleport/hit
 #execute unless score .raycastLimit raycast matches 1.. positioned ^ ^ ^0.1 run function descent_minibosses:astronomer/teleport/hit
