@@ -1,3 +1,4 @@
 scoreboard objectives add descent_constellation_timer dummy
 scoreboard objectives add descent_astronomer_slash_timer dummy
 scoreboard objectives add descent_astronomer_spear_timer dummy
+scoreboard objectives add descent_astronomer_stagger_timer dummy
