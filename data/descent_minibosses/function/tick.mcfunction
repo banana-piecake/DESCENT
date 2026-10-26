@@ -122,3 +122,6 @@ scoreboard players remove @e[scores={descent_astronomer_stagger_timer=1..}] desc
 execute as @e[tag=aj.astronomer.root] run execute at @s unless entity @n[tag=descent_astronomer_entity,distance=0..1] run function descent_minibosses:astronomer/remove
 execute as @e[tag=aj.astronomer.root] run execute unless score @s descent_astronomer_stagger_timer matches 1.. run scoreboard players add @s descent_astronomer_attack_timer 1
 execute as @e[tag=aj.astronomer.root] run execute if score @s descent_astronomer_attack_timer matches 80.. run function descent_minibosses:astronomer/random_constellation
+
+scoreboard players add @e[tag=!ritual,type=item,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"starlight_sigil"}}}}] descent_starlight_sigil_timer 1
+execute as @e[scores={descent_starlight_sigil_timer=60..},type=item,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"starlight_sigil"}}}}] run execute at @s run function descent_minibosses:astronomer/summon
