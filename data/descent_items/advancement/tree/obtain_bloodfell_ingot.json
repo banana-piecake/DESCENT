@@ -1,0 +1,30 @@
+{
+  "parent": "angelic_descent:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:item_model": "scythe:bloodfell_ingot"
+      }
+    },
+    "title": "Sacrifice brings power",
+    "description": "Obtain your first Bloodfell Ingot."
+  },
+  "criteria": {
+    "ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "animosity": "ingot"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {}
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "descent_items:tree/obtain_bloodfell_ingot",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:item_model": "scythe:voidtouched_harvester"
+      }
+    },
+    "title": "The beginning of the end",
+    "description": "Obtain the Voidtouched Harvester.",
+    "frame": "goal"
+  },
+  "criteria": {
+    "ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "voidtouched": "scythe"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {}
+}
