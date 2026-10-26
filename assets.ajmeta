@@ -1,6 +1,15 @@
 {
 	"formatVersion": "1.0.0",
 	"rigs": {
+		"aj:angel_being": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/angel_being/body.json",
+				"assets/aj/models/blueprint/angel_being/body.json",
+				"assets/aj/textures/blueprint/angel_being/bricks.png",
+				"assets/aj/textures/blueprint/angel_being/eye_sigil_1_png.png"
+			]
+		},
 		"aj:astronomer": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [

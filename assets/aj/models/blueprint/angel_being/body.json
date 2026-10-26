@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
 	"textures": {
 		"0": "aj:blueprint/angel_being/bricks",
 		"1": "aj:blueprint/angel_being/eye_sigil_1_png",

@@ -12,8 +12,11 @@ function animated_java:global/data_manager/read with storage animated_java:temp 
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.root_uuid set from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.blueprint_id set value "aj:angel_being"
-data modify storage animated_java:temp entry.data.rig_hash set value "b8ae224dd94763ea176089d8b188a1eeba0c1a4220148e63fdc151f97c6b2874"
+data modify storage animated_java:temp entry.data.rig_hash set value "cabfa4e0571d5b5834869b6759a6c7c0bd8cc965a318ac1e4f6dddee6ceb3ce1"
 tp @s ~ ~ ~ ~ ~
+execute on passengers if entity @s[tag=aj.angel_being.node.body] run function aj:angel_being/zzz/summon/as_node/body
+data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
+data modify storage animated_java:temp entry.data.uuids_by_name.body set from storage animated_java:gu out
 execute on passengers if entity @s[tag=aj.angel_being.node.wing3] run function aj:angel_being/zzz/summon/as_node/wing3
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.wing3 set from storage animated_java:gu out
@@ -26,9 +29,6 @@ data modify storage animated_java:temp entry.data.uuids_by_name.wing1 set from s
 execute on passengers if entity @s[tag=aj.angel_being.node.wing2] run function aj:angel_being/zzz/summon/as_node/wing2
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.wing2 set from storage animated_java:gu out
-execute on passengers if entity @s[tag=aj.angel_being.node.body] run function aj:angel_being/zzz/summon/as_node/body
-data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
-data modify storage animated_java:temp entry.data.uuids_by_name.body set from storage animated_java:gu out
 execute on passengers if entity @s[tag=aj.angel_being.node.block_display5] run function aj:angel_being/zzz/summon/as_node/block_display5
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.block_display5 set from storage animated_java:gu out
@@ -41,9 +41,9 @@ data modify storage animated_java:temp entry.data.uuids_by_name.block_display6 s
 execute on passengers if entity @s[tag=aj.angel_being.node.block_display7] run function aj:angel_being/zzz/summon/as_node/block_display7
 data modify storage animated_java:temp entry.data.uuids append from storage animated_java:gu out
 data modify storage animated_java:temp entry.data.uuids_by_name.block_display7 set from storage animated_java:gu out
-function aj:angel_being/zzz/set_default_pose
 # Data Manager: Write
 function animated_java:global/data_manager/write with storage animated_java:temp args
+function aj:angel_being/zzz/set_default_pose
 execute if data storage animated_java:temp args.variant run function aj:angel_being/zzz/summon/zzz/variant_arg/no_variants_warning
 execute if score #success aj.i matches 0 run return fail
 execute if data storage animated_java:temp args.animation run function aj:angel_being/zzz/summon/animation_arg/process with storage animated_java:temp args
@@ -53,4 +53,3 @@ data modify entity @s teleport_duration set value 1
 execute on passengers run data modify entity @s teleport_duration set value 1
 tag @s remove aj.new
 execute on passengers run tag @s remove aj.new
-execute on passengers run ride @s dismount
