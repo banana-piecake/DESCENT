@@ -10,7 +10,7 @@
     "title": "Starlight",
     "description": "Obtained the knowledge to create the Starlight."
   },
-  "parent": "descent_knowledge:void_fracture",
+  "parent": "descent_knowledge:root",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

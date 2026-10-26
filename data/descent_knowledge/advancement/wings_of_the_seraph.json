@@ -14,7 +14,7 @@
     "title": "Wings of the Seraph",
     "description": "Obtained the knowledge to create the Wings of the Seraph."
   },
-  "parent": "descent_knowledge:cursed_cleaver",
+  "parent": "descent_knowledge:root",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"
