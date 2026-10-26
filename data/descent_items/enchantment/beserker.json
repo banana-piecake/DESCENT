@@ -22,9 +22,21 @@
   "effects": {
     "minecraft:attributes": [
       {
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "descent:beserker_range_entity",
+        "amount": 0.2,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:block_interaction_range",
+        "id": "descent:beserker_range",
+        "amount": 0.2,
+        "operation": "add_value"
+      },
+      {
         "attribute": "minecraft:attack_damage",
         "id": "descent:beserker_damage",
-        "amount": 0.75,
+        "amount": 0.9,
         "operation": "add_multiplied_base"
       },
       {
@@ -36,7 +48,7 @@
       {
         "attribute": "minecraft:movement_speed",
         "id": "descent:beserker_move_speed",
-        "amount": -0.2,
+        "amount": -0.4,
         "operation": "add_multiplied_base"
       }
     ],
@@ -55,7 +67,7 @@
           "type": "minecraft:attribute",
           "attribute": "minecraft:attack_damage",
           "id": "descent:rage_mode_damage",
-          "amount": 0.3,
+          "amount": 0.35,
           "operation": "add_multiplied_base"
         }
       },
@@ -73,7 +85,7 @@
           "type": "minecraft:attribute",
           "attribute": "minecraft:attack_speed",
           "id": "descent:rage_mode_speed",
-          "amount": 0.15,
+          "amount": 0.25,
           "operation": "add_multiplied_base"
         }
       },
@@ -115,6 +127,48 @@
           "min_amplifier": 1,
           "max_amplifier": 1
         }
+      }
+    ],
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 1
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "animosity_health": {
+              "max": 8
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 1.5
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "animosity_health": {
+              "max": 8
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:wind_ring"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
       }
     ]
   }
