@@ -115,3 +115,5 @@ execute as @e[scores={aj.astronomer.astronomer_slash.frame=16}] run execute at @
 execute as @e[scores={aj.astronomer.astronomer_laser.frame=15..37}] run execute at @s run function descent_minibosses:astronomer/laser/start
 execute as @e[scores={aj.astronomer.astronomer_spear.frame=12}] run execute at @s run function descent_minibosses:astronomer/spear_shoot
 execute as @e[scores={descent_astronomer_spear_timer=170}] run execute at @s run playsound angelic_descent:subspace_beep hostile @a ~ ~ ~ 2 1.06
+
+scoreboard players remove @e[scores={descent_astronomer_stagger_timer=1..}] descent_astronomer_stagger_timer 1
