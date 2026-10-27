@@ -88,6 +88,11 @@ execute as @e[tag=aj.stargazer.root] run execute at @s unless entity @n[tag=desc
 execute as @e[tag=aj.stargazer.root] run execute at @s as @e[type=#minecraft:impact_projectiles,distance=0..2.3] run function descent_minibosses:stargazer/atomise
 execute as @e[tag=aj.stargazer.root] run execute at @s as @e[tag=descent_bloom_projectile,distance=0..4.3] run function descent_minibosses:stargazer/atomise
 
+scoreboard players add @e[tag=descent_stargazer_rift] descent_stargazer_rift_timer 1
+execute as @e[scores={descent_stargazer_rift_timer=30}] run execute at @s run function descent_minibosses:stargazer/summon
+execute as @e[scores={descent_stargazer_rift_timer=46}] run execute at @s as @n[tag=aj.alien_rift.root] run function aj:alien_rift/remove/this
+execute as @e[scores={descent_stargazer_rift_timer=47}] run kill @s
+
 #astronomer
 execute as @e[tag=descent_astronomer_marker] run execute at @s run rotate @s ~2 ~
 execute as @e[tag=descent_astronomer_marker] run execute at @s unless score @n[tag=aj.astronomer.root] descent_astronomer_stagger_timer matches 1.. run tp @n[tag=aj.astronomer.root] ^ ^2 ^4
@@ -126,7 +131,7 @@ execute as @e[tag=aj.astronomer.root] run execute if score @s descent_astronomer
 scoreboard players add @e[tag=!ritual,type=item,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"starlight_sigil"}}}}] descent_starlight_sigil_timer 1
 execute as @e[scores={descent_starlight_sigil_timer=60..},type=item,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"starlight_sigil"}}}}] run execute at @s run function descent_minibosses:astronomer/rift_summon
 
-scoreboard players add @e[tag=descent_stargazer_rift] descent_stargazer_rift_timer 1
-execute as @e[scores={descent_stargazer_rift_timer=30}] run execute at @s run function descent_minibosses:stargazer/summon
-execute as @e[scores={descent_stargazer_rift_timer=46}] run execute at @s as @n[tag=aj.alien_rift.root] run function aj:alien_rift/remove/this
-execute as @e[scores={descent_stargazer_rift_timer=47}] run kill @s
+scoreboard players add @e[tag=descent_astronomer_rift] descent_astronomer_rift_timer 1
+execute as @e[scores={descent_astronomer_rift_timer=30}] run execute at @s run function descent_minibosses:astronomer/summon
+execute as @e[scores={descent_astronomer_rift_timer=46}] run execute at @s as @n[tag=aj.alien_rift.root] run function aj:alien_rift/remove/this
+execute as @e[scores={descent_astronomer_rift_timer=47}] run kill @s
