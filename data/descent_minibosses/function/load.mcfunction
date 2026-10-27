@@ -5,3 +5,4 @@ scoreboard objectives add descent_astronomer_stagger_timer dummy
 scoreboard objectives add descent_astronomer_random_constellation dummy
 scoreboard objectives add descent_astronomer_attack_timer dummy
 scoreboard objectives add descent_starlight_sigil_timer dummy
+scoreboard objectives add descent_astronomer_rift_timer dummy
