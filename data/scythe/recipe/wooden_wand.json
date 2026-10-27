@@ -55,7 +55,8 @@
       "minecraft:attack_animation": {
         "type": "stab",
         "duration": 6
-      }
+      },
+      "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal"
     }
   }
 }
