@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
+		"aj:alien_rift/on_load",
 		"aj:angel_being/on_load",
 		"aj:astronomer_slash/on_load",
 		"aj:astronomer_spear/on_load",

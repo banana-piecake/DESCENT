@@ -1,6 +1,10 @@
 {
 	"formatVersion": "1.0.0",
 	"rigs": {
+		"aj:alien_rift": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": []
+		},
 		"aj:angel_being": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [
