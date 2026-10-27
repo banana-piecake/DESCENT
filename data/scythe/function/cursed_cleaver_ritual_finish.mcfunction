@@ -2,7 +2,7 @@ execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[dis
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.5
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.6
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.7
-execute at @s run summon ominous_item_spawner ~ ~ ~ {spawn_item_after_ticks:40,item:{id:"minecraft:mace",count:1,components:{"minecraft:item_model":"abe_forgery:cleaver","minecraft:item_name":"Cursed Cleaver","minecraft:custom_data":{descent:"cursed_cleaver"},"minecraft:enchantments":{"scythe:cursed_might":1},"minecraft:lore":["A relic of times passed..."],"minecraft:consumable":{consume_seconds:1000,animation:"trident",has_consume_particles:false}}}}
+execute at @s run summon ominous_item_spawner ~ ~ ~ {spawn_item_after_ticks:40,item:{id:"minecraft:mace",count:1,components:"minecraft:tooltip_style":"descent_tooltips:descent_tooltip_normal","minecraft:item_model":"abe_forgery:cleaver","minecraft:item_name":"Cursed Cleaver","minecraft:custom_data":{descent:"cursed_cleaver"},"minecraft:enchantments":{"scythe:cursed_might":1},"minecraft:lore":["A relic of times passed..."],"minecraft:consumable":{consume_seconds:1000,animation:"trident",has_consume_particles:false}}}}
 execute at @s run summon leash_knot ~ ~ ~ {Tags:["ritualise"]}
 execute at @s run tp @n[type=ominous_item_spawner] @n[tag=ritualise]
 kill @e[tag=ritualise]

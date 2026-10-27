@@ -19,7 +19,8 @@
               },
               "minecraft:damage_resistant": {
                 "types": "minecraft:magic"
-              }
+              },
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal"
             }
           }
         }

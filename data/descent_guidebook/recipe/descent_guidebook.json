@@ -21,7 +21,8 @@
       },
       "minecraft:custom_data": {
         "descent": "guidebook"
-      }
+      },
+      "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal"
     }
   }
 }

@@ -2,7 +2,7 @@ execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[dis
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.5
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.6
 execute at @s run playsound minecraft:block.end_portal_frame.fill hostile @a[distance=0..12] ~ ~ ~ 5 0.7
-execute at @s run summon ominous_item_spawner ~ ~ ~ {spawn_item_after_ticks:30,item:{id:"minecraft:diamond_boots",count:1,components:{"minecraft:enchantments":{"scythe:sculk_cling":1},"minecraft:item_name":"Echo Boots","minecraft:trim":{material:"minecraft:diamond",pattern:"minecraft:silence"}}}}
+execute at @s run summon ominous_item_spawner ~ ~ ~ {spawn_item_after_ticks:30,item:{id:"minecraft:diamond_boots",count:1,components:{"minecraft:tooltip_style":"descent_tooltips:descent_tooltip_normal","minecraft:enchantments":{"scythe:sculk_cling":1},"minecraft:item_name":"Echo Boots","minecraft:trim":{material:"minecraft:diamond",pattern:"minecraft:silence"}}}}
 execute at @s run summon leash_knot ~ ~ ~ {Tags:["ritualise"]}
 execute at @s run tp @n[type=ominous_item_spawner] @n[tag=ritualise]
 kill @e[tag=ritualise]
