@@ -20,4 +20,4 @@ scoreboard players add @e[tag=descent_player_rift_marker_non_travel] descent_rif
 execute as @e[scores={descent_rift_marker_timer=100..}] run execute at @s as @n[tag=aj.alien_rift.root,distance=0..2] run function aj:alien_rift/remove/this
 execute as @e[scores={descent_rift_marker_timer=100..}] run execute at @s run kill @s
 execute at @e[tag=descent_player_rift_marker] run execute as @a[distance=0..1] run function descent_items:rift_items/rift_warp
-execute as @a run execute if score @s descent_soulbound_respawn_timer matches 1 if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"dreamcatcher"}] run function descent_items:rift_items/rift_summon_respawn
+execute as @a run execute if entity @n[tag=ritual,type=item,sort=random,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"rift_marker"}}}}] if score @s descent_soulbound_respawn_timer matches 1 if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"dreamcatcher"}] run function descent_items:rift_items/rift_summon_respawn
