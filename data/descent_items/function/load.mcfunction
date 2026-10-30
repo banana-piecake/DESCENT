@@ -12,3 +12,4 @@ scoreboard objectives add descent_ignition_charge dummy
 scoreboard objectives add descent_generic_charge_timer dummy
 scoreboard objectives add descent_overheat_immunity dummy
 scoreboard objectives add descent_rift_marker_timer dummy
+scoreboard objectives add descent_dimension_edge_timer dummy
