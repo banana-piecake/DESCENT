@@ -17,3 +17,6 @@ scoreboard players remove @e[scores={descent_parry_effect=1..}] descent_parry_ef
 scoreboard players remove @e[scores={descent_voided_scepter_active_timer=1..}] descent_voided_scepter_active_timer 1
 scoreboard players add @e[tag=descent_player_rift_marker] descent_rift_marker_timer 1
 scoreboard players add @e[tag=descent_player_rift_marker_non_travel] descent_rift_marker_timer 1
+execute as @e[scores={descent_rift_marker_timer=100..}] run execute at @s as @n[tag=aj.alien_rift.root,distance=0..2] run function aj:alien_rift/remove/this
+execute as @e[scores={descent_rift_marker_timer=100..}] run execute at @s run kill @s
+execute at @e[tag=descent_player_rift_marker] run execute as @a[distance=0..1] run function descent_items:rift_items/rift_warp
