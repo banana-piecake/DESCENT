@@ -24,7 +24,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "descent_items:weapons/sunder/hold"
+          "function": "descent_items:weapons/dimension_edge/hold"
         }
       },
       {
@@ -55,7 +55,7 @@
         },
         "effect": {
           "type": "minecraft:run_function",
-          "function": "descent_items:weapons/sunder/use"
+          "function": "descent_items:weapons/dimension_edge/use"
         }
       }
     ]
