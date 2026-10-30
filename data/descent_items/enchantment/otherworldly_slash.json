@@ -35,7 +35,7 @@
               "type": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
-                " descent_dimension_edge_timer": {
+                "descent_dimension_edge_timer": {
                   "min": 400
                 }
               }
