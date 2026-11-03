@@ -1,0 +1,2 @@
+execute unless score #CONFIG descent_config_better_combat matches 1 run return run scoreboard players set #CONFIG descent_config_better_combat 1
+scoreboard players set #CONFIG descent_config_better_combat 0
