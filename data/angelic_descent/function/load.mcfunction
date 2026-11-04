@@ -124,3 +124,6 @@ scoreboard objectives add descent_voidtouched_blade_cooldown dummy
 scoreboard objectives add descent_mana_poison dummy
 
 scoreboard objectives add descent_random_knowledge dummy
+
+#config
+execute unless score #CONFIG descent_config_better_combat matches ..1 run function descent_items:better_combat_toggle
