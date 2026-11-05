@@ -93,6 +93,9 @@ execute as @e[scores={descent_stargazer_rift_timer=30}] run execute at @s run fu
 execute as @e[scores={descent_stargazer_rift_timer=46}] run execute at @s as @n[tag=aj.alien_rift.root] run function aj:alien_rift/remove/this
 execute as @e[scores={descent_stargazer_rift_timer=47}] run kill @s
 
+scoreboard players add @e[tag=!ritual,type=item,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"interstellar_communicator"}}}}] descent_interstellar_communicator_timer 1
+execute as @e[scores={descent_interstellar_communicator_timer=60..},type=item,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"interstellar_communicator"}}}}] run execute at @s run function descent_minibosses:stargazer/rift_summon
+
 #astronomer
 execute as @e[tag=descent_astronomer_marker] run execute at @s run rotate @s ~2 ~
 execute as @e[tag=descent_astronomer_marker] run execute at @s unless score @n[tag=aj.astronomer.root] descent_astronomer_stagger_timer matches 1.. run tp @n[tag=aj.astronomer.root] ^ ^2 ^4
