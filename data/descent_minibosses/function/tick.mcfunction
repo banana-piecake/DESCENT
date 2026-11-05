@@ -142,3 +142,53 @@ execute as @e[scores={descent_astronomer_rift_timer=47}] run kill @s
 
 scoreboard players add @e[tag=aj.astronomer_slash.root] descent_astronomer_slash_remove_timer 1
 execute as @e[scores={descent_astronomer_slash_remove_timer=200..}] run function aj:astronomer_slash/remove/this
+
+
+#astronomer and stargazer dialog
+execute as @e[tag=aj.astronomer.root] run execute at @s if entity @n[tag=aj.stargazer.root,distance=..32] run scoreboard players add @s descent_astronomer_dialog_timer 1
+execute as @e[tag=aj.stargazer.root] run execute at @s if entity @n[tag=aj.astronomer.root,distance=..32] run scoreboard players add @s descent_stargazer_dialog_timer 1
+
+execute as @e[scores={descent_astronomer_dialog_timer=1}] run execute at @s run title @a[distance=..64] actionbar "G"
+execute as @e[scores={descent_astronomer_dialog_timer=2}] run execute at @s run title @a[distance=..64] actionbar "Gr"
+execute as @e[scores={descent_astronomer_dialog_timer=3}] run execute at @s run title @a[distance=..64] actionbar "Gre"
+execute as @e[scores={descent_astronomer_dialog_timer=4}] run execute at @s run title @a[distance=..64] actionbar "Gree"
+execute as @e[scores={descent_astronomer_dialog_timer=5}] run execute at @s run title @a[distance=..64] actionbar "Greet"
+execute as @e[scores={descent_astronomer_dialog_timer=6}] run execute at @s run title @a[distance=..64] actionbar "Greeti"
+execute as @e[scores={descent_astronomer_dialog_timer=7}] run execute at @s run title @a[distance=..64] actionbar "Greetin"
+execute as @e[scores={descent_astronomer_dialog_timer=8}] run execute at @s run title @a[distance=..64] actionbar "Greeting"
+execute as @e[scores={descent_astronomer_dialog_timer=9}] run execute at @s run title @a[distance=..64] actionbar "Greetings"
+execute as @e[scores={descent_astronomer_dialog_timer=10}] run execute at @s run title @a[distance=..64] actionbar "Greetings."
+execute as @e[scores={descent_astronomer_dialog_timer=1..10}] run execute at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 2 1.5
+
+
+execute as @e[scores={descent_stargazer_dialog_timer=26}] run execute at @s run title @a[distance=..64] actionbar "B"
+execute as @e[scores={descent_stargazer_dialog_timer=27}] run execute at @s run title @a[distance=..64] actionbar "Be"
+execute as @e[scores={descent_stargazer_dialog_timer=28}] run execute at @s run title @a[distance=..64] actionbar "Bee"
+execute as @e[scores={descent_stargazer_dialog_timer=29}] run execute at @s run title @a[distance=..64] actionbar "Been"
+execute as @e[scores={descent_stargazer_dialog_timer=30}] run execute at @s run title @a[distance=..64] actionbar "Been "
+execute as @e[scores={descent_stargazer_dialog_timer=31}] run execute at @s run title @a[distance=..64] actionbar "Been a"
+execute as @e[scores={descent_stargazer_dialog_timer=32}] run execute at @s run title @a[distance=..64] actionbar "Been a "
+execute as @e[scores={descent_stargazer_dialog_timer=33}] run execute at @s run title @a[distance=..64] actionbar "Been a w"
+execute as @e[scores={descent_stargazer_dialog_timer=34}] run execute at @s run title @a[distance=..64] actionbar "Been a wh"
+execute as @e[scores={descent_stargazer_dialog_timer=35}] run execute at @s run title @a[distance=..64] actionbar "Been a whi"
+execute as @e[scores={descent_stargazer_dialog_timer=36}] run execute at @s run title @a[distance=..64] actionbar "Been a whil"
+execute as @e[scores={descent_stargazer_dialog_timer=37}] run execute at @s run title @a[distance=..64] actionbar "Been a while"
+execute as @e[scores={descent_stargazer_dialog_timer=38}] run execute at @s run title @a[distance=..64] actionbar "Been a while,"
+execute as @e[scores={descent_stargazer_dialog_timer=39}] run execute at @s run title @a[distance=..64] actionbar "Been a while, "
+execute as @e[scores={descent_stargazer_dialog_timer=40}] run execute at @s run title @a[distance=..64] actionbar "Been a while, h"
+execute as @e[scores={descent_stargazer_dialog_timer=41}] run execute at @s run title @a[distance=..64] actionbar "Been a while, ha"
+execute as @e[scores={descent_stargazer_dialog_timer=42}] run execute at @s run title @a[distance=..64] actionbar "Been a while, has"
+execute as @e[scores={descent_stargazer_dialog_timer=43}] run execute at @s run title @a[distance=..64] actionbar "Been a while, hasn"
+execute as @e[scores={descent_stargazer_dialog_timer=44}] run execute at @s run title @a[distance=..64] actionbar "Been a while, hasn’"
+execute as @e[scores={descent_stargazer_dialog_timer=45}] run execute at @s run title @a[distance=..64] actionbar "Been a while, hasn’t"
+execute as @e[scores={descent_stargazer_dialog_timer=46}] run execute at @s run title @a[distance=..64] actionbar "Been a while, hasn’t "
+execute as @e[scores={descent_stargazer_dialog_timer=47}] run execute at @s run title @a[distance=..64] actionbar "Been a while, hasn’t i"
+execute as @e[scores={descent_stargazer_dialog_timer=48}] run execute at @s run title @a[distance=..64] actionbar "Been a while, hasn’t it"
+execute as @e[scores={descent_stargazer_dialog_timer=49}] run execute at @s run title @a[distance=..64] actionbar "Been a while, hasn’t it?"
+execute as @e[scores={descent_stargazer_dialog_timer=26..49}] run execute at @s run playsound minecraft:block.netherite_block.step hostile @a ~ ~ ~ 2 1.5
+
+execute as @e[scores={descent_astronomer_dialog_timer=64}] run execute at @s run title @a[distance=..64] actionbar "Y"
+execute as @e[scores={descent_astronomer_dialog_timer=65}] run execute at @s run title @a[distance=..64] actionbar "Ye"
+execute as @e[scores={descent_astronomer_dialog_timer=66}] run execute at @s run title @a[distance=..64] actionbar "Yes"
+execute as @e[scores={descent_astronomer_dialog_timer=67}] run execute at @s run title @a[distance=..64] actionbar "Yes."
+execute as @e[scores={descent_astronomer_dialog_timer=64..67}] run execute at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 2 1.5

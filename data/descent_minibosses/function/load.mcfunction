@@ -9,3 +9,5 @@ scoreboard objectives add descent_astronomer_rift_timer dummy
 scoreboard objectives add descent_stargazer_rift_timer dummy
 scoreboard objectives add descent_astronomer_slash_remove_timer dummy
 scoreboard objectives add descent_interstellar_communicator_timer dummy
+scoreboard objectives add descent_astronomer_dialog_timer dummy
+scoreboard objectives add descent_stargazer_dialog_timer dummy
