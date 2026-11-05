@@ -135,3 +135,7 @@ scoreboard players add @e[tag=descent_astronomer_rift] descent_astronomer_rift_t
 execute as @e[scores={descent_astronomer_rift_timer=30}] run execute at @s run function descent_minibosses:astronomer/summon
 execute as @e[scores={descent_astronomer_rift_timer=46}] run execute at @s as @n[tag=aj.alien_rift.root] run function aj:alien_rift/remove/this
 execute as @e[scores={descent_astronomer_rift_timer=47}] run kill @s
+
+
+scoreboard players add @e[tag=aj.astronomer_slash.root] descent_astronomer_slash_remove_timer 1
+execute as @e[scores={descent_astronomer_slash_remove_timer=200..}] run function aj:astronomer_slash/remove/this
