@@ -1,1 +1,0 @@
-execute at @s run damage @s 0.3 angelic_descent:magic_bypass by @p[scores={descent_voided_scepter_active_timer=1..}]

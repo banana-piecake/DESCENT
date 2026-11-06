@@ -1,1 +1,0 @@
-scoreboard players add @s descent_voidtouched_blade_cooldown 1

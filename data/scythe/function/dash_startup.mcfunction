@@ -1,1 +1,0 @@
-scoreboard players set @s scythe_active 1

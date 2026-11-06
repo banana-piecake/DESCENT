@@ -1,6 +1,0 @@
-{
-	"parent": "aj:blueprint/slash/bone",
-	"textures": {
-		"0": "aj:blueprint/slash/color2"
-	}
-}

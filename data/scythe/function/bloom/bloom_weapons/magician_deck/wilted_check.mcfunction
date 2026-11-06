@@ -1,1 +1,0 @@
-execute unless score @s descent_wilted_bloom matches 1 run function scythe:bloom/bloom_weapons/magician_deck/flourishing_check

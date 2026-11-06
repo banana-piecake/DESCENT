@@ -1,1 +1,0 @@
-$kill @e[type=!player,tag=bloom_id_$(bloom_id)]

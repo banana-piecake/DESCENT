@@ -1,1 +1,0 @@
-scoreboard players set @s animosity_withertouched_hit 2

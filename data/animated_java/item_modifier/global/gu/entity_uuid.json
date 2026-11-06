@@ -1,1 +1,0 @@
-{"type": "minecraft:set_name","entity": "this","target": "item_name","name": {"selector": "@s"}}

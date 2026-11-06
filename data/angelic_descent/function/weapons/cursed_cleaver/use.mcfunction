@@ -1,2 +1,0 @@
-function angelic_descent:weapons/cursed_cleaver/charge
-advancement revoke @s only angelic_descent:cursed_cleaver_use

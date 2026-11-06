@@ -1,1 +1,0 @@
-execute at @s run damage @s 0.9 angelic_descent:magic_bypass by @n[tag=aj.astronomer.root]

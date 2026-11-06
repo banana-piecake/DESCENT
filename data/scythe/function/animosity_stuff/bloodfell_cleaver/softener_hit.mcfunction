@@ -1,1 +1,0 @@
-scoreboard players set @s animosity_weaken_hit 2

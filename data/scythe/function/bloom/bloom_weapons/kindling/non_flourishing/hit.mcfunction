@@ -1,1 +1,0 @@
-execute at @s run damage @s 2 minecraft:on_fire by @p[scores={descent_kindling_active_timer=1..}]

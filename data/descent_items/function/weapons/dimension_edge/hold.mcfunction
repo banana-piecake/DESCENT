@@ -1,1 +1,0 @@
-scoreboard players add @s descent_dimension_edge_timer 1

@@ -1,1 +1,0 @@
-give @s diamond_spear[item_model="angelic_descent:ice_dagger",enchantments={"scythe:frozen_blade":1},!kinetic_weapon,minecraft:item_name="Ice Dagger"] 1

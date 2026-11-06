@@ -1,1 +1,0 @@
-scoreboard players add @s descent_worm_tooth_cooldown 1

@@ -1,1 +1,0 @@
-execute at @s run function scythe:soulbound_giveback with storage descent:soulbound_random

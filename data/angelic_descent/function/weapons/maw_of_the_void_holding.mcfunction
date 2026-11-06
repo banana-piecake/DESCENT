@@ -1,1 +1,0 @@
-scoreboard players add @s angelic_descent_maw_of_the_void_cooldown 1
