@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:set_enchantments",
+  "enchantments": {
+    "scythe:soulbound": 1
+  },
+  "condition": {
+    "type": "minecraft:all_of",
+    "terms": []
+  }
+}

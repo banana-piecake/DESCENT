@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "abe_forgery:item/cleaver",
+    "transformation": {
+      "translation": [
+        -0.5,
+        -0.5,
+        -0.525
+      ],
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "oversized_in_gui": true
+}

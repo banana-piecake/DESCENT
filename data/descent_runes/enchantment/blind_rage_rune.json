@@ -1,0 +1,44 @@
+{
+  "description": {
+    "text": "Rune of Blind Rage",
+    "color": "#ff7a7a"
+  },
+  "exclusive_set": "#descent_runes:runes",
+  "supported_items": "#minecraft:enchantable/vanishing",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "descent_runes:blind_rage_rune",
+        "amount": 4,
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:blindness",
+          "min_duration": 2,
+          "max_duration": 2,
+          "min_amplifier": 1,
+          "max_amplifier": 0
+        }
+      }
+    ]
+  }
+}

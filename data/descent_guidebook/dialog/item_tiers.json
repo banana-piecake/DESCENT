@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Item Tiers",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "There are several new item tiers in D E S C E N T with their own passives and more."
+    }
+  ],
+  "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:dialog_list"
+    }
+  },
+  "dialogs": [
+  "descent_guidebook:bloodfell_items",
+  "descent_guidebook:voidtouched_items"
+    ]
+}

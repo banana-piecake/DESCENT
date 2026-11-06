@@ -1,0 +1,1 @@
+scoreboard players add @s descent_fiendtide_timer 1

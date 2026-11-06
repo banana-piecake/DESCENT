@@ -1,0 +1,16 @@
+execute at @s positioned ~-6.00 ~ ~0 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~-4.00 ~ ~0 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~-2.00 ~ ~0 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~0 ~ ~-6.00 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~0 ~ ~-4.00 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~0 ~ ~-2.00 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~0 ~ ~2.00 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~0 ~ ~4.00 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~0 ~ ~6.00 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~2.00 ~ ~0 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~4.00 ~ ~0 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~6.00 ~ ~0 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~-8.00 ~ ~0 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~0 ~ ~-8.00 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~0 ~ ~8.00 run function descent_minibosses:lil_fiend/attack_rune_summon
+execute at @s positioned ~8.00 ~ ~0 run function descent_minibosses:lil_fiend/attack_rune_summon

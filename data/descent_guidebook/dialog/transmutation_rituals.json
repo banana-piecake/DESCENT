@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Transmutation Rituals",
+  "external_title": "Transmutation Rituals",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Transmutation Rituals are used to turn one item into another."
+  },
+  "inputs": [],
+  "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:rituals"
+    }
+  },
+  "dialogs": [
+    "descent_guidebook:echo_shard_transmutation"
+  ]
+}

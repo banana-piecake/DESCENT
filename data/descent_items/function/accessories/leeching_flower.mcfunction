@@ -1,0 +1,3 @@
+execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"leeching_flower"}] if score @s descent_bloom_amount matches 20.. at @s run particle tinted_leaves{color:[0.051,0.875,1.000,1.0]} ~ ~1 ~ 0.4 0.4 0.4 0.03 4 normal
+execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"leeching_flower"}] if score @s descent_bloom_amount matches 20.. run scoreboard players remove @s descent_bloom_amount 20
+advancement revoke @s only descent_items:leeching_flower

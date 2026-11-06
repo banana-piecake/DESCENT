@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"textures": {
+		"1": "aj:blueprint/astronomer/wing_1_png",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [-8, -1, 0],
+			"to": [10, 9, 0],
+			"rotation": {
+				"x": 0,
+				"y": -27.5,
+				"z": 0,
+				"origin": [-7, -1, 1]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [1.25, 0, 1.25, 1.25],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [16, 0, 0, 16],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 0, 0, 1.25],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [0, 0, 2.25, 0],
+					"texture": "#1"
+				},
+				"down": {
+					"uv": [0, 1.25, 2.25, 1.25],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

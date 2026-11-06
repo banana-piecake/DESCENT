@@ -1,0 +1,32 @@
+{
+  "description": {
+    "text": "Rune of Vitality",
+    "color": "#ff7a7a"
+  },
+  "exclusive_set": "#descent_runes:runes",
+  "supported_items": "#minecraft:enchantable/vanishing",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:max_health",
+        "id": "descent_runes:vitality_rune",
+        "amount": 4,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "aj:blueprint/lil_fiend_rune/pasted",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [-4, -4, 8],
+			"to": [20, 20, 8.1],
+			"rotation": {
+				"x": 90,
+				"y": 0,
+				"z": 0,
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [0, 0, 0, 8],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 0, 0, 8],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [8, 0, 0, 0],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [8, 0, 0, 0],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

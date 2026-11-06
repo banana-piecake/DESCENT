@@ -1,0 +1,1 @@
+give @s compass[lodestone_tracker={target:{dimension:"minecraft:the_end",pos:[I;0,0,0]},tracked:false},custom_data={hunter:"mark"},custom_name={"color":"dark_red","italic":false,"text":"Hunter's Mark"}] 1

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Bloodfell Ingots",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Bloodfell ingots are the base material required for any Bloodfell ritual. They are unique, as their ritual requires a player in the middle to finish, who will get damaged."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Bloodfell ingot ritual",
+          "minecraft:item_model": "guidebook:ingot"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:bloodfell_items"
+    }
+  },
+  "dialogs": [
+    "descent_guidebook:enchanted_bloodfell"
+  ]
+}

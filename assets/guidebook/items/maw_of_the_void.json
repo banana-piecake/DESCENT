@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "guidebook:item/maw_of_the_void",
+    "transformation": {
+      "translation": [
+        0,
+        -6,
+        0
+      ],
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        7,
+        7,
+        7
+      ]
+    }
+  },
+  "oversized_in_gui": true
+}

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "descent": "guidebook"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "descent_guidebook:use"
+  }
+}

@@ -1,0 +1,1 @@
+effect give @s minecraft:unluck 3 45 false

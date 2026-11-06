@@ -1,0 +1,43 @@
+{
+  "description": "Void Explosion Marker",
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "knockback_multiplier": 1.3,
+          "radius": 4,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:ash"
+          },
+          "large_particle": {
+            "type": "minecraft:ash"
+          },
+          "sound": "minecraft:entity.generic.explode"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:weapons/maw_of_the_void_explode"
+        }
+      }
+    ]
+  }
+}

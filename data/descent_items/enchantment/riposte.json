@@ -1,0 +1,84 @@
+{
+  "description": {
+    "text": "Riposte",
+    "color": "#a9bafe"
+  },
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "descent:rapier_attack_speed",
+        "amount": 0.2,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "descent:rapier_attack_damage",
+        "amount": -0.2,
+        "operation": "add_multiplied_base"
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "descent_parry_effect": 1
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "descent_items:weapons/rapiers/rapier_parry_land"
+        }
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "descent_rapier_active": 1
+          }
+        },
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 1.5
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "attacker",
+          "scores": {
+            "descent_rapier_active": 1
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "descent_items:weapons/rapiers/rapier_post_buffed_hit"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ]
+  }
+}

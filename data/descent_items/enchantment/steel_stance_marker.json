@@ -1,0 +1,43 @@
+{
+  "description": "Steel Stance Marker",
+  "supported_items": "minecraft:diamond",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "knockback_multiplier": 2,
+          "radius": 2.5,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:firework"
+          },
+          "large_particle": {
+            "type": "minecraft:firework"
+          },
+          "sound": "minecraft:ui.toast.in"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:generic_kill"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "description": {
+    "text": "Sculk Cling",
+    "color": "#a9bafe"
+  },
+  "exclusive_set": "#scythe:inherent",
+  "supported_items": "#minecraft:foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": -1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "jump": false,
+                    "sneak": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:weapons/sculk_weapons/sculk_dive/reduce_movement"
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "jump": true,
+                    "sneak": false
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:explode",
+          "knockback_multiplier": 0.2,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ],
+          "radius": 0.15,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:sculk_charge_pop"
+          },
+          "large_particle": {
+            "type": "minecraft:sculk_charge_pop"
+          },
+          "sound": "minecraft:block.sculk.hit"
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "jump": true,
+                    "sneak": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1
+        }
+      }
+    ],
+    "minecraft:location_changed": [
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": 1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetX": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetZ": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:sculk"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:location_check",
+                  "offsetY": -1,
+                  "predicate": {
+                    "block": {
+                      "blocks": "sculk"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:movement_speed",
+          "id": "sculk_cling:speed",
+          "amount": 0.4,
+          "operation": "add_multiplied_total"
+        }
+      }
+    ]
+  }
+}

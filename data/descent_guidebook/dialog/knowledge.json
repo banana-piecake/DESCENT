@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "title": "Knowledge",
+  "external_title": "Knowledge",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Certain rituals will require knowledge, which is a form of advancement obtained after completing a task, such as defeating a boss."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:dialog_list"
+    }
+  }
+}

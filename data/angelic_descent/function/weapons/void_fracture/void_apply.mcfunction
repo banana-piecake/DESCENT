@@ -1,0 +1,1 @@
+scoreboard players set @s descent_void_fracture_timer 15

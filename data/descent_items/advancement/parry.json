@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "parried": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "mainhand": {
+                "components": {
+                  "minecraft:custom_data": {
+                    "descent": "basic_parry"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "damage": {
+          "blocked": true
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "rewards": {
+    "function": "descent_items:parry/parry"
+  },
+  "sends_telemetry_event": true
+}

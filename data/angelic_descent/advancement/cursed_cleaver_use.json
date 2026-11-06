@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "descent": "cursed_cleaver"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use"
+    ]
+  ],
+  "rewards": {
+    "function": "angelic_descent:weapons/cursed_cleaver/use"
+  }
+}

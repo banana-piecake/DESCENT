@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "descent_bossbars:font/angel_being.png",
+      "height": 24,
+      "ascent": 8,
+      "chars": [
+        "\uFFF1"
+      ]
+    }
+  ]
+}

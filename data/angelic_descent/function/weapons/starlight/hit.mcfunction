@@ -1,0 +1,3 @@
+execute at @s run summon armor_stand ~ ~5 ~ {Invulnerable:1b,Small:1b,Invisible:1b,Tags:["descent_starlight_marker"],attributes:[{id:"minecraft:scale",base:0}],equipment:{chest:{id:"minecraft:diamond",count:1,components:{"minecraft:equippable":{slot:"chest"},"minecraft:enchantments":{"angelic_descent:starlight_arrow_marker":1}}}}}
+execute at @s run execute positioned ~ ~5 ~ run execute as @n[tag=descent_starlight_marker] run execute at @s run function aj:endstone_meteor/summon {args:{}}
+execute at @s run execute positioned ~ ~5 ~ run execute at @s run execute positioned ~ ~5 ~ run execute as @n[tag=descent_starlight_marker] run execute at @s run ride @n[tag=aj.endstone_meteor.root] mount @s

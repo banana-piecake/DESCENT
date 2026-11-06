@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "General Items",
+  "external_title": "General Items",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Not all items in D E S C E N T are linked to a certain item tier, certain items are more general and can be obtained to aid with your playstyle."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+  "label": "Back",
+  "action": {
+    "type": "minecraft:show_dialog",
+    "dialog": "descent_guidebook:dialog_list"
+  }
+},
+  "dialogs": [
+    "descent_guidebook:guidebook",
+    "descent_guidebook:wooden_wand",
+    "descent_guidebook:ice_dagger",
+    "descent_guidebook:kindling",
+    "descent_guidebook:fracture",
+    "descent_guidebook:sculk_bombs",
+    "descent_guidebook:echo_boots",
+    "descent_guidebook:magician_deck"
+  ]
+}

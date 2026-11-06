@@ -1,0 +1,129 @@
+scoreboard objectives add angelic_descent_dash_cooldown dummy
+scoreboard objectives add angelic_descent_bolt_timer dummy
+scoreboard objectives add angelic_descent_bolt_life_timer dummy
+scoreboard objectives add angelic_descent_bolt_random_sound dummy
+
+scoreboard objectives add angelic_descent_teleport_random dummy
+scoreboard objectives add angelic_descent_homing_timer dummy
+scoreboard objectives add angelic_descent_laser_timer dummy
+
+
+scoreboard objectives add angelic_descent_attack_timer dummy
+
+scoreboard objectives add angelic_descent_worm_music_timer dummy
+
+scoreboard objectives add angelic_descent_music_timer dummy
+
+
+scoreboard objectives add worm_charge_timer dummy
+scoreboard objectives add worm_juke_timer dummy
+
+scoreboard objectives add p0 dummy
+scoreboard objectives add p1 dummy
+scoreboard objectives add p2 dummy
+scoreboard objectives add p0.2 dummy
+scoreboard objectives add p1.2 dummy
+scoreboard objectives add p2.2 dummy
+
+execute in angelic_descent:the_void run forceload add 0 0 0 0
+
+
+#worm
+scoreboard objectives add angelic_descent_worm_timer_1 dummy
+scoreboard objectives add angelic_descent_worm_timer_2 dummy
+scoreboard objectives add angelic_descent_worm_timer_3 dummy
+scoreboard objectives add angelic_descent_worm_timer_4 dummy
+scoreboard objectives add angelic_descent_worm_timer_5 dummy
+scoreboard objectives add angelic_descent_worm_timer_6 dummy
+scoreboard objectives add angelic_descent_worm_timer_7 dummy
+scoreboard objectives add angelic_descent_worm_timer_8 dummy
+scoreboard objectives add angelic_descent_worm_timer_9 dummy
+scoreboard objectives add angelic_descent_worm_timer_10 dummy
+scoreboard objectives add angelic_descent_worm_timer_11 dummy
+scoreboard objectives add angelic_descent_worm_timer_12 dummy
+scoreboard objectives add angelic_descent_worm_timer_13 dummy
+scoreboard objectives add angelic_descent_worm_timer_14 dummy
+scoreboard objectives add angelic_descent_worm_timer_15 dummy
+scoreboard objectives add angelic_descent_worm_timer_16 dummy
+scoreboard objectives add angelic_descent_worm_timer_17 dummy
+scoreboard objectives add angelic_descent_worm_timer_18 dummy
+scoreboard objectives add angelic_descent_worm_timer_19 dummy
+scoreboard objectives add angelic_descent_worm_timer_20 dummy
+scoreboard objectives add angelic_descent_worm_timer_21 dummy
+scoreboard objectives add angelic_descent_worm_head_timer dummy
+
+scoreboard objectives add angelic_descent_worm_health dummy
+scoreboard objectives add angelic_descent_worm_crystal_timer dummy
+
+scoreboard objectives add angelic_descent_angel_being_health dummy
+scoreboard objectives add angelic_descent_angel_being_crystal_timer dummy
+
+scoreboard objectives add angelic_descent_maw_of_the_void_cooldown dummy
+scoreboard objectives add angelic_descent_maw_of_the_void_dash_timer dummy
+
+scoreboard objectives add angelic_descent_wings_of_the_seraph_charge dummy
+scoreboard objectives add angelic_descent_wings_of_the_seraph_active dummy
+
+
+#bossbars
+bossbar add angelic_descent:void_ripper "Void Ripper"
+bossbar set angelic_descent:void_ripper color white
+bossbar set angelic_descent:void_ripper max 60
+bossbar set angelic_descent:void_ripper name {"font":"descent_bossbars:void_ripper","shadow_color":-12565929,"text":"\uFFF1"}
+
+
+bossbar add angelic_descent:angel_being "The Angel Being"
+bossbar set angelic_descent:angel_being color pink
+bossbar set angelic_descent:angel_being max 45
+bossbar set angelic_descent:angel_being name {"font":"descent_bossbars:angel_being","shadow_color":1348810117,"text":"\uFFF1"}
+
+bossbar add angelic_descent:void_guardians "The Void Guardians"
+bossbar set angelic_descent:void_guardians color yellow
+bossbar set angelic_descent:void_guardians max 80
+bossbar set angelic_descent:void_guardians name {"font":"descent_bossbars:void_guardians","shadow_color":12225842,"text":"\uFFF1"}
+
+scoreboard objectives add angelic_descent_void_guardians_health dummy
+scoreboard objectives add angelic_descent_void_guardians_music_timer dummy
+
+
+#rifts
+scoreboard objectives add angelic_descent_rift_vfx_timer dummy
+scoreboard objectives add angelic_descent_rift_vfx_random_score dummy
+
+
+#minibosses
+scoreboard objectives add descent_lil_fiend_attack_timer dummy
+scoreboard objectives add descent_stargazer_attack_timer dummy
+scoreboard objectives add descent_fiendtide_timer dummy
+scoreboard objectives add descent_lil_fiend_attack_rune_timer dummy
+scoreboard objectives add descent_pact_from_below_timer dummy
+
+scoreboard objectives add raycast dummy
+
+scoreboard objectives add descent_worm_tooth_cooldown dummy
+
+scoreboard objectives add descent_worm_dialogue_timer dummy
+scoreboard objectives add descent_angel_dialogue_timer dummy
+scoreboard objectives add descent_void_guardians_dialogue_timer dummy
+
+scoreboard objectives add descent_cursed_cleaver_charge dummy
+scoreboard objectives add descent_cursed_cleaver_release_timer dummy
+scoreboard objectives add descent_cursed_cleaver_charge_timer dummy
+scoreboard objectives add descent_cursed_cleaver_charge_cooldown dummy
+
+scoreboard objectives add descent_void_fracture_timer dummy
+scoreboard objectives add descent_void_fracture_random dummy
+
+scoreboard objectives add descent_chunkloader_kill_timer dummy
+
+scoreboard objectives add descent_sculk_dive_active dummy
+scoreboard objectives add descent_sculk_dive_leap_timer dummy
+
+scoreboard objectives add descent_voidtouched_blade_cooldown dummy
+
+scoreboard objectives add descent_mana_poison dummy
+
+scoreboard objectives add descent_random_knowledge dummy
+
+#config
+execute unless score #CONFIG descent_config_better_combat matches ..1 run function descent_items:better_combat_toggle

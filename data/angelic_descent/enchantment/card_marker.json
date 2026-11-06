@@ -1,0 +1,68 @@
+{
+  "description": "Magic Card Holder",
+  "supported_items": "paper",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "descent_magic_card_timer": {
+              "max": 12
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:bloom/bloom_weapons/magician_deck/card_functions/card_travel"
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "descent_magic_card_timer": {
+              "min": 13,
+              "max": 53
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:bloom/bloom_weapons/magician_deck/card_functions/spin_function"
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "descent_magic_card_timer": {
+              "min": 54
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:bloom/bloom_weapons/magician_deck/card_functions/card_return_macro_setup"
+        }
+      }
+    ]
+  }
+}

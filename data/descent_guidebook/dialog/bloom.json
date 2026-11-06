@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "title": "Bloom",
+  "external_title": "Bloom",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Bloom is the culmination of your magical energy, represented by a small flower, when utilising magical weapons the flower grows, however it shrinks over time. Powerful mages can commonly reach a state known as Flourish, which empowers magical weapons via maintaining a balanced utilisation of magic. Overusing magic will cause one's bloom to wilt, which restricts one from utilising magic until it regrows."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:dialog_list"
+    }
+  }
+}

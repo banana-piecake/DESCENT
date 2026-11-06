@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [],
+          "is_direct": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "descent_items:accessories/death_touch"
+  }
+}

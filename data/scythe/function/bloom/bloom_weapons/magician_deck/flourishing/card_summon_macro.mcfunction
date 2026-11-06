@@ -1,0 +1,6 @@
+$execute at @s run execute positioned ^ ^1 ^1 run tag @e[limit=4,sort=nearest,tag=descent_magician_deck_flourishing_card] add bloom_id_$(bloom_id)
+$execute at @s run execute positioned ^ ^1 ^1 run scoreboard players set @e[limit=4,sort=nearest,tag=descent_magician_deck_flourishing_card] descent_bloom_id $(bloom_id)
+execute at @s run execute positioned ^ ^1 ^1 run execute as @n[tag=descent_magician_deck_flourishing_card,tag=!descent_flourishing_magic_card_rotated] run function scythe:bloom/bloom_weapons/magician_deck/flourishing/rotate_15_neg
+execute at @s run execute positioned ^ ^1 ^1 run execute as @n[tag=descent_magician_deck_flourishing_card,tag=!descent_flourishing_magic_card_rotated] run function scythe:bloom/bloom_weapons/magician_deck/flourishing/rotate_15_pos
+execute at @s run execute positioned ^ ^1 ^1 run execute as @n[tag=descent_magician_deck_flourishing_card,tag=!descent_flourishing_magic_card_rotated] run function scythe:bloom/bloom_weapons/magician_deck/flourishing/rotate_45_neg
+execute at @s run execute positioned ^ ^1 ^1 run execute as @n[tag=descent_magician_deck_flourishing_card,tag=!descent_flourishing_magic_card_rotated] run function scythe:bloom/bloom_weapons/magician_deck/flourishing/rotate_45_pos

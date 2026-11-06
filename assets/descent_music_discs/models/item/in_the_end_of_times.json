@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "descent_music_discs:item/in_the_end_of_times"
+  }
+}

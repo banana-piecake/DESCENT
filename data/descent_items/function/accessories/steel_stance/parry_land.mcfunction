@@ -1,0 +1,2 @@
+execute at @s run function descent_items:accessories/steel_stance/vfx
+execute at @s run summon armor_stand ~ ~1.65 ~ {Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["descent_steel_stance_marker"],equipment:{feet:{id:"minecraft:diamond",count:1,components:{"minecraft:enchantments":{"descent_items:steel_stance_marker":1},"minecraft:equippable":{slot:"feet"}}}}}

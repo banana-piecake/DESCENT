@@ -1,0 +1,23 @@
+execute if score @s descent_constellation_timer matches 70 at @s run summon item_display ^-2 ^-1 ^1 {billboard:"center",Tags:["descent_astronomer_star_tag","descent_astronomer_constellation_star_1"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.0f,2.0f,2.0f]},item:{id:"minecraft:honeycomb",count:1,components:{"minecraft:item_model":"descent_items:astronomer_star"}}}
+execute if score @s descent_constellation_timer matches 80 at @s run playsound angelic_descent:star_summon hostile @a ~ ~ ~ 1 1
+execute if score @s descent_constellation_timer matches 60 at @s run summon item_display ^ ^3 ^ {billboard:"center",Tags:["descent_astronomer_star_tag","descent_astronomer_constellation_star_2"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.0f,2.0f,2.0f]},item:{id:"minecraft:honeycomb",count:1,components:{"minecraft:item_model":"descent_items:astronomer_star"}}}
+execute if score @s descent_constellation_timer matches 70 at @s run playsound angelic_descent:star_summon hostile @a ~ ~ ~ 1 1
+execute if score @s descent_constellation_timer matches 50 at @s run summon item_display ^2 ^-1 ^-1 {billboard:"center",Tags:["descent_astronomer_star_tag","descent_astronomer_constellation_star_3"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.0f,2.0f,2.0f]},item:{id:"minecraft:honeycomb",count:1,components:{"minecraft:item_model":"descent_items:astronomer_star"}}}
+execute if score @s descent_constellation_timer matches 60 at @s run playsound angelic_descent:star_summon hostile @a ~ ~ ~ 1 1
+execute if score @s descent_constellation_timer matches 40 at @s run summon item_display ^-2 ^1 ^2 {billboard:"center",Tags:["descent_astronomer_star_tag","descent_astronomer_constellation_star_4"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.0f,2.0f,2.0f]},item:{id:"minecraft:honeycomb",count:1,components:{"minecraft:item_model":"descent_items:astronomer_star"}}}
+execute if score @s descent_constellation_timer matches 50 at @s run playsound angelic_descent:star_summon hostile @a ~ ~ ~ 1 1
+execute if score @s descent_constellation_timer matches 30 at @s run summon item_display ^2 ^1 ^-2 {billboard:"center",Tags:["descent_astronomer_star_tag","descent_astronomer_constellation_star_5"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2.0f,2.0f,2.0f]},item:{id:"minecraft:honeycomb",count:1,components:{"minecraft:item_model":"descent_items:astronomer_star"}}}
+execute if score @s descent_constellation_timer matches 40 at @s run playsound angelic_descent:star_summon hostile @a ~ ~ ~ 1 1
+execute if score @s descent_constellation_timer matches 25 at @s run tag @n[tag=descent_astronomer_constellation_star_1] add descent_astronomer_star
+execute if score @s descent_constellation_timer matches 25 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 3 1
+execute if score @s descent_constellation_timer matches 20 at @s run tag @n[tag=descent_astronomer_constellation_star_2] add descent_astronomer_star
+execute if score @s descent_constellation_timer matches 20 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 3 1
+execute if score @s descent_constellation_timer matches 15 at @s run tag @n[tag=descent_astronomer_constellation_star_3] add descent_astronomer_star
+execute if score @s descent_constellation_timer matches 15 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 3 1
+execute if score @s descent_constellation_timer matches 10 at @s run tag @n[tag=descent_astronomer_constellation_star_4] add descent_astronomer_star
+execute if score @s descent_constellation_timer matches 10 at @s run playsound angelic_descent:line_draw hostile @a ~ ~ ~ 3 1
+execute if score @s descent_constellation_timer matches 5 at @s run tag @n[tag=descent_astronomer_constellation_star_5] add descent_astronomer_star
+execute if score @s descent_constellation_timer matches 4 at @s run particle minecraft:poof ~ ~2 ~ 2 2 2 0.04 100
+execute if score @s descent_constellation_timer matches 4 run kill @e[tag=descent_astronomer_star]
+execute if score @s descent_constellation_timer matches 4 run function aj:astronomer/animations/astronomer_laser/play
+execute if score @s descent_constellation_timer matches 3 run tag @s remove descent_constellation_2_active

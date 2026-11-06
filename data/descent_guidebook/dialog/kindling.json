@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:notice",
+  "title": "Kindling",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Kindling is a powerful bloom weapon that spews out flames, when flourishing shoot more powerful soul flames that have a longer range."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:item_name": "Kindling ritual",
+          "minecraft:item_model": "guidebook:kindling"
+        }
+      },
+      "width": 112,
+      "height": 112
+    }
+  ],
+  "inputs": [],
+  "pause": false,
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:general_items"
+    }
+  }
+}

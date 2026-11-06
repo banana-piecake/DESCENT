@@ -1,0 +1,2 @@
+execute at @s run execute as @a[distance=0..2] run damage @s 8 minecraft:explosion
+execute at @s run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,DisabledSlots:4144959,equipment:{chest:{id:"minecraft:diamond",count:1,components:{"minecraft:equippable":{slot:"chest"},"minecraft:enchantments":{"angelic_descent:worm_hit_marker":1}}}}}

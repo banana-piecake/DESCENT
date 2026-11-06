@@ -1,0 +1,4 @@
+execute at @s run execute if score @s descent_worm_tooth_cooldown matches 50.. run function angelic_descent:weapons/worm_tooth/start
+execute at @s run execute if score @s descent_worm_tooth_cooldown matches 50.. run execute if items entity @s weapon.offhand *[minecraft:custom_data={descent:"maw_of_the_void"}] run summon armor_stand ^ ^1 ^0.6 {Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,equipment:{chest:{id:"minecraft:diamond",count:1,components:{"minecraft:equippable":{slot:"chest"},"minecraft:enchantments":{"angelic_descent:void_explosion":1}}}}}
+execute at @s run execute if score @s descent_worm_tooth_cooldown matches 50.. run scoreboard players set @s descent_worm_tooth_cooldown 0
+advancement revoke @s only angelic_descent:worm_tooth_use

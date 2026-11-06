@@ -1,0 +1,1 @@
+give @s netherite_axe[item_model="scythe:scythe",item_name={"color":"dark_red","text":"Bloodfell Scythe"},lore=["A powerful weapon","end them all..."],enchantments={"scythe:disarmament":1,"scythe:sonic_dash":1,"mending":1},custom_data={scythe:"scythe"},blocks_attacks={block_sound:"entity.zombie.attack_iron_door",disabled_sound:"entity.zombie.attack_iron_door"}] 1

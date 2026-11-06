@@ -1,0 +1,68 @@
+{
+  "description": {
+    "text": "Void Cull",
+    "color": "#a9bafe"
+  },
+  "exclusive_set": "#scythe:inherent",
+  "supported_items": "#minecraft:enchantable/vanishing",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": -1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "type": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:voidtouched_cull_check"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "type": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "scythe:voidtouched_stack_apply"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:mining_efficiency",
+        "id": "void_cull:mining_efficiency",
+        "amount": 5,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "void_cull:damage_boost",
+        "amount": 1,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

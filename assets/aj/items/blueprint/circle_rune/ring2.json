@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "aj:blueprint/circle_rune/ring2",
+		"tints": [
+			{"type": "minecraft:dye", "default": [1, 1, 1]}
+		]
+	}
+}

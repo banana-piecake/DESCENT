@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "descent_items:astronomer_slash",
+    "transformation": {
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    }
+  }
+}

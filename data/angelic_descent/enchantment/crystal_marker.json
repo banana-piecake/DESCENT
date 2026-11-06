@@ -1,0 +1,43 @@
+{
+  "description": "Crystal Marker",
+  "supported_items": "minecraft:diamond",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "knockback_multiplier": 1.43214,
+          "radius": 5,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:end_rod"
+          },
+          "large_particle": {
+            "type": "minecraft:enchant"
+          },
+          "sound": "minecraft:ui.toast.out"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "angelic_descent:angel_crystal_marker_hit"
+        }
+      }
+    ]
+  }
+}

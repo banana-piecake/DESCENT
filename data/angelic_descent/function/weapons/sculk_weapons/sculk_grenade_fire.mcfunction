@@ -1,0 +1,2 @@
+execute at @s run summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["descent_sculk_grenade_holder"],equipment:{chest:{id:"minecraft:diamond",count:1,components:{"minecraft:equippable":{slot:"chest"},"minecraft:enchantments":{"angelic_descent:sculk_grenade_marker":1}}}}}
+execute at @s run ride @n[tag=descent_sculk_grenade_holder] mount @s

@@ -1,0 +1,40 @@
+{
+  "description": {
+    "text": "Rune of Force",
+    "color": "#ff7a7a"
+  },
+  "exclusive_set": "#descent_runes:runes",
+  "supported_items": "#minecraft:enchantable/vanishing",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "descent_runes:force_rune",
+        "amount": 1.5,
+        "operation": "add_value"
+      }
+    ],
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 1
+        }
+      }
+    ]
+  }
+}

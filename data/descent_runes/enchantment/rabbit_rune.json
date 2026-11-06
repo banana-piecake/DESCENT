@@ -1,0 +1,44 @@
+{
+  "description": {
+    "text": "Rune of the Rabbit",
+    "color": "#ff7a7a"
+  },
+  "exclusive_set": "#descent_runes:runes",
+  "supported_items": "#minecraft:enchantable/vanishing",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "descent_runes:rabbit_rune",
+        "amount": 0.3,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:jump_strength",
+        "id": "descent_runes:rabbit_rune",
+        "amount": 0.35,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:max_health",
+        "id": "descent_runes:rabbit_rune",
+        "amount": -3,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

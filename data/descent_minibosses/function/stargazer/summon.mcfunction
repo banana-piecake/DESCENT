@@ -1,0 +1,2 @@
+execute at @s run summon mannequin ~ ~ ~ {NoGravity:1b,CustomNameVisible:1b,Health:300f,immovable:true,hide_description:true,Tags:["descent_stargazer_marker"],CustomName:{"color":"#E07AFF","text":"Stargazer"},active_effects:[{id:"minecraft:invisibility",amplifier:2,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:scale",base:1.2},{id:"minecraft:max_health",base:300}]}
+execute at @s run function aj:stargazer/summon {args:{}}

@@ -1,0 +1,2 @@
+execute if score #VOID_RIPPER_HEALTH angelic_descent_worm_health matches 100 if entity @n[tag=aj.worm_head.root] run function angelic_descent:worm_function/remove
+execute if score #ANGEL_BEING_HEALTH angelic_descent_angel_being_health matches 100 if entity @n[tag=aj.angel_being.root] run function angelic_descent:remove

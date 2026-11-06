@@ -1,0 +1,20 @@
+{
+  "parent": "angelic_descent:angel_kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:bricks",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "angelic_descent:sigil_of_the_guardians"
+      }
+    },
+    "title": "Conqueror of the Void",
+    "description": "Defeat the Void Guardians.",
+    "frame": "challenge"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

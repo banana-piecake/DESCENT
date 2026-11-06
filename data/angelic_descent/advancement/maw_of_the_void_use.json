@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "descent": "maw_of_the_void"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use"
+    ]
+  ],
+  "rewards": {
+    "function": "angelic_descent:weapons/maw_of_the_void_use"
+  }
+}

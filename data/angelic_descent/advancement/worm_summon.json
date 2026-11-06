@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "descent": "worm_summon"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "angelic_descent:the_void/worm_summon"
+  }
+}

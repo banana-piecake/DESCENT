@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "#minecraft:undead"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "descent_runes:rune_stone_give"
+  }
+}

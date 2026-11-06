@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "scythe:item/maw_of_the_void",
+    "transformation": {
+      "translation": [
+        -0.2,
+        -0.2,
+        -0.5
+      ],
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "oversized_in_gui": true
+}

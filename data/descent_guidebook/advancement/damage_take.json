@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "descent_guidebook:damage_take"
+  }
+}
