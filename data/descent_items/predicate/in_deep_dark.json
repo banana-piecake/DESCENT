@@ -3,7 +3,7 @@
   "entity": "this",
   "predicate": {
     "minecraft:location": {
-      "structures": "minecraft:ancient_city"
+      "biomes": "minecraft:deep_dark"
     }
   }
 }
