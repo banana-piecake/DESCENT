@@ -23,3 +23,9 @@ execute as @e[scores={descent_rift_marker_timer=100..}] run execute at @s run ki
 execute at @e[tag=descent_player_rift_marker] run execute as @a[distance=0..1] run function descent_items:rift_items/rift_warp
 execute as @a run execute if entity @n[tag=ritual,type=item,sort=random,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"rift_marker"}}}}] if score @s descent_dreamcatcher_cooldown matches 0 if score @s animosity_health matches ..10 if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"dreamcatcher"}] run function descent_items:rift_items/rift_summon_respawn
 scoreboard players remove @e[scores={descent_dreamcatcher_cooldown=1..}] descent_dreamcatcher_cooldown 1
+
+#mobs
+
+#echo wisp
+execute as @e[tag=descent_echo_wisp_entity] run execute rotated as @s on passengers run rotate @s ~ ~
+execute as @e[tag=descent_echo_model] run execute at @s unless predicate descent_items:echo_wisp_riding run function descent_items:mobs/echo_wisp/die

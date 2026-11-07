@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:vehicle": {
+      "minecraft:entity_tags": {
+        "any_of": [
+          "descent_echo_wisp_entity"
+        ]
+      }
+    }
+  }
+}
