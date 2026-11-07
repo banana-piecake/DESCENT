@@ -1,0 +1,87 @@
+{
+  "description": {
+    "text": "Soulburn",
+    "color": "#a9bafe"
+  },
+  "exclusive_set": "#scythe:inherent",
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "type": "minecraft:random_chance",
+          "chance": 0.4
+        },
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": 4
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:flags": {
+              "is_on_fire": true
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 1.2
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:attack_speed",
+        "id": "soulburn:attack_speed",
+        "amount": 0.4,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "soulburn:attack_damage",
+        "amount": -1.5,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "soulburn:move_speed",
+        "amount": 0.2,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:sneaking_speed",
+        "id": "soulburn:sneak_speed",
+        "amount": 0.2,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "soulburnad:safe_fall",
+        "amount": 10,
+        "operation": "add_value"
+      }
+    ]
+  }
+}
