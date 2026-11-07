@@ -29,3 +29,5 @@ scoreboard players remove @e[scores={descent_dreamcatcher_cooldown=1..}] descent
 #echo wisp
 execute as @e[tag=descent_echo_wisp_entity] run execute rotated as @s on passengers run rotate @s ~ ~
 execute as @e[tag=descent_echo_model] run execute at @s unless predicate descent_items:echo_wisp_riding run function descent_items:mobs/echo_wisp/die
+effect give @e[tag=descent_echo_wisp_entity] minecraft:invisibility infinite 72 true
+#execute at @e[tag=descent_echo_model] run particle minecraft:soul_fire_flame ~ ~-0.2 ~
