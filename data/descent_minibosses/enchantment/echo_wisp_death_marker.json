@@ -22,7 +22,7 @@
           "type": "minecraft:explode",
           "damage_type": "minecraft:on_fire",
           "knockback_multiplier": 1.2,
-          "radius": 1,
+          "radius": 3.5,
           "block_interaction": "none",
           "small_particle": {
             "type": "minecraft:white_ash"
