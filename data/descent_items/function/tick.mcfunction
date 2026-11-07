@@ -31,3 +31,4 @@ execute as @e[tag=descent_echo_wisp_entity] run execute rotated as @s on passeng
 execute as @e[tag=descent_echo_wisp_model] run execute at @s unless predicate descent_items:echo_wisp_riding run function descent_items:mobs/echo_wisp/die
 effect give @e[tag=descent_echo_wisp_entity] minecraft:invisibility infinite 72 true
 #execute at @e[tag=descent_echo_wisp_model] run particle minecraft:soul_fire_flame ~ ~-0.2 ~
+execute as @e[type=vex,tag=] run function descent_items:mobs/echo_wisp/predicate_check
