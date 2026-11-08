@@ -23,6 +23,11 @@ execute as @e[scores={descent_rift_marker_timer=100..}] run execute at @s run ki
 execute at @e[tag=descent_player_rift_marker] run execute as @a[distance=0..1] run function descent_items:rift_items/rift_warp
 execute as @a run execute if entity @n[tag=ritual,type=item,sort=random,nbt={Item:{id:"minecraft:echo_shard",count:1,components:{"minecraft:custom_data":{descent:"rift_marker"}}}}] if score @s descent_dreamcatcher_cooldown matches 0 if score @s animosity_health matches ..10 if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"dreamcatcher"}] run function descent_items:rift_items/rift_summon_respawn
 scoreboard players remove @e[scores={descent_dreamcatcher_cooldown=1..}] descent_dreamcatcher_cooldown 1
+scoreboard players remove @e[scores={descent_etzvek_timer=0..}] descent_etzvek_timer 1
+execute as @e[scores={descent_etzvek_timer=0}] run function descent_items:accessories/etzvek/remove_post_effects
+execute at @e[scores={descent_etzvek_timer=1..}] run particle dust_color_transition{from_color:[0.349,0.388,0.729],to_color:[0.557,0.169,1.000],scale:3.2} ~ ~ ~ 0.143 0.08 0.143 0 4 normal
+execute at @e[scores={descent_etzvek_timer=1..}] run execute as @e[nbt=!{Brain:{}},distance=0.01..8] run function descent_items:accessories/etzvek/slowdown
+
 
 #mobs
 
