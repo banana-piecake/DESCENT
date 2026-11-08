@@ -1,3 +1,4 @@
+scoreboard players set @s descent_etzvek_cooldown 0
 scoreboard players set @s descent_etzvek_timer 120
 execute at @s run playsound angelic_descent:subspace_explode hostile @a ~ ~1 ~ 0.8 1.6
 effect give @s minecraft:speed 6 3 true
