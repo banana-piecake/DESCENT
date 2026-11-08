@@ -10,6 +10,7 @@ scoreboard players set @s descent_mana_poison 0
 execute at @s run function scythe:soulbound_id_roll
 scoreboard players set @s descent_bloom_amount 0
 scoreboard players set @s descent_wilted_bloom 0
+scoreboard players set @s descent_etzvek_timer 1
 execute store result storage descent:bloom_id bloom_id float 1 run scoreboard players get @s descent_bloom_id
 execute as @s at @s run function scythe:animosity_stuff/bloodfell_exclusion_zone/magic_projectile_death_macro with storage descent:bloom_id
 
