@@ -1,0 +1,1 @@
+execute at @s run summon fox ~ ~ ~ {NoAI:1b,Sitting:1b,Type:"snow",Tags:["cat_fox"],equipment:{mainhand:{id:"minecraft:diamond",count:1,components:{item_model:"descent_items:cat_ears"}}}}
