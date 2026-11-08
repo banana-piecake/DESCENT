@@ -19,4 +19,5 @@ scoreboard objectives add descent_etzvek_x_speed dummy
 scoreboard objectives add descent_etzvek_y_speed dummy
 scoreboard objectives add descent_etzvek_z_speed dummy
 scoreboard objectives add descent_etzvek_timer dummy
+scoreboard objectives add descent_etzvek_cooldown dummy
 
