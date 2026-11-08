@@ -28,6 +28,7 @@ scoreboard players remove @e[scores={descent_etzvek_timer=0..}] descent_etzvek_t
 execute as @e[scores={descent_etzvek_timer=0}] run function descent_items:accessories/etzvek/remove_post_effects
 execute at @e[scores={descent_etzvek_timer=1..}] run particle dust_color_transition{from_color:[0.349,0.388,0.729],to_color:[0.557,0.169,1.000],scale:3.2} ~ ~ ~ 0.143 0.08 0.143 0 4 normal
 execute at @e[scores={descent_etzvek_timer=1..}] run execute as @e[nbt=!{Brain:{}},distance=0.01..8] run function descent_items:accessories/etzvek/slowdown
+#execute at @e[scores={descent_etzvek_timer=1..}] run execute as @e[distance=0.01..8] run function descent_items:accessories/etzvek/slowdown
 
 
 #mobs
