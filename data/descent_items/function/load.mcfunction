@@ -20,4 +20,5 @@ scoreboard objectives add descent_etzvek_y_speed dummy
 scoreboard objectives add descent_etzvek_z_speed dummy
 scoreboard objectives add descent_etzvek_timer dummy
 scoreboard objectives add descent_etzvek_cooldown dummy
+scoreboard objectives add descent_cave_angel_attack_timer dummy
 
