@@ -1,1 +1,1 @@
-execute at @s run damage @s 6 player_attack by @n[tag=descent_cave_angel]
+execute at @s run damage @s 9 player_attack by @n[tag=descent_cave_angel]
