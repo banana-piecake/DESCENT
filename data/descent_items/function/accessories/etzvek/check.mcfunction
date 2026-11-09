@@ -1,2 +1,2 @@
-execute if score @s descent_etzvek_cooldown matches 780.. run function descent_items:accessories/etzvek/activate
+execute as @a run execute if items entity @s descent_items:accessories *[minecraft:custom_data={descent:"etzvek"}] if score @s descent_etzvek_cooldown matches 780.. run function descent_items:accessories/etzvek/activate
 advancement revoke @s only descent_items:etzvek
