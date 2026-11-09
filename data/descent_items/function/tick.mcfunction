@@ -44,3 +44,4 @@ execute as @e[type=vex,tag=] run function descent_items:mobs/echo_wisp/predicate
 #cave angels
 effect give @e[tag=descent_cave_angel_marker] minecraft:invisibility infinite 72 true
 execute as @e[tag=descent_cave_angel] run execute at @s unless predicate descent_items:cave_angel_riding run kill @s
+execute as @e[tag=descent_cave_angel_marker,tag=!descent_cave_angel_awake] run execute at @s if entity @p[distance=..8] run function descent_items:mobs/cave_angel/texture_swap_check
