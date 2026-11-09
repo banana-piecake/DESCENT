@@ -1,0 +1,1 @@
+execute at @s run summon item_display ~ ~ ~ {billboard:"center",Tags:["descent_cave_angel","descent_cave_angel_dripstone"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.5f,-0.5f,0.5f],scale:[1f,1f,0.1f]},item:{id:"minecraft:diamond",count:1,components:{"minecraft:item_model":"descent_mobs:cave_angel_close_dripstone"}}}
