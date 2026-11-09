@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "descent_mobs:item/cave_angel_open_deepslate"
+  }
+}
