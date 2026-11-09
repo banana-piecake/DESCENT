@@ -1,0 +1,1 @@
+data modify entity @s item.components.minecraft:item_model set value "descent_mobs:cave_angel_open_deepslate"
