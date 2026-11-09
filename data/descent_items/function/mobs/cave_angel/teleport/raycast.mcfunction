@@ -2,6 +2,7 @@ scoreboard players remove .raycastLimit raycast 1
 
 
 tp @s ~ ~ ~
+tp @s ^ ^ ^-1
 particle minecraft:end_rod ~ ~1 ~ 0.01 0.01 0.01 0.05 1
 execute positioned ~-.99 ~-.99 ~-.99 as @e[dx=0,tag=!raycaster] positioned ~.99 ~.99 ~.99 as @s[dx=0] run return run function descent_items:mobs/cave_angel/teleport/hit
 

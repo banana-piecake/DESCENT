@@ -46,4 +46,6 @@ effect give @e[tag=descent_cave_angel_marker] minecraft:invisibility infinite 72
 execute as @e[tag=descent_cave_angel] run execute at @s unless predicate descent_items:cave_angel_riding run kill @s
 execute as @e[tag=descent_cave_angel_marker,tag=!descent_cave_angel_awake] run execute at @s if entity @p[distance=..8] run function descent_items:mobs/cave_angel/texture_swap_check
 execute as @e[tag=descent_cave_angel_awake] run execute at @s run rotate @s facing entity @p
-scoreboard players add @e[tag=descent_cave_angel_awake] descent_cave_angel_attack_timer 1
+execute as @e[tag=descent_cave_angel_awake] run execute at @s run execute if entity @p[distance=..16] run scoreboard players add @s descent_cave_angel_attack_timer 1
+execute at @e[scores={descent_cave_angel_attack_timer=50}] run playsound angelic_descent:teleport hostile @a ~ ~1 ~ 0.6 1.4
+execute as @e[scores={descent_cave_angel_attack_timer=60..}] run function descent_items:mobs/cave_angel/teleport/start
