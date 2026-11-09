@@ -3,7 +3,12 @@
   "entity": "this",
   "predicate": {
     "minecraft:location": {
-      "structures": "#minecraft:mineshaft"
+      "position": {
+        "y": {
+          "max": 10
+        }
+      },
+      "dimension": "minecraft:overworld"
     }
   }
 }
