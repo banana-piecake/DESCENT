@@ -240,7 +240,7 @@ execute if score #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health ma
 execute unless entity @a[nbt={Dimension:"angelic_descent:the_void"}] run scoreboard players set #VOID_GUARDIANS_HEALTH angelic_descent_void_guardians_health 100
 execute if entity @e[tag=descent_void_guardians_marker] run execute as @a[tag=!angelic_descent_void_guardians_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:void_guardians_music
 execute unless entity @e[tag=descent_void_guardians_marker] run tag @a remove angelic_descent_void_guardians_music
-scoreboard players add @a[tag=angelic_descent_music] angelic_descent_void_guardians_music_timer 1
+scoreboard players add @a[tag=angelic_descent_void_guardians_music] angelic_descent_void_guardians_music_timer 1
 execute as @e[scores={angelic_descent_void_guardians_music_timer=2570..}] run function angelic_descent:void_guardians_music_restart
 execute if entity @e[tag=descent_void_guardians_marker] run execute as @a[tag=!angelic_descent_void_guardians_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:void_guardians_music
 execute unless entity @e[tag=descent_void_guardians_marker] run tag @a remove angelic_descent_void_guardians_music
