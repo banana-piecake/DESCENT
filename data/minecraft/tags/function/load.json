@@ -6,6 +6,7 @@
 		"descent_items:load",
 		"descent_minibosses:load",
 		"scythe:load",
-		"voidshatter_unbound:load"
+		"voidshatter_unbound:load",
+		"hipslot:load"
 	]
 }
