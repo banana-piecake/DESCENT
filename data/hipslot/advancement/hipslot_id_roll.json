@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "check": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "hipslot:hipslot_id_roll"
+  }
+}

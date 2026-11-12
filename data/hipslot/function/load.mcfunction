@@ -1,0 +1,1 @@
+scoreboard objectives add descent_hipslot_id dummy
