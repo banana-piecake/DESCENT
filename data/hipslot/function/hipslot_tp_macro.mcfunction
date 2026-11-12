@@ -1,0 +1,2 @@
+$execute at @s rotated ~ 0 run tp @n[tag=descent_hipslot,tag=hipslot_id_$(hipslot_id)] ^-0.25 ^0.8 ^
+$execute at @s facing ^ ^ ^1 rotated ~ 0 run rotate @n[tag=descent_hipslot,tag=hipslot_id_$(hipslot_id)] ~ ~

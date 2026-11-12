@@ -8,6 +8,6 @@
 		"scythe:tick",
 		"voidshatter_unbound:tick",
 		"animated_java:global/on_tick",
-		"hipslot:load"
+		"hipslot:tick"
 	]
 }
