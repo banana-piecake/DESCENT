@@ -1,1 +1,3 @@
 scoreboard objectives add descent_hipslot_id dummy
+scoreboard objectives add descent_hipslot_active dummy
+scoreboard objectives add descent_hipslot_trigger trigger
