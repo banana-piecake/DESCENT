@@ -1,5 +1,6 @@
 scoreboard objectives add descent_hipslot_id dummy
 scoreboard objectives add descent_hipslot_active dummy
 scoreboard objectives add descent_hipslot_timer dummy
+scoreboard objectives add descent_hipslot_cooldown dummy
 scoreboard objectives add descent_hipslot_double_click_cooldown dummy
 scoreboard objectives add descent_hipslot_trigger trigger
