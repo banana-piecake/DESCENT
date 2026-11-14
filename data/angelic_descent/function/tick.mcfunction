@@ -133,7 +133,7 @@ execute as @e[tag=worm_segment_18] if score @s angelic_descent_worm_timer_18 mat
 execute as @e[tag=worm_segment_19] if score @s angelic_descent_worm_timer_19 matches 1.. run function angelic_descent:worm_segments/segment_19
 execute as @e[tag=worm_segment_20] if score @s angelic_descent_worm_timer_20 matches 1.. run function angelic_descent:worm_segments/segment_20
 execute as @e[tag=aj.worm_head.root] if score @s angelic_descent_worm_timer_21 matches 1.. run function angelic_descent:worm_segments/segment_21
-#execute as @e if score @s angelic_descent_worm_head_timer matches 1.. run function angelic_descent:worm_segments/head
+#execute as @e[tag=aj.worm_head.root] if score @s angelic_descent_worm_head_timer matches 1.. run function angelic_descent:worm_segments/head
 execute as @n[tag=aj.worm_head.root] run function angelic_descent:worm_segments/head
 
 scoreboard players add @e[tag=aj.worm_head.root] worm_charge_timer 1
@@ -157,36 +157,36 @@ function angelic_descent:attacks/laser_vfx
 
 scoreboard players add @e[tag=aj.angel_being.root] angelic_descent_attack_timer 1
 
-execute as @e if score @s angelic_descent_attack_timer matches 10 run function angelic_descent:attacks/bolt_barrage
-execute as @e if score @s angelic_descent_attack_timer matches 220 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 250 run function angelic_descent:homing_start
-execute as @e if score @s angelic_descent_attack_timer matches 270 run function angelic_descent:laser_activate
-execute as @e if score @s angelic_descent_attack_timer matches 460 run function angelic_descent:attacks/bolt_barrage
-execute as @e if score @s angelic_descent_attack_timer matches 670 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 700 run function angelic_descent:attacks/bolt_barrage
-execute as @e if score @s angelic_descent_attack_timer matches 760 run function angelic_descent:homing_start
-execute as @e if score @s angelic_descent_attack_timer matches 820 run function angelic_descent:homing_start
-execute as @e if score @s angelic_descent_attack_timer matches 880 run function angelic_descent:homing_start
-execute as @e if score @s angelic_descent_attack_timer matches 910 run function angelic_descent:homing_start
-execute as @e if score @s angelic_descent_attack_timer matches 915 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 940 run function angelic_descent:homing_start
-execute as @e if score @s angelic_descent_attack_timer matches 960 run function angelic_descent:laser_activate
-execute as @e if score @s angelic_descent_attack_timer matches 1010 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 1150 run function angelic_descent:attacks/bolt_barrage
-execute as @e if score @s angelic_descent_attack_timer matches 1360 run function angelic_descent:homing_start
-execute as @e if score @s angelic_descent_attack_timer matches 1380 run function angelic_descent:attacks/bolt_barrage
-execute as @e if score @s angelic_descent_attack_timer matches 1420 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 1460 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 1500 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 1540 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 1580 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 1590 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 1590 run function angelic_descent:homing_start
-execute as @e if score @s angelic_descent_attack_timer matches 1610 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 1610 run function angelic_descent:homing_start
-execute as @e if score @s angelic_descent_attack_timer matches 1630 run function angelic_descent:teleport
-execute as @e if score @s angelic_descent_attack_timer matches 1630 run function angelic_descent:homing_start
-execute as @e if score @s angelic_descent_attack_timer matches 1631.. run scoreboard players set @s angelic_descent_attack_timer 0
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 10 run function angelic_descent:attacks/bolt_barrage
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 220 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 250 run function angelic_descent:homing_start
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 270 run function angelic_descent:laser_activate
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 460 run function angelic_descent:attacks/bolt_barrage
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 670 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 700 run function angelic_descent:attacks/bolt_barrage
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 760 run function angelic_descent:homing_start
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 820 run function angelic_descent:homing_start
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 880 run function angelic_descent:homing_start
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 910 run function angelic_descent:homing_start
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 915 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 940 run function angelic_descent:homing_start
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 960 run function angelic_descent:laser_activate
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1010 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1150 run function angelic_descent:attacks/bolt_barrage
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1360 run function angelic_descent:homing_start
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1380 run function angelic_descent:attacks/bolt_barrage
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1420 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1460 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1500 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1540 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1580 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1590 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1590 run function angelic_descent:homing_start
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1610 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1610 run function angelic_descent:homing_start
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1630 run function angelic_descent:teleport
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1630 run function angelic_descent:homing_start
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_attack_timer matches 1631.. run scoreboard players set @s angelic_descent_attack_timer 0
 
 
 
@@ -202,12 +202,12 @@ execute unless entity @e[tag=aj.worm_head.root] run bossbar set angelic_descent:
 execute store result bossbar angelic_descent:void_ripper value run scoreboard players get #VOID_RIPPER_HEALTH angelic_descent_worm_health
 execute unless entity @e[tag=descent_void_guardians_marker] if score #VOID_RIPPER_HEALTH angelic_descent_worm_health matches ..1 run function angelic_descent:the_void/worm_die
 scoreboard players add @e[tag=aj.worm_head.root] angelic_descent_worm_crystal_timer 1
-execute as @e if score @s angelic_descent_worm_crystal_timer matches 200.. run function angelic_descent:worm_function/crystal_summon
+execute as @e[tag=aj.worm_head.root] if score @s angelic_descent_worm_crystal_timer matches 200.. run function angelic_descent:worm_function/crystal_summon
 #execute if entity @e[tag=aj.worm_head.root] run execute unless entity @a[nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:worm_function/remove
 execute unless entity @e[tag=descent_void_guardians_marker] if entity @e[tag=aj.worm_head.root] run execute as @a[tag=!angelic_descent_worm_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:worm_function/music
 execute unless entity @e[tag=aj.worm_head.root] run tag @a remove angelic_descent_worm_music
 scoreboard players add @a[tag=angelic_descent_worm_music] angelic_descent_worm_music_timer 1
-execute as @e if score @s angelic_descent_worm_music_timer matches 5000.. run function angelic_descent:worm_function/music_restart
+execute as @e[tag=aj.worm_head.root] if score @s angelic_descent_worm_music_timer matches 5000.. run function angelic_descent:worm_function/music_restart
 execute unless entity @e[tag=descent_void_guardians_marker] if score #VOID_RIPPER_HEALTH angelic_descent_worm_health matches 100 if entity @n[tag=aj.worm_head.root] run function angelic_descent:worm_function/remove
 execute unless entity @a[nbt={Dimension:"angelic_descent:the_void"}] run scoreboard players set #VOID_RIPPER_HEALTH angelic_descent_worm_health 100
 
@@ -218,14 +218,14 @@ execute unless entity @e[tag=descent_void_guardians_marker] if entity @e[tag=aj.
 execute unless entity @e[tag=aj.angel_being.root] run bossbar set angelic_descent:angel_being visible false
 execute unless entity @e[tag=descent_void_guardians_marker] store result bossbar angelic_descent:angel_being value run scoreboard players get #ANGEL_BEING_HEALTH angelic_descent_angel_being_health
 scoreboard players add @e[tag=aj.angel_being.root] angelic_descent_angel_being_crystal_timer 1
-execute as @e if score @s angelic_descent_angel_being_crystal_timer matches 100.. run function angelic_descent:crystal_summon
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_angel_being_crystal_timer matches 100.. run function angelic_descent:crystal_summon
 execute if score #ANGEL_BEING_HEALTH angelic_descent_angel_being_health matches ..1 run function angelic_descent:the_void/angel_die
 execute if score #ANGEL_BEING_HEALTH angelic_descent_angel_being_health matches 100 if entity @n[tag=aj.angel_being.root] run function angelic_descent:remove
 execute unless entity @a[nbt={Dimension:"angelic_descent:the_void"}] run scoreboard players set #ANGEL_BEING_HEALTH angelic_descent_angel_being_health 100
 execute unless entity @e[tag=descent_void_guardians_marker] if entity @e[tag=aj.angel_being.root] run execute as @a[tag=!angelic_descent_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:music
 execute unless entity @e[tag=aj.angel_being.root] run tag @a remove angelic_descent_music
 scoreboard players add @a[tag=angelic_descent_music] angelic_descent_music_timer 1
-execute as @e if score @s angelic_descent_music_timer matches 4100.. run function angelic_descent:music_restart
+execute as @e[tag=aj.angel_being.root] if score @s angelic_descent_music_timer matches 4100.. run function angelic_descent:music_restart
 execute unless entity @e[tag=descent_void_guardians_marker] if entity @e[tag=aj.angel_being.root] run execute as @a[tag=!angelic_descent_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:music
 execute unless entity @e[tag=aj.angel_being.root] run tag @a remove angelic_descent_music
 
@@ -241,7 +241,7 @@ execute unless entity @a[nbt={Dimension:"angelic_descent:the_void"}] run scorebo
 execute if entity @e[tag=descent_void_guardians_marker] run execute as @a[tag=!angelic_descent_void_guardians_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:void_guardians_music
 execute unless entity @e[tag=descent_void_guardians_marker] run tag @a remove angelic_descent_void_guardians_music
 scoreboard players add @a[tag=angelic_descent_void_guardians_music] angelic_descent_void_guardians_music_timer 1
-execute as @e if score @s angelic_descent_void_guardians_music_timer matches 2570.. run function angelic_descent:void_guardians_music_restart
+execute as @e[tag=descent_void_guardians_marker] if score @s angelic_descent_void_guardians_music_timer matches 2570.. run function angelic_descent:void_guardians_music_restart
 execute if entity @e[tag=descent_void_guardians_marker] run execute as @a[tag=!angelic_descent_void_guardians_music,nbt={Dimension:"angelic_descent:the_void"}] run function angelic_descent:void_guardians_music
 execute unless entity @e[tag=descent_void_guardians_marker] run tag @a remove angelic_descent_void_guardians_music
 
