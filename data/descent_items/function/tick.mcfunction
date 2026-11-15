@@ -31,6 +31,8 @@ execute at @e[scores={descent_etzvek_timer=1..}] run execute as @e[nbt=!{Brain:{
 #execute at @e[scores={descent_etzvek_timer=1..}] run execute as @e[distance=0.01..8] run function descent_items:accessories/etzvek/slowdown
 execute as @a run execute if score @s descent_order_timer matches 0.. run scoreboard players remove @s descent_order_timer 1
 execute as @a run execute if score @s descent_order_timer matches 0 run scoreboard players set @s descent_order_hit_count 0
+execute as @a run execute if score @s descent_daze_timer matches 0.. run scoreboard players remove @s descent_daze_timer 1
+execute as @a run execute if score @s descent_daze_timer matches 0 run posteffect remove @s descent_post_effects:daze
 
 #mobs
 

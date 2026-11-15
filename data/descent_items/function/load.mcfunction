@@ -26,4 +26,5 @@ scoreboard objectives add descent_cave_angel_variant dummy
 scoreboard objectives add descent_cave_angel_marker_tick dummy
 scoreboard objectives add descent_order_hit_count dummy
 scoreboard objectives add descent_order_timer dummy
+scoreboard objectives add descent_daze_timer dummy
 
