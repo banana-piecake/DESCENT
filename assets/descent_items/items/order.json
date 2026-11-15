@@ -1,6 +1,43 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "descent_items:order"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "thirdperson_lefthand",
+        "model": {
+          "type": "minecraft:model",
+          "model": "descent_items:order",
+          "transformation": {
+            "left_rotation": [
+              0,
+              0,
+              180,
+              1
+            ],
+            "right_rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "translation": [
+              0.4,
+              0.4,
+              0
+            ]
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "descent_items:order"
+    }
   }
 }
