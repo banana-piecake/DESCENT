@@ -1,0 +1,79 @@
+{
+  "description": {
+    "text": "Pandemonium",
+    "color": "#a9bafe"
+  },
+  "exclusive_set": "#scythe:inherent",
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "descent_chaos_cooldown": {
+              "min": 2400
+            },
+            "animosity_health": {
+              "max": 5
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": true,
+          "knockback_multiplier": 1.5,
+          "radius": 12,
+          "create_fire": false,
+          "block_interaction": "none",
+          "sound": "minecraft:entity.dragon_fireball.explode",
+          "small_particle": {
+            "type": "minecraft:explosion"
+          },
+          "large_particle": {
+            "type": "minecraft:explosion_emitter"
+          }
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "descent_chaos_cooldown": {
+              "min": 2400
+            },
+            "animosity_health": {
+              "max": 5
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "descent_items:weapons/twin_swords/chaos/burst_normal"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "descent_items:weapons/twin_swords/chaos/hold"
+        }
+      }
+    ]
+  }
+}

@@ -4,3 +4,4 @@ scoreboard players set @s descent_pact_cooldown 0
 scoreboard players set @s descent_dreamcatcher_cooldown 0
 scoreboard players set @s descent_parry_effect 0
 scoreboard players set @s descent_etzvek_cooldown 780
+scoreboard players set @s descent_chaos_cooldown 2400

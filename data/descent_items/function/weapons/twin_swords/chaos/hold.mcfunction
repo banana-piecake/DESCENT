@@ -1,0 +1,1 @@
+scoreboard players add @s descent_chaos_cooldown 1
