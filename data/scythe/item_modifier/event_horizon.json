@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:set_enchantments",
+  "enchantments": {
+    "scythe:supernova": 0,
+    "scythe:event_horizon": 1
+  },
+  "condition": {
+    "type": "minecraft:all_of",
+    "terms": []
+  }
+}
