@@ -154,7 +154,7 @@
           "radius": 6,
           "create_fire": false,
           "block_interaction": "none",
-          "sound": "minecraft:entity.generic.explode",
+          "sound": "minecraft:entity.lightning_bolt.impact",
           "small_particle": {
             "type": "minecraft:explosion"
           },
