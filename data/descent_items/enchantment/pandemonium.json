@@ -115,6 +115,93 @@
         }
       },
       {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:equipment": {
+                  "offhand": {
+                    "components": {
+                      "minecraft:custom_data": {
+                        "descent": "order"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "descent_chaos_cooldown": {
+                  "min": 2400
+                },
+                "animosity_health": {
+                  "max": 5
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": true,
+          "knockback_multiplier": 1,
+          "radius": 6,
+          "create_fire": false,
+          "block_interaction": "none",
+          "sound": "minecraft:entity.generic.explode",
+          "small_particle": {
+            "type": "minecraft:explosion"
+          },
+          "large_particle": {
+            "type": "minecraft:explosion_emitter"
+          }
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:equipment": {
+                  "offhand": {
+                    "components": {
+                      "minecraft:custom_data": {
+                        "descent": "order"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "descent_chaos_cooldown": {
+                  "min": 2400
+                },
+                "animosity_health": {
+                  "max": 5
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "descent_items:weapons/twin_swords/chaos/burst_synergy"
+        }
+      },
+      {
         "effect": {
           "type": "minecraft:run_function",
           "function": "descent_items:weapons/twin_swords/chaos/hold"
