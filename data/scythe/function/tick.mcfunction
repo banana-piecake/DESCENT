@@ -80,6 +80,7 @@ execute as @e[scores={animosity_hellforged_hit=1..,animosity_bleed_final_hit=1..
 execute as @e[scores={animosity_withertouched_hit=1..,animosity_bleed_final_hit=1..}] run execute at @s run function scythe:animosity_stuff/bloodfell_cleaver/final_hit_victim_withertouched
 execute as @e[scores={animosity_weaken_hit=1..,animosity_bleed_final_hit=1..}] run execute at @s run function scythe:animosity_stuff/bloodfell_cleaver/final_hit_victim_weaken
 
+scoreboard players remove @e[scores={animosity_bleed_final_hit=1..}] animosity_bleed_final_hit 1
 scoreboard players remove @e[scores={animosity_weaken_hit=1..}] animosity_weaken_hit 1
 scoreboard players remove @e[scores={animosity_hellforged_hit=1..}] animosity_hellforged_hit 1
 scoreboard players remove @e[scores={animosity_withertouched_hit=1..}] animosity_withertouched_hit 1
