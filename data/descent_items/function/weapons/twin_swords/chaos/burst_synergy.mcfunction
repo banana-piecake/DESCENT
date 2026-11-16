@@ -4,4 +4,4 @@ scoreboard players set @s descent_daze_timer 20
 posteffect add @s descent_post_effects:daze
 effect give @s minecraft:absorption 6 1
 effect give @s minecraft:regeneration 3 2
-scoreboard players add @s descent_chaos_cooldown 0
+scoreboard players set @s descent_chaos_cooldown 0
