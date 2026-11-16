@@ -23,16 +23,39 @@
     "minecraft:tick": [
       {
         "requirements": {
-          "type": "minecraft:entity_scores",
-          "entity": "this",
-          "scores": {
-            "descent_chaos_cooldown": {
-              "min": 2400
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:equipment": {
+                    "offhand": {
+                      "components": {
+                        "minecraft:custom_data": {
+                          "descent": "order"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
             },
-            "animosity_health": {
-              "max": 5
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "descent_chaos_cooldown": {
+                  "min": 2400
+                },
+                "animosity_health": {
+                  "max": 5
+                }
+              }
             }
-          }
+          ]
         },
         "effect": {
           "type": "minecraft:explode",
@@ -52,16 +75,39 @@
       },
       {
         "requirements": {
-          "type": "minecraft:entity_scores",
-          "entity": "this",
-          "scores": {
-            "descent_chaos_cooldown": {
-              "min": 2400
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:equipment": {
+                    "offhand": {
+                      "components": {
+                        "minecraft:custom_data": {
+                          "descent": "order"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
             },
-            "animosity_health": {
-              "max": 5
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "descent_chaos_cooldown": {
+                  "min": 2400
+                },
+                "animosity_health": {
+                  "max": 5
+                }
+              }
             }
-          }
+          ]
         },
         "effect": {
           "type": "minecraft:run_function",
@@ -72,6 +118,176 @@
         "effect": {
           "type": "minecraft:run_function",
           "function": "descent_items:weapons/twin_swords/chaos/hold"
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "is_direct": true
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "minecraft:equipment": {
+                  "offhand": {
+                    "components": {
+                      "minecraft:custom_data": {
+                        "descent": "order"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "descent_items:weapons/twin_swords/order/post_hit_synergy"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "direct_attacker",
+              "scores": {
+                "descent_order_hit_count": 1
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "minecraft:equipment": {
+                  "offhand": {
+                    "components": {
+                      "minecraft:custom_data": {
+                        "descent": "order"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 1
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "direct_attacker",
+              "scores": {
+                "descent_order_hit_count": 2
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "minecraft:equipment": {
+                  "offhand": {
+                    "components": {
+                      "minecraft:custom_data": {
+                        "descent": "order"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 2
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "direct_attacker",
+              "scores": {
+                "descent_order_hit_count": 3
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "minecraft:equipment": {
+                  "offhand": {
+                    "components": {
+                      "minecraft:custom_data": {
+                        "descent": "order"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 3
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "direct_attacker",
+              "scores": {
+                "descent_order_hit_count": 4
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "minecraft:equipment": {
+                  "offhand": {
+                    "components": {
+                      "minecraft:custom_data": {
+                        "descent": "order"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 4
         }
       }
     ]
