@@ -28,4 +28,5 @@ scoreboard objectives add descent_order_hit_count dummy
 scoreboard objectives add descent_order_timer dummy
 scoreboard objectives add descent_daze_timer dummy
 scoreboard objectives add descent_chaos_cooldown dummy
-
+scoreboard objectives add descent_parry_flash_trigger trigger
+scoreboard objectives add descent_parry_flash_active dummy

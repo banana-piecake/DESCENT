@@ -56,3 +56,10 @@ execute as @e[scores={descent_cave_angel_attack_timer=60..}] run function descen
 execute as @e[tag=descent_angel_being_summon_marker] run execute at @s if score @s descent_cave_angel_marker_tick matches 20.. run function descent_items:mobs/cave_angel/cave_angel_marker_check
 execute as @a run execute at @s if predicate descent_items:underground run function descent_items:mobs/cave_angel/tick_check
 scoreboard players add @e[tag=descent_angel_being_summon_marker] descent_cave_angel_marker_tick 1
+
+
+
+
+#triggers
+execute as @a[scores={descent_parry_flash_trigger=..-1}] run function descent_items:parry/parry_flash_trigger
+execute as @a[scores={descent_parry_flash_trigger=1..}] run function descent_items:parry/parry_flash_trigger
