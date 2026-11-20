@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Mechanics",
+  "external_title": "Mechanics",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "D E S C E N T introduces several new mechanics to the game, a lot of which affect combat."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:dialog_list"
+    }
+  },
+  "dialogs": [
+    "descent_guidebook:rituals",
+    "descent_guidebook:bloom",
+    "descent_guidebook:knowledge",
+    "descent_guidebook:enchantment_types"
+  ]
+}
