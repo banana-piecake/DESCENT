@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "title": "Accessories",
+  "external_title": "Accessories",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "The leftmost 3 slots of your inventory double as your accessory slots, placing accessories in these slots will grant you their buffs."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:mechanics"
+    }
+  }
+}
