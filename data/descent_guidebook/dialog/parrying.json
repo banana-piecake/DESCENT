@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:notice",
+  "type": "minecraft:multi_action",
   "title": "Parrying",
   "external_title": "Parrying",
   "body": {
@@ -9,11 +9,20 @@
   "inputs": [],
   "can_close_with_escape": true,
   "pause": false,
-  "action": {
+  "exit_action": {
     "label": "Back",
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "descent_guidebook:mechanics"
     }
-  }
+  },
+  "actions": [
+    {
+      "label": "Toggle Parry Flash",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger descent_parry_flash_trigger"
+      }
+    }
+  ]
 }

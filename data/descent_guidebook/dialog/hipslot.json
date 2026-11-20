@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:notice",
+  "type": "minecraft:multi_action",
   "title": "Hipslot",
   "external_title": "Hipslot",
   "body": {
@@ -9,11 +9,20 @@
   "inputs": [],
   "can_close_with_escape": true,
   "pause": false,
-  "action": {
+  "exit_action": {
     "label": "Back",
     "action": {
       "type": "minecraft:show_dialog",
       "dialog": "descent_guidebook:mechanics"
     }
-  }
+  },
+  "actions": [
+    {
+      "label": "Toggle Hipslot",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger descent_hipslot_trigger"
+      }
+    }
+  ]
 }
