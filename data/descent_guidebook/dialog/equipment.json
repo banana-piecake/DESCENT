@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Equipment",
+  "external_title": "Equipment",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Whilst uncommon, there are some custom pieces of equipment in D E S C E N T."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:items"
+    }
+  },
+  "dialogs": [
+    "descent_guidebook:echo_boots"
+  ]
+}

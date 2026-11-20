@@ -19,7 +19,7 @@
   "dialogs": [
     "descent_guidebook:guidebook",
     "descent_guidebook:sculk_bombs",
-    "descent_guidebook:echo_boots",
+    "descent_guidebook:equipment",
     "descent_guidebook:weapons"
   ]
 }
