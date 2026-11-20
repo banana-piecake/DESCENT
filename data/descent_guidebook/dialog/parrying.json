@@ -4,7 +4,7 @@
   "external_title": "Parrying",
   "body": {
     "type": "minecraft:plain_message",
-    "contents": "Certain weapons have a built in parry, after holding block for a short window your weapon will be automatically disabled, however if you block an attack during this window you will gain buffs, typically unique to the weapon, certain accessories also grant buffs on parry."
+    "contents": "Certain weapons have a built in parry, after holding block for a short window your weapon will be automatically disabled, however if you block an attack during this window you will gain buffs, typically unique to the weapon, certain accessories also grant buffs on parry. They also come with a flashing light effect, this can be toggled off with /trigger descent_parry_flash_trigger."
   },
   "inputs": [],
   "can_close_with_escape": true,
