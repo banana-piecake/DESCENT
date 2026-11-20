@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "descent_items:riposte": 1
+              },
+              "minecraft:custom_data": {
+                "descent": "basic_parry"
+              },
+              "minecraft:item_name": "Netherite Rapier",
+              "minecraft:blocks_attacks": {},
+              "minecraft:attack_animation": {
+                "type": "stab",
+                "duration": 10
+              },
+              "minecraft:item_model": "descent_items:netherite_rapier",
+              "minecraft:use_cooldown": {
+                "seconds": 5,
+                "cooldown_group": "minecraft:shield"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
