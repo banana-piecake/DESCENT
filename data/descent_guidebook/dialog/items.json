@@ -18,12 +18,8 @@
 },
   "dialogs": [
     "descent_guidebook:guidebook",
-    "descent_guidebook:wooden_wand",
-    "descent_guidebook:ice_dagger",
-    "descent_guidebook:kindling",
-    "descent_guidebook:fracture",
     "descent_guidebook:sculk_bombs",
     "descent_guidebook:echo_boots",
-    "descent_guidebook:magician_deck"
+    "descent_guidebook:weapons"
   ]
 }

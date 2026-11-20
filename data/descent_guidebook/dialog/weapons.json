@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Weapons",
+  "external_title": "Weapons",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "D E S C E N T features many weapons which fit many playstyles, find the ones that fit you."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:items"
+    }
+  },
+  "dialogs": [
+    "descent_guidebook:wooden_wand",
+    "descent_guidebook:ice_dagger",
+    "descent_guidebook:kindling",
+    "descent_guidebook:fracture",
+    "descent_guidebook:magician_deck"
+  ]
+}

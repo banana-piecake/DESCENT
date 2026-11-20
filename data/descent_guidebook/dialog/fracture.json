@@ -25,7 +25,7 @@
     "label": "Back",
     "action": {
       "type": "minecraft:show_dialog",
-      "dialog": "descent_guidebook:general_items"
+      "dialog": "descent_guidebook:weapons"
     }
   }
 }
