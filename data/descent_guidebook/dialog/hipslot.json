@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "title": "Hipslot",
+  "external_title": "Hipslot",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "By double tapping sneak with an item in your mainhand you can move it to your hipslot, this is a new slot that will not be cleared on death, by double tapping sneak with an empty mainhand you can retrieve this item. If this keybind annoys you, it can be toggled off by running /trigger descent_hipslot_trigger."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:mechanics"
+    }
+  }
+}
