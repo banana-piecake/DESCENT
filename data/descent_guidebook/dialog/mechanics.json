@@ -18,6 +18,7 @@
   },
   "dialogs": [
     "descent_guidebook:rituals",
+    "descent_guidebook:hipslot",
     "descent_guidebook:bloom",
     "descent_guidebook:knowledge",
     "descent_guidebook:enchantment_types",
