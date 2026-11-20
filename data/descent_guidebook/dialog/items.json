@@ -17,9 +17,8 @@
   }
 },
   "dialogs": [
-    "descent_guidebook:guidebook",
-    "descent_guidebook:sculk_bombs",
+    "descent_guidebook:weapons",
     "descent_guidebook:equipment",
-    "descent_guidebook:weapons"
+    "descent_guidebook:misc"
   ]
 }

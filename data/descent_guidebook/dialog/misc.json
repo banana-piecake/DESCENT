@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Misc",
+  "external_title": "Misc",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "This is a category for other items that don't quite fit anywhere else, such as books or bombs."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:items"
+    }
+  },
+  "dialogs": [
+    "descent_guidebook:guidebook",
+    "descent_guidebook:sculk_bombs"
+  ]
+}
