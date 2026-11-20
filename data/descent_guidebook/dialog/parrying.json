@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:notice",
+  "title": "Parrying",
+  "external_title": "Parrying",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Certain weapons have a built in parry, after holding block for a short window your weapon will be automatically disabled, however if you block an attack during this window you will gain buffs, typically unique to the weapon, certain accessories also grant buffs on parry."
+  },
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "action": {
+    "label": "Back",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "descent_guidebook:mechanics"
+    }
+  }
+}
