@@ -11,7 +11,6 @@
   "dialogs": [
     "descent_guidebook:mechanics",
     "descent_guidebook:items",
-    "descent_guidebook:item_tiers",
     "descent_guidebook:minibosses",
     "descent_guidebook:acts"
   ]

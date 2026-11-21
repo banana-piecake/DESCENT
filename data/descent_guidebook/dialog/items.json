@@ -17,6 +17,7 @@
   }
 },
   "dialogs": [
+    "descent_guidebook:item_tiers",
     "descent_guidebook:weapons",
     "descent_guidebook:equipment",
     "descent_guidebook:misc"
