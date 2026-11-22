@@ -1,0 +1,31 @@
+{
+  "parent": "angelic_descent:worm_kill",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:item_model": "abe_forgery:cleaver"
+      }
+    },
+    "title": "Anomalous Artificery",
+    "description": "Obtain the Cursed Cleaver.",
+    "frame": "goal"
+  },
+  "criteria": {
+    "ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "descent": "cursed_cleaver"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {}
+}

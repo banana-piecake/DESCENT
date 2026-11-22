@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "descent_items:wisp_dagger"
+      }
+    },
+    "title": "Echoes of the past",
+    "description": "Defeat an echo wisp.",
+    "hidden": false
+  },
+  "parent": "angelic_descent:root",
+  "criteria": {
+    "boss": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"descent_echo_wisp_entity\"]}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "boss"
+    ]
+  ]
+}

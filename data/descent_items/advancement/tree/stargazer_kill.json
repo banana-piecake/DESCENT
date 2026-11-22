@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_model": "descent_items:interstellar_communicator"
+      }
+    },
+    "title": "Signal lost",
+    "description": "Defeat Stargazer.",
+    "hidden": false
+  },
+  "parent": "descent_items:tree/astronomer_kill",
+  "criteria": {
+    "boss": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"descent_stargazer_marker\"]}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "boss"
+    ]
+  ]
+}
