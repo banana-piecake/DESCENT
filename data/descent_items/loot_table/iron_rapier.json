@@ -17,7 +17,9 @@
                 "descent": "basic_parry"
               },
               "minecraft:item_name": "Iron Rapier",
-              "minecraft:blocks_attacks": {},
+              "minecraft:blocks_attacks": {
+                "block_delay_seconds": 0
+              },
               "minecraft:attack_animation": {
                 "type": "stab",
                 "duration": 10
