@@ -36,7 +36,7 @@
       {
         "attribute": "minecraft:attack_damage",
         "id": "descent:beserker_damage",
-        "amount": 0.9,
+        "amount": 0.75,
         "operation": "add_multiplied_base"
       },
       {
@@ -48,7 +48,7 @@
       {
         "attribute": "minecraft:movement_speed",
         "id": "descent:beserker_move_speed",
-        "amount": -0.4,
+        "amount": -0.6,
         "operation": "add_multiplied_base"
       }
     ],
@@ -67,7 +67,7 @@
           "type": "minecraft:attribute",
           "attribute": "minecraft:attack_damage",
           "id": "descent:rage_mode_damage",
-          "amount": 0.35,
+          "amount": 0.15,
           "operation": "add_multiplied_base"
         }
       },
@@ -85,7 +85,7 @@
           "type": "minecraft:attribute",
           "attribute": "minecraft:attack_speed",
           "id": "descent:rage_mode_speed",
-          "amount": 0.25,
+          "amount": 0.15,
           "operation": "add_multiplied_base"
         }
       },
