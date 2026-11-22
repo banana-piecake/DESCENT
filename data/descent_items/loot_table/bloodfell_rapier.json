@@ -29,7 +29,8 @@
               "minecraft:use_cooldown": {
                 "seconds": 5,
                 "cooldown_group": "minecraft:shield"
-              }
+              },
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal"
             }
           }
         }
