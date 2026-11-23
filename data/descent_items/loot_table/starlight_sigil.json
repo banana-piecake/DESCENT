@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_data": {
+                "descent": "starlight_sigil"
+              },
+              "minecraft:item_name": {
+                "text": "Starlight Sigil",
+                "color": "#eb98ec"
+              },
+              "minecraft:item_model": "descent_items:starlight_sigil",
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
+              "minecraft:enchantment_glint_override": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
