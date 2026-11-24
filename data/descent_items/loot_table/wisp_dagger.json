@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "descent_items:soulburn": 1
+              },
+              "minecraft:item_name": "Wisp Dagger",
+              "minecraft:item_model": "descent_items:wisp_dagger",
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

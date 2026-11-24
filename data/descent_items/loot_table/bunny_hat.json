@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_lava_chicken",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_name": "Bunny Hat",
+              "minecraft:item_model": "descent_items:bunny",
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
+              "!minecraft:jukebox_playable": {},
+              "minecraft:equippable": {
+                "slot": "head"
+              },
+              "minecraft:max_stack_size": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

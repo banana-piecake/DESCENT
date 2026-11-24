@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "descent_items:backfire": 1
+              },
+              "minecraft:custom_data": {
+                "descent": "basic_parry"
+              },
+              "minecraft:item_name": "Afterburner",
+              "minecraft:blocks_attacks": {
+                "block_delay_seconds": 0
+              },
+              "minecraft:item_model": "descent_items:afterburner",
+              "minecraft:use_cooldown": {
+                "seconds": 5,
+                "cooldown_group": "minecraft:shield"
+              },
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

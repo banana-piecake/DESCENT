@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_data": {
+                "descent": "stardust"
+              },
+              "minecraft:item_name": "Stardust",
+              "minecraft:item_model": "descent_items:stardust",
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
+              "!minecraft:jukebox_playable": {},
+              "minecraft:enchantment_glint_override": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

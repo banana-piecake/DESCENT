@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "descent_items:pandemonium": 1
+              },
+              "minecraft:custom_data": {
+                "descent": "chaos"
+              },
+              "minecraft:item_name": "Chaos",
+              "minecraft:attack_animation": {
+                "type": "stab",
+                "duration": 12
+              },
+              "minecraft:item_model": "descent_items:chaos",
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
+              "minecraft:lore": [
+                {
+                  "text": "<Supporter Item : Toastietiger999>",
+                  "color": "#bf2b3a",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

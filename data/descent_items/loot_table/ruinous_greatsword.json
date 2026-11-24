@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "descent_items:beserker": 1
+              },
+              "minecraft:item_name": "Ruinous Greatsword",
+              "minecraft:attack_animation": {
+                "type": "whack",
+                "duration": 10
+              },
+              "minecraft:item_model": "descent_items:ancient_greatsword",
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
+              "minecraft:minimum_attack_charge": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
