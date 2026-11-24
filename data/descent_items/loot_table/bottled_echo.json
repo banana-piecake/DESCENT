@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_mellohi",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_data": {
+                "descent": "bottled_echo"
+              },
+              "minecraft:item_name": "Bottled Echo",
+              "minecraft:item_model": "descent_items:bottled_echo",
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
+              "!minecraft:jukebox_playable": {}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

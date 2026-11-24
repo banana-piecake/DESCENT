@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_mellohi",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_data": {
+                "descent": "fencer_resolve"
+              },
+              "minecraft:item_name": "Fencer's Resolve",
+              "minecraft:item_model": "descent_items:fencer_resolve",
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
+              "!minecraft:jukebox_playable": {}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

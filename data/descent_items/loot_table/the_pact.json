@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_mellohi",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_data": {
+                "descent": "the_pact"
+              },
+              "minecraft:item_name": "The Pact",
+              "minecraft:item_model": "descent_items:the_pact",
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
+              "!minecraft:jukebox_playable": {}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

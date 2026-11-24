@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_mellohi",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_data": {
+                "descent": "death_touch"
+              },
+              "minecraft:item_name": "Death's Touch",
+              "minecraft:item_model": "descent_items:death_touch",
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
+              "!minecraft:jukebox_playable": {}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

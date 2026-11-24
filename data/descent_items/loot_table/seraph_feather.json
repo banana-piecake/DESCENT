@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_mellohi",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_data": {
+                "descent": "seraph_feather"
+              },
+              "minecraft:item_name": "Seraph's Feather",
+              "minecraft:item_model": "descent_items:seraph_feather",
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
+              "!minecraft:jukebox_playable": {}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
