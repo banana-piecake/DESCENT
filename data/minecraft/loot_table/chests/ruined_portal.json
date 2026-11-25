@@ -263,5 +263,17 @@
       "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:chests/ruined_portal"
+  "random_sequence": "minecraft:chests/ruined_portal",
+  "__smithed__": {
+    "rules": [
+      {
+        "type": "append",
+        "target": "pools",
+        "source": {
+          "type": "reference",
+          "path": "pools[2]"
+        }
+      }
+    ]
+  }
 }
