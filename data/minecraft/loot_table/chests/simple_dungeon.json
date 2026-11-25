@@ -79,6 +79,39 @@
           "type": "minecraft:loot_table",
           "value": "descent_items:philosopher_stone",
           "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "descent_items:blade_mark",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "descent_items:dagger_mark",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "descent_items:thief_mark",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "descent_items:warrior_mark",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "descent_items:rune_stone",
+          "weight": 5,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:binomial",
+              "n": 8,
+              "p": 0.5
+            }
+          }
         }
       ],
       "rolls": {

@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_model": "scythe:rune_stone",
+              "minecraft:item_name": "Rune Stone",
+              "minecraft:custom_data": "{descent:\"rune_stone\"}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
