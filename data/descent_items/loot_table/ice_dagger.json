@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_spear",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
+              "minecraft:item_model": "angelic_descent:ice_dagger",
+              "minecraft:enchantments": {
+                "scythe:frozen_blade": 1
+              },
+              "!minecraft:kinetic_weapon": {},
+              "minecraft:item_name": "Ice Dagger"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
