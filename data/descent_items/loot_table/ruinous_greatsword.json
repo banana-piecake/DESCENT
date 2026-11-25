@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
+          "name": "minecraft:netherite_sword",
           "modifier": {
             "type": "minecraft:set_components",
             "components": {
