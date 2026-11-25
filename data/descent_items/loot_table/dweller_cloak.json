@@ -13,7 +13,7 @@
               "minecraft:custom_data": {
                 "descent": "dweller_cloak"
               },
-              "minecraft:item_name": "Dweller's Cloak",
+              "minecraft:item_name": "Cloak of the Dweller",
               "minecraft:item_model": "descent_items:dweller_cloak",
               "minecraft:tooltip_style": "descent_tooltips:descent_tooltip_normal",
               "!minecraft:jukebox_playable": {}
