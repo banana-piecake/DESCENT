@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_model": "scythe:sculk_bomb",
+              "minecraft:item_name": "Sculk Bomb",
+              "minecraft:enchantments": {
+                "scythe:sculk_infused": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
