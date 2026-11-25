@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "descent_items:voided_scepter",
+                "minecraft:item_name": "Voided Scepter",
+                "minecraft:enchantments": {
+                  "scythe:bloom": 1,
+                  "descent_items:bloom_weapons/void_powered": 1
+                },
+                "minecraft:custom_data": {
+                  "descent": "voided_scepter"
+                },
+                "minecraft:max_damage": 2000,
+                "minecraft:attack_range": {
+                  "min_reach": 0,
+                  "max_reach": 0,
+                  "min_creative_reach": 0,
+                  "max_creative_reach": 0,
+                  "hitbox_margin": 0
+                },
+                "minecraft:weapon": {
+                  "disable_blocking_for_seconds": 0,
+                  "item_damage_per_attack": 1
+                },
+                "minecraft:lore": [
+                  {
+                    "color": "#BDFFF8",
+                    "italic": false,
+                    "shadow_color": 12451832,
+                    "text": "Flourishing Boon : Piercing"
+                  }
+                ],
+                "minecraft:kinetic_weapon": {
+                  "delay_ticks": 0,
+                  "contact_cooldown_ticks": 10,
+                  "forward_movement": 0,
+                  "damage_multiplier": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
