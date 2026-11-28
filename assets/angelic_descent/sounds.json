@@ -96,5 +96,11 @@
       "angelic_descent:star_summon"
     ],
     "subtitle": "Star Summoned"
+  },
+  "chainsaw": {
+    "sounds": [
+      "angelic_descent:chainsaw"
+    ],
+    "subtitle": "Chainsaw revved"
   }
 }
