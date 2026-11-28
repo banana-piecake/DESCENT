@@ -36,6 +36,7 @@ execute as @a run execute if score @s descent_daze_timer matches 0 run posteffec
 scoreboard players remove @e[scores={descent_gravesaw_active=1..}] descent_gravesaw_active 1
 scoreboard players remove @e[scores={descent_gravesaw_overheat=1..}] descent_gravesaw_overheat 1
 scoreboard players remove @e[scores={descent_gravesaw_overheat_timer=1..}] descent_gravesaw_overheat_timer 1
+execute as @e[scores={descent_gravesaw_overheat=600..}] run execute at @s run function descent_items:weapons/gravesaw/overheat_vfx
 scoreboard players set @e[scores={descent_gravesaw_overheat=600..}] descent_gravesaw_overheat_timer 300
 scoreboard players set @e[scores={descent_gravesaw_overheat=600..}] descent_gravesaw_overheat 0
 #mobs

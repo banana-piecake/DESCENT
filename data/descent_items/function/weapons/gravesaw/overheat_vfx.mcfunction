@@ -1,0 +1,25 @@
+execute at @s run particle flame ^0.0 ^1.2 ^0.6 ^0.0 ^1080000.0 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.18117333 ^1.17614808 ^0.6 ^-163055.99841459 ^1058533.27056211 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.35 ^1.10621778 ^0.6 ^-315000.0 ^995596.00438420 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.49497475 ^0.99497475 ^0.6 ^-445477.27214752 ^895477.27214752 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.60621778 ^0.85 ^0.6 ^-545596.00438420 ^765000.0 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.67614808 ^0.68117333 ^0.6 ^-608533.27056211 ^613055.99841459 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.7 ^0.5 ^0.6 ^-630000.0 ^450000.0 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.67614808 ^0.31882667 ^0.6 ^-608533.27056211 ^286944.00158541 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.60621778 ^0.15 ^0.6 ^-545596.00438420 ^135000.0 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.49497475 ^0.00502525 ^0.6 ^-445477.27214752 ^4522.72785248 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.35 ^-0.10621778 ^0.6 ^-315000.0 ^-95596.00438420 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.18117333 ^-0.17614808 ^0.6 ^-163055.99841459 ^-158533.27056211 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^-0.0 ^-0.2 ^0.6 ^-0.0 ^-180000.0 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^0.18117333 ^-0.17614808 ^0.6 ^163055.99841459 ^-158533.27056211 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^0.35 ^-0.10621778 ^0.6 ^315000.0 ^-95596.00438420 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^0.49497475 ^0.00502525 ^0.6 ^445477.27214752 ^4522.72785247 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^0.60621778 ^0.15 ^0.6 ^545596.00438420 ^135000.0 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^0.67614808 ^0.31882667 ^0.6 ^608533.27056211 ^286944.00158541 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^0.7 ^0.5 ^0.6 ^630000.0 ^450000.0 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^0.67614808 ^0.68117333 ^0.6 ^608533.27056211 ^613055.99841459 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^0.60621778 ^0.85 ^0.6 ^545596.00438420 ^765000.0 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^0.49497475 ^0.99497475 ^0.6 ^445477.27214752 ^895477.27214752 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^0.35 ^1.10621778 ^0.6 ^315000.0 ^995596.00438420 ^0.0 0.00000035 0 force
+execute at @s run particle flame ^0.18117333 ^1.17614808 ^0.6 ^163055.99841459 ^1058533.27056211 ^0.0 0.00000035 0 force
+execute at @s run playsound angelic_descent:fire_woosh hostile @a ^ ^1 ^0.6 0.5 0.5
