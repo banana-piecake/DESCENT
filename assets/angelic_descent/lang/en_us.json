@@ -1,4 +1,5 @@
 {
   "biome.angelic_descent.the_void": "???",
-  "death.attack.obliteration": "%1$s was obliterated"
+  "death.attack.obliteration": "%1$s was obliterated",
+  "death.attack.saw": "%1$s was sawed to death"
 }

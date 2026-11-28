@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "descent_items:obliteration"
+    "descent_items:obliteration",
+    "descent_items:saw"
   ]
 }

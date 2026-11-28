@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "angelic_descent:magic_bypass",
-    "descent_items:obliteration"
+    "descent_items:obliteration",
+    "descent_items:saw"
   ]
 }
