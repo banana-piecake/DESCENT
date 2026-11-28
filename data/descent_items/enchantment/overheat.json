@@ -1,0 +1,60 @@
+{
+  "description": {
+    "text": "Overheat",
+    "color": "#a9bafe"
+  },
+  "exclusive_set": "#scythe:inherent",
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "descent_gravesaw_overheat_timer": {
+              "min": 1
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": 6
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "descent_gravesaw_overheat_timer": {
+              "min": 1
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 1.6
+        }
+      }
+    ]
+  }
+}
