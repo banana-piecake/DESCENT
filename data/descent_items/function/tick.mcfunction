@@ -33,6 +33,7 @@ execute as @a run execute if score @s descent_order_timer matches 0.. run scoreb
 execute as @a run execute if score @s descent_order_timer matches 0 run scoreboard players set @s descent_order_hit_count 0
 execute as @a run execute if score @s descent_daze_timer matches 0.. run scoreboard players remove @s descent_daze_timer 1
 execute as @a run execute if score @s descent_daze_timer matches 0 run posteffect remove @s descent_post_effects:daze
+scoreboard players remove @e[scores={descent_gravesaw_active=1..}] descent_gravesaw_active 1
 
 #mobs
 
