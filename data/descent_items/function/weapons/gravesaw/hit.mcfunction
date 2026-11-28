@@ -1,0 +1,1 @@
+execute at @s run execute at @n[scores={descent_gravesaw_active=1..}] run damage @s 0.2 descent_items:saw by @n[scores={descent_gravesaw_active=1..}]

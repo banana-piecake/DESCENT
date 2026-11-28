@@ -1,6 +1,6 @@
-execute at @s positioned ^ ^1 ^1 run execute as @e[nbt={Brain:{}},distance=..0.9] run damage @s 0.2 descent_items:saw by @n[scores={descent_gravesaw_active=1..}]
-execute at @s run particle minecraft:smoke ^ ^1 ^1 0.9 0.9 0.9 0 15
-execute at @s positioned ^ ^1 ^2 run execute as @e[nbt={Brain:{}},distance=..0.9] run damage @s 0.2 descent_items:saw by @n[scores={descent_gravesaw_active=1..}]
-execute at @s run particle minecraft:smoke ^ ^1 ^2 0.9 0.9 0.9 0 15
+tag @s add raycaster
+scoreboard players set .raycastLimit raycast 25
+execute at @s anchored eyes positioned ^ ^-0.4 ^.1 run function descent_items:weapons/gravesaw/raycast
 scoreboard players set @s descent_gravesaw_active 2
+tag @s remove raycaster
 advancement revoke @s only descent_items:tree/gravesaw_use
