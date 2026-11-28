@@ -31,3 +31,5 @@ scoreboard objectives add descent_chaos_cooldown dummy
 scoreboard objectives add descent_parry_flash_trigger trigger
 scoreboard objectives add descent_parry_flash_active dummy
 scoreboard objectives add descent_gravesaw_active dummy
+scoreboard objectives add descent_gravesaw_overheat dummy
+scoreboard objectives add descent_gravesaw_overheat_timer dummy

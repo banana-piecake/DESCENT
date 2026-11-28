@@ -34,7 +34,10 @@ execute as @a run execute if score @s descent_order_timer matches 0 run scoreboa
 execute as @a run execute if score @s descent_daze_timer matches 0.. run scoreboard players remove @s descent_daze_timer 1
 execute as @a run execute if score @s descent_daze_timer matches 0 run posteffect remove @s descent_post_effects:daze
 scoreboard players remove @e[scores={descent_gravesaw_active=1..}] descent_gravesaw_active 1
-
+scoreboard players remove @e[scores={descent_gravesaw_overheat=1..}] descent_gravesaw_overheat 1
+scoreboard players remove @e[scores={descent_gravesaw_overheat_timer=1..}] descent_gravesaw_overheat_timer 1
+scoreboard players set @e[scores={descent_gravesaw_overheat=600..}] descent_gravesaw_overheat_timer 300
+scoreboard players set @e[scores={descent_gravesaw_overheat=600..}] descent_gravesaw_overheat 0
 #mobs
 
 #echo wisp
