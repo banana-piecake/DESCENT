@@ -19,6 +19,6 @@
     ]
   ],
   "rewards": {
-    "function": "descent_items:weapons/gravesaw/saw_test"
+    "function": "descent_items:weapons/gravesaw/saw"
   }
 }
